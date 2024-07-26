@@ -4,6 +4,7 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
+    "build:icons": "tsx build-icons.mts",
     "build": "remix vite:build",
     "dev": "remix vite:dev",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
@@ -11,12 +12,20 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@fontsource/ramaraja": "^5.0.13",
+    "@fontsource/rem": "^5.0.5",
+    "@fontsource/roboto": "^5.0.13",
     "@remix-run/node": "^2.10.2",
     "@remix-run/react": "^2.10.2",
     "@remix-run/serve": "^2.10.2",
+    "@types/aos": "^3.0.7",
+    "aos": "^3.0.0-beta.6",
     "clsx": "^2.1.1",
     "cssnano": "^6.0.3",
+    "fs-extra": "^11.2.0",
+    "glob": "^11.0.0",
     "isbot": "^4.1.0",
+    "node-html-parser": "^6.1.13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

@@ -1,3 +1,7 @@
+@import "@fontsource/REM";
+@import "@fontsource/roboto";
+@import "@fontsource/Ramaraja";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import {
   Links,
   Meta,
@@ -6,10 +7,17 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import "~/styles/tailwind.css";
-import "~/styles/style.css";
-import { Header } from "./ui/header";
+import { Header } from "./ui/Header";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export function Layout({ children }: { children: React.ReactNode }) {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+    AOS.refresh();
+  }, []);
   return (
     <html lang="en">
       <head>
@@ -18,9 +26,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body className="bg-white dark:bg-gray-900 antialiased">
+      <body className="bg-white antialiased dark:bg-gray-900">
         <Header />
-        <main className="p-5">{children}</main>
+        <main>{children}</main>
         <ScrollRestoration />
         <Scripts />
       </body>

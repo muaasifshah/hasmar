@@ -8,16 +8,19 @@ export default {
   theme: {
     extend: {
       willChange: {
-        'opacity-transform': 'opacity, transform',
-      },      
+        "opacity-transform": "opacity, transform",
+      },
       screens: {
         "2xs": "320px",
         xs: "480px",
       },
     },
     fontFamily: {
-      sans: ["Inter", ...defaultTheme.fontFamily.sans],
-      mono: ["Source Code Pro", ...defaultTheme.fontFamily.mono],
+      sans: ["REM", ...defaultTheme.fontFamily.sans],
+      mono: ["Ramaraja", ...defaultTheme.fontFamily.mono],
+      //source: ["Source Code Pro", "sans-serif"],
+      //roboto: ["Roboto", "sans-serif"],
+      //inter: ["Inter", "sans-serif"],
     },
     fontSize: {
       xs: ["0.75rem", { lineHeight: "1.333" }], // 12px
