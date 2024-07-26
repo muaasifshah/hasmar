@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { NavLink } from "@remix-run/react";
 import cx from "clsx";
 import { PrimaryButtonLink } from "./Buttons";
-import logo from "../../public/img/hasmar-lg.png";
 import Icon from "./Icon/Icon";
 
 export function Header() {
@@ -49,7 +48,12 @@ export function Header() {
           to="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <img width={85} height={70} src={logo} alt="Hasmar"></img>
+          <img
+            width={85}
+            height={70}
+            src="/img/hasmar-lg.png"
+            alt="Hasmar"
+          ></img>
         </NavLink>
         <div className="flex items-center space-x-1 md:order-2 md:ml-8 md:space-x-2 rtl:space-x-reverse">
           <PrimaryButtonLink

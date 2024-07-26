@@ -9,7 +9,8 @@
     "dev": "remix vite:dev",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "start": "remix-serve ./build/server/index.js",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "server": "json-server --watch app/db/data.json --port 5000"
   },
   "dependencies": {
     "@fontsource/ramaraja": "^5.0.13",
@@ -20,6 +21,7 @@
     "@remix-run/serve": "^2.10.2",
     "@types/aos": "^3.0.7",
     "aos": "^3.0.0-beta.6",
+    "axios": "^1.7.2",
     "clsx": "^2.1.1",
     "cssnano": "^6.0.3",
     "fs-extra": "^11.2.0",
@@ -42,6 +44,7 @@
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "json-server": "^1.0.0-beta.1",
     "postcss": "^8.4.38",
     "postcss-import": "^16.1.0",
     "prettier": "^3.2.4",

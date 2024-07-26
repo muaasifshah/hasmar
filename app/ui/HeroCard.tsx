@@ -1,7 +1,21 @@
 import { PrimaryButtonLink, WhiteButtonLink } from "./Buttons";
-import HeroImg from "../../public/img/hero.jpg";
 
-export default function HeroCard() {
+// Define the type for the `hero` object
+interface HeroProps {
+  id: string;
+  subtitle: string;
+  title: string;
+  description: string;
+  image: string;
+  buttons: { title: string; link: string }[];
+}
+
+// Define the props for the HeroCard component
+interface HeroCardProps {
+  hero: HeroProps;
+}
+
+export default function HeroCard({ hero }: HeroCardProps) {
   return (
     <section className="relative z-0 overflow-hidden">
       <div className="container mx-auto px-4 py-8 text-center lg:px-12 lg:py-40">
@@ -10,17 +24,18 @@ export default function HeroCard() {
           data-aos="fade-up"
           data-aos-delay="50"
         >
-          <span className="text-3xl md:text-4xl lg:text-6xl">Welcome to</span>
+          <span className="text-3xl md:text-4xl lg:text-6xl">
+            {hero.subtitle}
+          </span>
           <br></br>
-          The HaSMaR Institute
+          {hero.title}
         </h1>
         <p
           className="mb-8 text-lg font-normal text-gray-900 sm:px-16 lg:mb-16 lg:text-xl xl:px-48"
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          We Enable Individuals and Couples to Create Honorable and Sustainable
-          Marriage Relationships.
+          {hero.description}
         </p>
         <div
           className="flex flex-wrap justify-center space-y-4 sm:space-x-4 sm:space-y-0"
@@ -45,7 +60,7 @@ export default function HeroCard() {
       </div>
       <div
         className="absolute inset-0 z-[-1] h-full w-full bg-cover bg-center"
-        style={{ backgroundImage: `url(${HeroImg})` }}
+        style={{ backgroundImage: `url(${hero.image})` }}
       ></div>
     </section>
   );

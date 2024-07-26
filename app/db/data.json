@@ -1,0 +1,30 @@
+{
+  "homepage": [
+    {
+      "hero": {
+        "id": "1",
+        "subtitle": "Welcome to",
+        "title": "The HaSMaR Institute",
+        "description": "We Enable Individuals and Couples to Create Honorable and Sustainable Marriage Relationships.",
+        "image": "/img/hero.jpg",
+        "buttons": [
+          {
+            "title": "Become a Facilitator",
+            "link": "#"
+          },
+          {
+            "title": "Take a Assessment",
+            "link": "#"
+          }
+        ]
+      },
+      "about": {
+        "id": "1",
+        "subtitle": "About Us",
+        "title": "Know more about us",
+        "description": "We are a team of passionate individuals dedicated to providing support and resources for individuals and couples facing marriage challenges. Our mission is to empower individuals and couples to create honorable and sustainable marriage relationships by offering a range of services and resources.",
+        "image": "/img/aboutImg01.jpg"
+      }
+    }
+  ]
+}
