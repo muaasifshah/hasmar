@@ -1,4 +1,7 @@
+import { Children } from "react";
+import { Button } from "./Button";
 import { PrimaryButtonLink, WhiteButtonLink } from "./Buttons";
+import Icon from "./Icon/Icon";
 
 // Define the type for the `hero` object
 interface HeroProps {
@@ -42,20 +45,22 @@ export default function HeroCard({ hero }: HeroCardProps) {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          <WhiteButtonLink
-            prefetch="intent"
-            to="/"
-            className=""
-            icon={true}
-            children="Become a Facilitator"
-          />
-          <PrimaryButtonLink
-            prefetch="intent"
-            to="/"
-            className="ml-2"
-            icon={true}
-            children="Take the Assessment"
-          />
+          {hero.buttons.map((button, i) => (
+            <Button
+              key={i}
+              to={button.link}
+              variant={i === 0 ? "white" : "primary"}
+              className={i === 1 ? "ml-2" : ""}
+              prefetch="intent"
+              icon={true}
+            >
+              {button.title}{" "}
+              <Icon
+                id="arrow-long-right"
+                className={`absolute right-0 m-[0.438rem] h-[2.5rem] w-[2.5rem] rounded-full ${i === 0 ? "bg-blue-brand" : "bg-white bg-opacity-35"} fill-white p-[0.6rem]`}
+              />
+            </Button>
+          ))}
         </div>
       </div>
       <div
