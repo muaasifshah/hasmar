@@ -21,7 +21,7 @@ interface HeroCardProps {
 export default function HeroCard({ hero }: HeroCardProps) {
   return (
     <section className="relative z-0 overflow-hidden">
-      <div className="container mx-auto px-4 py-8 text-center lg:px-12 lg:py-40">
+      <div className="container mx-auto px-4 py-14 text-center lg:px-12 lg:py-40">
         <h1
           className="mb-3 font-mono text-6xl font-medium leading-[.99] tracking-[1px] text-gray-900 md:text-5xl md:leading-[.99] lg:text-8xl lg:leading-[.99]"
           data-aos="fade-up"

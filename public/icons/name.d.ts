@@ -3,5 +3,5 @@
   export type IconName =
     | "arrow-bottom"
   | "arrow-long-right"
-  | "cloud-moon"
   | "facebook-messenger"
+  | "play"

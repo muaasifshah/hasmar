@@ -21,9 +21,10 @@
       "about": {
         "id": "1",
         "subtitle": "About Us",
-        "title": "Know more about us",
-        "description": "We are a team of passionate individuals dedicated to providing support and resources for individuals and couples facing marriage challenges. Our mission is to empower individuals and couples to create honorable and sustainable marriage relationships by offering a range of services and resources.",
-        "image": "/img/aboutImg01.jpg"
+        "title": "Who We Are",
+        "description": "HaSMaR Institute stands for Harmony, Support, and Mutual Respect, the core principles that guide our approach to relationship counseling and therapy. Founded on the belief that every couple deserves a chance to thrive, our institute offers a range of specialized programs and services designed to support couples in overcoming obstacles and strengthening their bond. </br>Our holistic approach to relationship therapy focuses on fostering open communication, rebuilding trust,",
+        "image": "/img/aboutImg01.jpg",
+        "video": "https://www.youtube.com/watch?v=D0UnqGm_miA"
       }
     }
   ]

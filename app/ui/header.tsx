@@ -83,6 +83,7 @@ const createDropdownStates = (menuData: any[]): DropdownStates => {
 
 export function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
   const [dropdownStates, setDropdownStates] = useState<DropdownStates>(
     createDropdownStates(menuData),
   );
@@ -93,11 +94,21 @@ export function Header() {
       setIsNavOpen(isLargeScreen);
     };
 
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
     handleResize(); // Initial call to set the initial state based on window size
     window.addEventListener("resize", handleResize);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
       window.removeEventListener("resize", handleResize);
+      window.addEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -111,7 +122,14 @@ export function Header() {
   };
 
   return (
-    <header className="relative z-50 bg-white py-3 text-gray-900 dark:bg-gray-900 dark:text-white">
+    <header
+      className={cx(
+        "relative z-50 bg-white py-3 text-gray-900 transition-all duration-300 dark:bg-gray-900 dark:text-white [&.sticky]:top-0 [&.sticky]:shadow-md",
+        {
+          sticky: isSticky,
+        },
+      )}
+    >
       <div className="container mx-auto flex flex-wrap items-center justify-between max-[600px]:px-4">
         <NavLink
           to="/"

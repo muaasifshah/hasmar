@@ -7,6 +7,35 @@ export default {
   plugins: [selectedVariantPlugin, expandedVariantPlugin],
   theme: {
     extend: {
+      keyframes: {
+        "ripple-1": {
+          "0%": {
+            transform: "scale(1)",
+            opacity: "1",
+          },
+          "100%": {
+            transform: "scale(1.5)",
+            opacity: "0",
+          },
+        },
+        "ripple-2": {
+          "0%": {
+            transform: "scale(1)",
+            opacity: "1",
+          },
+          "100%": {
+            transform: "scale(1.7)",
+            opacity: "0",
+          },
+        },
+      },
+      animation: {
+        "ripple-1": "ripple-1 2s infinite ease-in-out",
+        "ripple-2": "ripple-2 2s infinite ease-in-out",
+      },
+      backgroundImage: {
+        "custom-gradient": "linear-gradient(180deg, #FFFFFF 27%, #D3EFFF 100%)",
+      },
       willChange: {
         "opacity-transform": "opacity, transform",
       },
