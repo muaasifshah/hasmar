@@ -25,24 +25,29 @@ export function Dropdown({
   menuClassName,
 }: DropdownProps) {
   return (
-    <li className="group/item relative">
+    <li className="group/item relative max-md:flex max-md:flex-wrap max-md:align-middle">
       <HeaderLink to={link}>
         {title}
-        <button
-          type="button"
-          onClick={() => toggleDropdown(dropdownKey)}
-          className="ms-2 h-7 w-7 text-center leading-[0.6] max-md:relative max-md:z-[1] max-md:cursor-pointer max-md:border max-md:border-gray-100 max-md:dark:border-gray-700 md:h-3.5 md:w-3.5"
-        >
-          <Icon
-            id="arrow-bottom"
-            className="inline-block h-3.5 w-3.5 fill-inherit align-middle"
-            aria-hidden="true"
-          />
-        </button>
+        <Icon
+          id="arrow-bottom"
+          className="ms-2 inline-block h-3.5 w-3.5 fill-current align-middle max-md:hidden"
+          aria-hidden="true"
+        />
       </HeaderLink>
+      <button
+        type="button"
+        onClick={() => toggleDropdown(dropdownKey)}
+        className="relative z-[1] mb-[-1px] mt-[-1px] h-[2.72rem] w-[2.72rem] cursor-pointer border border-r-0 border-gray-100 text-center leading-[0.6] dark:border-gray-700 md:hidden"
+      >
+        <Icon
+          id="arrow-bottom"
+          className="inline-block h-3.5 w-3.5 fill-current align-middle"
+          aria-hidden="true"
+        />
+      </button>
       <div
         className={cx(
-          "w-auto transition duration-300 md:invisible md:absolute md:top-[100%] md:z-10 md:block md:min-w-[14rem] md:translate-y-[-5%] md:opacity-0 md:group-hover/item:visible md:group-hover/item:translate-y-0 md:group-hover/item:opacity-100",
+          "w-auto transition duration-300 max-md:w-full max-md:flex-[100%] md:invisible md:absolute md:top-[100%] md:z-10 md:block md:min-w-[14rem] md:translate-y-[-5%] md:opacity-0 md:group-hover/item:visible md:group-hover/item:translate-y-0 md:group-hover/item:opacity-100",
           menuClassName,
           {
             hidden: !isOpen,

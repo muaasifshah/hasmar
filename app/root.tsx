@@ -15,6 +15,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     AOS.init({
       duration: 1000,
+      easing: "ease",
+      once: true,
+      mirror: false,
     });
     AOS.refresh();
   }, []);

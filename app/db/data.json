@@ -18,14 +18,24 @@
           }
         ]
       },
-      "about": {
-        "id": "1",
-        "subtitle": "About Us",
-        "title": "Who We Are",
-        "description": "HaSMaR Institute stands for Harmony, Support, and Mutual Respect, the core principles that guide our approach to relationship counseling and therapy. Founded on the belief that every couple deserves a chance to thrive, our institute offers a range of specialized programs and services designed to support couples in overcoming obstacles and strengthening their bond. </br>Our holistic approach to relationship therapy focuses on fostering open communication, rebuilding trust,",
-        "image": "/img/aboutImg01.jpg",
-        "video": "https://www.youtube.com/watch?v=D0UnqGm_miA"
-      }
+      "about": [
+        {
+          "id": "1",
+          "subtitle": "About Us",
+          "title": "Who We Are",
+          "description": "HaSMaR Institute stands for Harmony, Support, and Mutual Respect, the core principles that guide our approach to relationship counseling and therapy. Founded on the belief that every couple deserves a chance to thrive, our institute offers a range of specialized programs and services designed to support couples in overcoming obstacles and strengthening their bond. </br>Our holistic approach to relationship therapy focuses on fostering open communication, rebuilding trust,",
+          "image": "/img/aboutImg01.jpg",
+          "video": "https://www.youtube.com/watch?v=D0UnqGm_miA"
+        },
+        {
+          "id": "2",
+          "subtitle": "Our Services",
+          "title": "What We Offer",
+          "description": "HaSMaR Institute stands for Harmony, Support, and Mutual Respect, the core principles that guide our approach to relationship counseling and therapy. Founded on the belief that every couple deserves a chance to thrive, our institute offers a range of specialized programs and services designed to support couples in overcoming obstacles and strengthening their bond. </br>Our holistic approach to relationship therapy focuses on fostering open communication, rebuilding trust, and promoting mutual respect and harmony.",
+          "image": "/img/aboutImg02.jpg",
+          "video": "https://www.youtube.com/watch?v=D0UnqGm_miA"
+        }
+      ]
     }
   ]
 }

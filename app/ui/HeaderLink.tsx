@@ -21,7 +21,7 @@ export default function HeaderLink({
       prefetch={prefetch}
       x-comp="HeaderLink"
       className={cx(
-        "flex items-center justify-between border-b border-gray-100 px-8 py-2 leading-relaxed text-gray-900 transition last:mr-0 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-blue-brand md:border-0 md:p-0 md:hover:text-blue-brand md:dark:hover:bg-transparent",
+        "inline-flex items-center justify-between border-b border-gray-100 px-8 py-2 leading-relaxed text-gray-900 transition last:mr-0 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-blue-brand max-md:flex-auto md:flex md:border-0 md:p-0 md:hover:text-blue-brand md:dark:hover:bg-transparent",
         className,
       )}
       to={to}

@@ -130,7 +130,7 @@ export function Header() {
         },
       )}
     >
-      <div className="container mx-auto flex flex-wrap items-center justify-between max-[600px]:px-4">
+      <div className="container mx-auto flex flex-wrap items-center justify-between max-lg:max-w-full max-md:px-4">
         <NavLink
           to="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -141,7 +141,7 @@ export function Header() {
           <Button
             to="/"
             variant={"primary"}
-            className="ml-2 w-full xl:order-1"
+            className="ml-2 w-full text-base xl:order-1"
             prefetch="intent"
             icon={true}
           >
@@ -177,7 +177,10 @@ export function Header() {
                     }
                   >
                     {item.dropdown.map((subItem) => (
-                      <li key={subItem.id}>
+                      <li
+                        key={subItem.id}
+                        className="max-md:flex max-md:align-middle"
+                      >
                         <HeaderLink
                           to={subItem.link}
                           className="text-sm opacity-90 hover:opacity-100 md:rounded md:px-3 md:py-2 md:hover:bg-gray-400/10 md:hover:text-gray-900"
@@ -188,7 +191,7 @@ export function Header() {
                     ))}
                   </Dropdown>
                 ) : (
-                  <li>
+                  <li className="max-md:flex max-md:align-middle">
                     <HeaderLink
                       to={item.link}
                       className="active:text-blue-brand"
