@@ -8,47 +8,19 @@ import { twMerge } from "tailwind-merge";
 // Define button variants
 const button = cva(
   "tracking-[0.04rem] relative inline-flex items-center justify-center leading-relaxed xl:text-[1.125rem] h-12 md:h-[3.25rem] box-border rounded-full " +
-    "focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-transparent font-medium",
+    "focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-transparent font-medium duration-300 hover:translate-y-[-2px] " +
+    "focus:translate-y-[-2px] hover:shadow-lg focus:shadow-lg transition-all hover:brightness-[1.08] focus:brightness-[1.08] active:brightness-[1] focus:ring-blue-200",
   {
     variants: {
       variant: {
-        primary: [
-          "bg-blue-brand",
-          "text-white",
-          "hover:brightness-[1.08]",
-          "focus:brightness-[1.08]",
-          "active:brightness-[1]",
-          "transition-[filter]",
-          "focus:ring-blue-200",
-        ],
-        secondary: [
-          "bg-black",
-          "text-white",
-          "hover:brightness-[1.08]",
-          "focus:brightness-[1.08]",
-          "active:brightness-[1]",
-          "transition-[filter]",
-          "focus:ring-blue-200",
-        ],
-        white: [
-          "bg-white",
-          "text-gray-900",
-          "hover:brightness-[1.08]",
-          "focus:brightness-[1.08]",
-          "active:brightness-[1]",
-          "transition-[filter]",
-          "focus:ring-blue-200",
-        ],
+        primary: ["bg-blue-brand", "text-white"],
+        secondary: ["bg-black", "text-white"],
+        white: ["bg-white", "text-gray-900"],
         outline: [
           "border",
           "border-blue-brand",
           "bg-blue-brand/20",
           "text-gray-900",
-          "hover:brightness-[1.08]",
-          "focus:brightness-[1.08]",
-          "active:brightness-[1]",
-          "transition-[filter]",
-          "focus:ring-blue-200",
         ],
       },
       size: {

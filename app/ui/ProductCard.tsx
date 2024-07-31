@@ -55,12 +55,12 @@ export default function ProductCard({ product }: ProductCardProps) {
                   {item.video && (
                     <a
                       href={item.video}
-                      className="absolute bottom-6 left-6 z-[1] m-auto inline-flex h-[3.5rem] w-[3.5rem] items-center justify-center rounded-[100%] bg-[#E51F1F80]/50 text-[calc(1.355rem_+_1.26vw)] leading-none text-white xl:text-[2.3rem]"
+                      className="group/play absolute bottom-6 left-6 z-[1] m-auto inline-flex h-14 w-14 items-center justify-center rounded-full bg-[#E51F1F80]/50 leading-none text-white"
                       data-glightbox
                     >
                       <Icon
                         id="play"
-                        className="relative z-[2] ml-[0.15rem] fill-current text-[calc(1.355rem_+_1.26vw)]"
+                        className="ml-[0.15rem] h-5 w-5 fill-current transition-all duration-300 ease-linear group-hover/play:scale-110"
                         aria-hidden="true"
                       />
                     </a>

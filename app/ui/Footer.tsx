@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import Icon from "./Icon/Icon";
 import { IconName } from "public/icons/name";
 
@@ -46,146 +47,185 @@ export default function Footer({ footerData }: FooterProps) {
   const { image, prefooter, widgets, copyright } = footerData;
   const { about, links } = widgets;
 
+  const [showScrollUpButton, setShowScrollUpButton] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        // Adjust the threshold as needed
+        setShowScrollUpButton(true);
+      } else {
+        setShowScrollUpButton(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
-    <footer
-      className="relative z-0 bg-top bg-no-repeat before:absolute before:inset-0 before:z-[-1] before:bg-gradient-to-t before:from-gray-900 before:via-gray-900/80 before:to-gray-900/75"
-      style={{ backgroundImage: `url(${image})` }}
-    >
-      {/* footer top or subscription */}
-      <div className="border-b border-gray-600">
-        <div className="container mx-auto grid grid-cols-1 items-center gap-4 gap-y-8 px-4 py-12 md:grid-cols-2 md:gap-y-0 lg:px-12">
-          <div data-aos="fade-up" data-aos-delay="100">
-            <h4 className="text-4xl font-bold leading-[1.5] text-white">
-              {prefooter.title}
-            </h4>
-            <p className="text-white text-opacity-65">{prefooter.subtitle}</p>
-          </div>
-          <div data-aos="fade-up" data-aos-delay="100">
-            <form className="relative ml-auto flex flex-wrap items-center rounded-xl max-sm:justify-center max-sm:gap-4 sm:flex-nowrap">
-              <input
-                type="email"
-                placeholder={prefooter.newsletter.placeholder}
-                className="h-[3.75rem] w-full border border-white bg-transparent pl-[0.938rem] text-white focus:border-white/80 focus:outline-none max-sm:rounded-xl sm:rounded-l-xl sm:border-r-0"
-              />
-              <button
-                type="submit"
-                className="inline-flex h-[3.75rem] items-center justify-center whitespace-nowrap bg-blue-brand px-6 py-3 text-base font-medium tracking-[0.04rem] text-white transition-[filter] hover:brightness-[1.08] focus:outline-none focus:ring-2 focus:ring-blue-200 focus:ring-offset-2 focus:ring-offset-transparent focus:brightness-[1.08] active:brightness-[1] max-sm:w-full max-sm:rounded-xl sm:rounded-r-xl xl:text-[1.125rem]"
-              >
-                <Icon
-                  id="paper-plane"
-                  className="mr-2 inline-block h-4 w-4 fill-current"
+    <>
+      <footer
+        className="relative z-0 bg-top bg-no-repeat before:absolute before:inset-0 before:z-[-1] before:bg-gradient-to-t before:from-gray-900 before:via-gray-900/80 before:to-gray-900/75"
+        style={{ backgroundImage: `url(${image})` }}
+      >
+        {/* footer top or subscription */}
+        <div className="border-b border-gray-600">
+          <div className="container mx-auto grid grid-cols-1 items-center gap-4 gap-y-8 px-4 py-12 md:grid-cols-2 md:gap-y-0 lg:px-12">
+            <div data-aos="fade-up" data-aos-delay="100">
+              <h4 className="text-4xl font-bold leading-[1.5] text-white">
+                {prefooter.title}
+              </h4>
+              <p className="text-white text-opacity-65">{prefooter.subtitle}</p>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="100">
+              <form className="relative ml-auto flex flex-wrap items-center rounded-xl max-sm:justify-center max-sm:gap-4 sm:flex-nowrap">
+                <input
+                  type="email"
+                  placeholder={prefooter.newsletter.placeholder}
+                  className="h-[3.75rem] w-full border border-white bg-transparent pl-[0.938rem] text-white focus:border-white/80 focus:outline-none max-sm:rounded-xl sm:rounded-l-xl sm:border-r-0"
                 />
-                {prefooter.newsletter.buttonTitle}
-              </button>
-            </form>
+                <button
+                  type="submit"
+                  className="inline-flex h-[3.75rem] items-center justify-center whitespace-nowrap bg-blue-brand px-6 py-3 text-base font-medium tracking-[0.04rem] text-white transition-[filter] hover:brightness-[1.08] focus:outline-none focus:ring-2 focus:ring-blue-200 focus:ring-offset-2 focus:ring-offset-transparent focus:brightness-[1.08] active:brightness-[1] max-sm:w-full max-sm:rounded-xl sm:rounded-r-xl xl:text-[1.125rem]"
+                >
+                  <Icon
+                    id="paper-plane"
+                    className="mr-2 inline-block h-4 w-4 fill-current"
+                  />
+                  {prefooter.newsletter.buttonTitle}
+                </button>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
-      {/* footer main */}
-      <div className="container mx-auto px-4 lg:px-12">
-        <div className="grid grid-cols-1 gap-6 pb-12 pt-14 md:grid-cols-2 md:gap-y-5 md:pb-12 md:pt-12 lg:grid-cols-3 lg:gap-y-0 lg:pb-14 lg:pt-16">
-          {/* About section */}
-          {about && (
-            <div
-              className="col-span-1 lg:col-span-1"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <h4 className="mb-6 text-2xl font-bold text-white">
-                {about.title}
-              </h4>
-              <div className="space-y-5">
-                {about.contacts &&
-                  about.contacts.map((contact, i) => (
-                    <div key={i}>
-                      <h6 className="mb-1 text-lg font-medium leading-[1.8] text-white md:text-xl">
-                        {contact.title}
-                      </h6>
-                      <a
-                        href={
-                          /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contact.value)
-                            ? `mailto:${contact.value}`
-                            : `tel:${contact.value}`
-                        }
-                        className="relative text-lg leading-[1.8] text-white/60 after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-0 after:bg-blue-brand after:transition-all after:duration-300 hover:text-blue-brand hover:after:w-full md:text-xl"
-                      >
-                        {contact.value}
-                      </a>
-                    </div>
-                  ))}
-              </div>
-              <div className="mt-10 flex gap-3 md:gap-4 lg:justify-start">
-                {about.socials &&
-                  about.socials.map((social, i) => (
-                    <a
-                      key={i}
-                      href={social.link}
-                      className="relative z-0 flex h-11 w-11 items-center justify-center overflow-hidden rounded-full bg-white text-gray-900 transition-all duration-500 before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:scale-0 before:rounded-full before:bg-blue-brand before:transition-all before:duration-500 hover:border-blue-brand hover:text-white hover:before:scale-100"
-                    >
-                      <Icon
-                        id={social.icon as IconName}
-                        className="inline-block h-[1.125rem] w-[1.125rem] fill-current"
-                      />
-                    </a>
-                  ))}
-              </div>
-              <div className="mt-8 space-y-2">
-                {about.stats &&
-                  about.stats.map((stat, i) => (
-                    <div
-                      className="text-lg leading-[1.8] text-white/60 md:text-xl"
-                      key={i}
-                    >
-                      {stat.title}:{" "}
-                      <span className="text-xl font-medium text-white md:text-2xl">
-                        {stat.value}
-                      </span>
-                    </div>
-                  ))}
-              </div>
-              <div className="mt-8 text-white/60">{about.greeting}</div>
-            </div>
-          )}
-
-          {/* Links section */}
-          {links &&
-            links.map((link, i) => (
+        {/* footer main */}
+        <div className="container mx-auto px-4 lg:px-12">
+          <div className="grid grid-cols-1 gap-6 pb-12 pt-14 md:grid-cols-2 md:gap-y-5 md:pb-12 md:pt-12 lg:grid-cols-3 lg:gap-y-0 lg:pb-14 lg:pt-16">
+            {/* About section */}
+            {about && (
               <div
-                key={i}
                 className="col-span-1 lg:col-span-1"
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
                 <h4 className="mb-6 text-2xl font-bold text-white">
-                  {link.title}
+                  {about.title}
                 </h4>
-                <ul className="flex flex-col gap-y-6">
-                  {link.links &&
-                    link.links.map((item, i) => (
-                      <li key={i}>
+                <div className="space-y-5">
+                  {about.contacts &&
+                    about.contacts.map((contact, i) => (
+                      <div key={i}>
+                        <h6 className="mb-1 text-lg font-medium leading-[1.8] text-white md:text-xl">
+                          {contact.title}
+                        </h6>
                         <a
-                          href={item.link}
-                          className="relative leading-[1.8] text-white/60 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-blue-brand after:transition-all after:duration-300 hover:text-blue-brand hover:after:w-full"
+                          href={
+                            /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contact.value)
+                              ? `mailto:${contact.value}`
+                              : `tel:${contact.value}`
+                          }
+                          className="relative text-lg leading-[1.8] text-white/60 after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-0 after:bg-blue-brand after:transition-all after:duration-300 hover:text-blue-brand hover:after:w-full md:text-xl"
                         >
-                          {item.title}
+                          {contact.value}
                         </a>
-                      </li>
+                      </div>
                     ))}
-                </ul>
+                </div>
+                <div className="mt-10 flex gap-3 md:gap-4 lg:justify-start">
+                  {about.socials &&
+                    about.socials.map((social, i) => (
+                      <a
+                        key={i}
+                        href={social.link}
+                        className="relative z-0 flex h-11 w-11 items-center justify-center overflow-hidden rounded-full bg-white text-gray-900 transition-all duration-500 before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:scale-0 before:rounded-full before:bg-blue-brand before:transition-all before:duration-500 hover:border-blue-brand hover:text-white hover:before:scale-100"
+                      >
+                        <Icon
+                          id={social.icon as IconName}
+                          className="inline-block h-[1.125rem] w-[1.125rem] fill-current"
+                        />
+                      </a>
+                    ))}
+                </div>
+                <div className="mt-8 space-y-2">
+                  {about.stats &&
+                    about.stats.map((stat, i) => (
+                      <div
+                        className="text-lg leading-[1.8] text-white/60 md:text-xl"
+                        key={i}
+                      >
+                        {stat.title}:{" "}
+                        <span className="text-xl font-medium text-white md:text-2xl">
+                          {stat.value}
+                        </span>
+                      </div>
+                    ))}
+                </div>
+                <div className="mt-8 text-white/60">{about.greeting}</div>
               </div>
-            ))}
-        </div>
-      </div>
-      {/* footer copyright */}
-      {copyright && (
-        <div className="bg-white/5">
-          <div className="container mx-auto px-4 py-5 lg:px-12">
-            <div className="text-center text-white text-opacity-80">
-              {copyright}
-            </div>
+            )}
+
+            {/* Links section */}
+            {links &&
+              links.map((link, i) => (
+                <div
+                  key={i}
+                  className="col-span-1 lg:col-span-1"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <h4 className="mb-6 text-2xl font-bold text-white">
+                    {link.title}
+                  </h4>
+                  <ul className="flex flex-col gap-y-6">
+                    {link.links &&
+                      link.links.map((item, i) => (
+                        <li key={i}>
+                          <a
+                            href={item.link}
+                            className="relative leading-[1.8] text-white/60 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-blue-brand after:transition-all after:duration-300 hover:text-blue-brand hover:after:w-full"
+                          >
+                            {item.title}
+                          </a>
+                        </li>
+                      ))}
+                  </ul>
+                </div>
+              ))}
           </div>
         </div>
-      )}
-    </footer>
+        {/* footer copyright */}
+        {copyright && (
+          <div className="bg-white/5">
+            <div className="container mx-auto px-4 py-5 lg:px-12">
+              <div className="text-center text-white text-opacity-80">
+                {copyright}
+              </div>
+            </div>
+          </div>
+        )}
+      </footer>
+      {/* <!-- scroll up button --> */}
+      <div
+        className={`fixed bottom-14 right-5 z-10 transition-all duration-500 ${!showScrollUpButton ? "invisible bottom-[-100%] opacity-0" : ""}`}
+      >
+        <button
+          type="button"
+          onClick={scrollToTop}
+          className="h-12 w-12 rounded-full bg-white text-center leading-[3rem] text-blue-brand shadow-xl transition-all duration-300 hover:bg-blue-brand hover:text-white dark:bg-blue-brand dark:text-white dark:hover:text-white"
+        >
+          <Icon
+            id="arrow-bottom"
+            className="mb-[0.15rem] inline-block h-6 w-6 rotate-180 fill-current"
+          />
+        </button>
+      </div>
+    </>
   );
 }

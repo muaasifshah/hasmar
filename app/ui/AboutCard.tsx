@@ -49,12 +49,12 @@ export default function AboutCard({ about }: AboutCardProps) {
                       {item.video && (
                         <a
                           href={item.video}
-                          className="ripple-1 ripple-2 absolute inset-0 z-[1] m-auto inline-flex h-[3.5rem] w-[3.5rem] items-center justify-center rounded-[100%] bg-white text-[calc(1.355rem_+_1.26vw)] leading-none text-gray-900 before:absolute before:inset-0 before:z-[-1] before:block before:animate-[ripple-1_2s_infinite_ease-in-out] before:rounded-[50%] before:!bg-inherit before:opacity-80 before:content-[''] after:absolute after:inset-0 after:z-[-1] after:block after:animate-[ripple-2_2s_infinite_ease-in-out] after:rounded-[50%] after:!bg-inherit after:opacity-60 after:content-[''] after:[animation-delay:.5s] xl:text-[2.3rem]"
+                          className="group/play ripple-1 ripple-2 absolute inset-0 z-[1] m-auto inline-flex h-20 w-20 items-center justify-center rounded-full bg-white leading-none text-gray-900 before:absolute before:inset-0 before:z-[-1] before:block before:animate-[ripple-1_2s_infinite_ease-in-out] before:rounded-full before:!bg-inherit before:opacity-80 before:content-[''] after:absolute after:inset-0 after:z-[-1] after:block after:animate-[ripple-2_2s_infinite_ease-in-out] after:rounded-[50%] after:!bg-inherit after:opacity-60 after:content-[''] after:[animation-delay:.5s]"
                           data-glightbox
                         >
                           <Icon
                             id="play"
-                            className="relative z-[2] ml-[0.15rem] fill-current text-[calc(1.355rem_+_1.26vw)]"
+                            className="ml-[0.15rem] fill-current transition-all duration-300 ease-linear group-hover/play:scale-110"
                             aria-hidden="true"
                           />
                         </a>
