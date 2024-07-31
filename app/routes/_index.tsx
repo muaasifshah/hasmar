@@ -1,6 +1,10 @@
 import { json, type MetaFunction } from "@remix-run/node";
 import HeroCard from "../ui/HeroCard";
 import AboutCard from "../ui/AboutCard";
+import ProductCard from "~/ui/ProductCard";
+import TestimonialCard from "~/ui/TestimonialCard";
+import FacilityCard from "~/ui/FacilityCard";
+import SponsorCard from "~/ui/SponsorCard";
 
 import { LoaderFunctionArgs } from "@remix-run/node";
 import api from "~/http/api";
@@ -21,11 +25,16 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
-  const [{ hero, about }] = useLoaderData<typeof loader>();
+  const [{ hero, about, product, testimonial, facility, sponsor }] =
+    useLoaderData<typeof loader>();
   return (
     <>
       <HeroCard hero={hero} />
       <AboutCard about={about} />
+      <ProductCard product={product} />
+      <TestimonialCard testimonial={testimonial} />
+      <FacilityCard facility={facility} />
+      <SponsorCard sponsor={sponsor} />
     </>
   );
 }

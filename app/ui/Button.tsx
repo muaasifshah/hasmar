@@ -7,7 +7,7 @@ import { twMerge } from "tailwind-merge";
 
 // Define button variants
 const button = cva(
-  "tracking-[0.04rem] relative inline-flex items-center justify-center leading-relaxed xl:text-[16px] h-12 md:h-[3.25rem] box-border rounded-full " +
+  "tracking-[0.04rem] relative inline-flex items-center justify-center leading-relaxed xl:text-[1.125rem] h-12 md:h-[3.25rem] box-border rounded-full " +
     "focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-transparent font-medium",
   {
     variants: {

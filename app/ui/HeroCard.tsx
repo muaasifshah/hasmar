@@ -1,6 +1,4 @@
-import { Children } from "react";
 import { Button } from "./Button";
-import { PrimaryButtonLink, WhiteButtonLink } from "./Buttons";
 import Icon from "./Icon/Icon";
 
 // Define the type for the `hero` object

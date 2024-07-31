@@ -1,17 +1,34 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Links,
   Meta,
   Outlet,
   Scripts,
   ScrollRestoration,
+  useLoaderData,
 } from "@remix-run/react";
 import "~/styles/tailwind.css";
 import { Header } from "./ui/Header";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "glightbox/dist/css/glightbox.min.css";
+import Footer from "./ui/Footer";
+import { json } from "@remix-run/node";
+import { LoaderFunctionArgs } from "@remix-run/node";
+import api from "~/http/api";
+
+export const loader = async ({}: LoaderFunctionArgs) => {
+  const baseURL = process.env.VITE_BASE_URL;
+  const data = await api.get(baseURL + "/footer");
+  return json(data.data);
+};
 
 export function Layout({ children }: { children: React.ReactNode }) {
+  const footerData = useLoaderData<typeof loader>();
+  // if (!footerData) {
+  //   return <div>Loading...</div>;
+  // }
+
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -21,6 +38,31 @@ export function Layout({ children }: { children: React.ReactNode }) {
     });
     AOS.refresh();
   }, []);
+
+  const [GLightbox, setGLightbox] = useState<any>(null);
+
+  useEffect(() => {
+    // Dynamically import GLightbox only in the browser
+    const loadGLightbox = async () => {
+      const module = await import("glightbox");
+      setGLightbox(() => module.default);
+    };
+
+    loadGLightbox();
+  }, []);
+
+  useEffect(() => {
+    if (GLightbox) {
+      const lightbox = GLightbox({
+        selector: "[data-glightbox]",
+      });
+
+      // Cleanup the lightbox instance when the component unmounts
+      return () => {
+        lightbox.destroy();
+      };
+    }
+  }, [GLightbox]);
   return (
     <html lang="en">
       <head>
@@ -32,6 +74,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <body className="bg-white antialiased dark:bg-gray-900">
         <Header />
         <main>{children}</main>
+        <Footer footerData={footerData} />
         <ScrollRestoration />
         <Scripts />
       </body>

@@ -124,7 +124,7 @@ export function Header() {
   return (
     <header
       className={cx(
-        "relative z-50 bg-white py-3 text-gray-900 transition-all duration-300 dark:bg-gray-900 dark:text-white [&.sticky]:top-0 [&.sticky]:shadow-md",
+        "relative z-50 bg-white py-3 text-gray-900 transition-all duration-300 dark:bg-gray-900 dark:text-white [&.sticky]:top-0 [&.sticky]:border-b [&.sticky]:border-gray-200/30 [&.sticky]:shadow-sm",
         {
           sticky: isSticky,
         },
@@ -141,7 +141,7 @@ export function Header() {
           <Button
             to="/"
             variant={"primary"}
-            className="ml-2 w-full text-base xl:order-1"
+            className="ml-2 w-full text-base md:order-1"
             prefetch="intent"
             icon={true}
           >
@@ -227,24 +227,8 @@ function ThemeToggleButton() {
       onClick={toggleTheme}
       className="inline-block min-h-9 min-w-9 rounded-full p-2 hover:bg-gray-100 dark:hover:bg-gray-700"
     >
-      <svg
-        className="fill-violet-700 block dark:hidden"
-        fill="currentColor"
-        viewBox="0 0 20 20"
-      >
-        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
-      </svg>
-      <svg
-        className="fill-yellow-500 hidden dark:block"
-        fill="currentColor"
-        viewBox="0 0 20 20"
-      >
-        <path
-          d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
-          fillRule="evenodd"
-          clipRule="evenodd"
-        ></path>
-      </svg>
+      <Icon id="moon" className={`hidden h-5 w-5 fill-current dark:block`} />
+      <Icon id="sun" className={`block h-5 w-5 fill-current dark:hidden`} />
     </button>
   );
 }
@@ -264,21 +248,7 @@ function NavToggleButton({
       aria-expanded={isNavOpen ? "true" : "false"}
     >
       <span className="sr-only">Open main menu</span>
-      <svg
-        className="h-4 w-4"
-        aria-hidden="true"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 17 14"
-      >
-        <path
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          d="M1 1h15M1 7h15M1 13h15"
-        />
-      </svg>
+      <Icon id="bar" className={`h-5 w-5 fill-current`} aria-hidden="true" />
     </button>
   );
 }

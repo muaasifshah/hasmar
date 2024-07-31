@@ -23,19 +23,298 @@
           "id": "1",
           "subtitle": "About Us",
           "title": "Who We Are",
-          "description": "HaSMaR Institute stands for Harmony, Support, and Mutual Respect, the core principles that guide our approach to relationship counseling and therapy. Founded on the belief that every couple deserves a chance to thrive, our institute offers a range of specialized programs and services designed to support couples in overcoming obstacles and strengthening their bond. </br>Our holistic approach to relationship therapy focuses on fostering open communication, rebuilding trust,",
+          "description": [
+            "HaSMaR Institute stands for Harmony, Support, and Mutual Respect, the core principles that guide our approach to relationship counseling and therapy. Founded on the belief that every couple deserves a chance to thrive, our institute offers a range of specialized programs and services designed to support couples in overcoming obstacles and strengthening their bond.",
+            "Our holistic approach to relationship therapy focuses on fostering open communication, rebuilding trust."
+          ],
           "image": "/img/aboutImg01.jpg",
           "video": "https://www.youtube.com/watch?v=D0UnqGm_miA"
         },
         {
           "id": "2",
-          "subtitle": "Our Services",
-          "title": "What We Offer",
-          "description": "HaSMaR Institute stands for Harmony, Support, and Mutual Respect, the core principles that guide our approach to relationship counseling and therapy. Founded on the belief that every couple deserves a chance to thrive, our institute offers a range of specialized programs and services designed to support couples in overcoming obstacles and strengthening their bond. </br>Our holistic approach to relationship therapy focuses on fostering open communication, rebuilding trust, and promoting mutual respect and harmony.",
+          "subtitle": "Why Choose Us",
+          "title": "Why Adopt the HaSMaR Model",
+          "description": [
+            "HaSMaR Model, developed by our team of experts, is a comprehensive framework designed to guide couples towards sustainable solutions and profound transformations. The HaSMaR Model focuses on identifying and leveraging the unique strengths within your relationship. By recognizing and building upon the positive aspects of your partnership, you'll develop a strong foundation for growth and resilience.",
+            "From communication breakdowns to unresolved conflicts, every relationship faces its own set of challenges. The HaSMaR Model provides practical strategies and techniques to effectively address these issues, fostering open dialogue and understanding between partners."
+          ],
           "image": "/img/aboutImg02.jpg",
-          "video": "https://www.youtube.com/watch?v=D0UnqGm_miA"
+          "video": "https://www.youtube.com/watch?v=9xwazD5SyVg"
+        }
+      ],
+      "product": {
+        "bgImage": "/img/product_bg.jpg",
+        "subtitle": "Best Products",
+        "title": "Our Top Selling Products",
+        "products": [
+          {
+            "id": "1",
+            "title": "Relationship Adviser",
+            "actualPrice": "$399",
+            "sellingPrice": "$199",
+            "description": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            ],
+            "image": "/img/product01.jpg",
+            "video": "https://www.youtube.com/watch?v=D0UnqGm_miA",
+            "buttonTitle": "Get Instant Access",
+            "link": "#"
+          },
+          {
+            "id": "2",
+            "title": "Enriching Your Sex Life",
+            "actualPrice": "$250",
+            "sellingPrice": "$149",
+            "description": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            ],
+            "image": "/img/product02.jpg",
+            "video": "https://www.youtube.com/watch?v=D0UnqGm_miA",
+            "buttonTitle": "Get Instant Access",
+            "link": "#"
+          },
+          {
+            "id": "3",
+            "title": "Dealing with Conflict",
+            "actualPrice": "$229",
+            "sellingPrice": "$129",
+            "description": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            ],
+            "image": "/img/product03.jpg",
+            "video": "https://www.youtube.com/watch?v=D0UnqGm_miA",
+            "buttonTitle": "Get Instant Access",
+            "link": "#"
+          }
+        ]
+      },
+      "testimonial": {
+        "subtitle": "Client's Review",
+        "title": "What Our Clients are Saying",
+        "testimonials": [
+          {
+            "id": "1",
+            "title": "Harry and Marry",
+            "designation": "Happy Couples",
+            "description": "I was hesitant about seeking therapy for my relationship issues, but HaSMaR Institute made me feel comfortable and supported from the moment I walked in.the counselor's empathy and expertise helped me gain valuable.",
+            "image": "/img/testimonial01.png",
+            "link": "#"
+          },
+          {
+            "id": "2",
+            "title": "David and Rachel",
+            "designation": "Happy Couples",
+            "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond.We highly recommend their workshops.",
+            "image": "/img/testimonial02.png",
+            "link": "#"
+          },
+          {
+            "id": "3",
+            "title": "Michael and Emily",
+            "designation": "Happy Couples",
+            "description": "HaSMaR Institute has been instrumental in helping us navigate the challenges of blending our families. The counselors provided us with practical strategies and emotional support as e worked through our differences.",
+            "image": "/img/testimonial03.png",
+            "link": "#"
+          },
+          {
+            "id": "4",
+            "title": "Mark and Julia",
+            "designation": "Happy Couples",
+            "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond.We highly recommend their workshops.",
+            "image": "/img/testimonial03.png",
+            "link": "#"
+          }
+        ]
+      },
+      "facility": {
+        "subtitle": "Our Facilities",
+        "title": "Solo Evaluation - Versatile Uses",
+        "facilities": [
+          {
+            "id": "1",
+            "title": "Couples",
+            "description": "Where we offer tailored support and resources to help couples strengthen their bond and loves.",
+            "image": "/img/couples.png",
+            "link": "#"
+          },
+          {
+            "id": "2",
+            "title": "Families",
+            "description": "We understand that strong families are built on a foundation of love, trust, and mutual respect.",
+            "image": "/img/families.png",
+            "link": "#"
+          },
+          {
+            "id": "3",
+            "title": "Churches",
+            "description": "Where we partner with faith communities to support couples on their journey toward stronger.",
+            "image": "/img/churches.png",
+            "link": "#"
+          },
+          {
+            "id": "4",
+            "title": "Therapists",
+            "description": "We provide resources and support for therapists who work with couples seeking to strengthen.",
+            "image": "/img/therapists.png",
+            "link": "#"
+          },
+          {
+            "id": "5",
+            "title": "Engagement",
+            "description": "Welcome to our Solo Engagement program at HaSMaR Institute, where individual growth meets.",
+            "image": "/img/engagement.png",
+            "link": "#"
+          }
+        ]
+      },
+      "sponsor": {
+        "subtitle": "Our Sponsors",
+        "title": "Solo Evaluation - Versatile Uses",
+        "sponsors": [
+          {
+            "id": "1",
+            "image": "/img/sponsor01.png",
+            "link": "#"
+          },
+          {
+            "id": "2",
+            "image": "/img/sponsor02.png",
+            "link": "#"
+          },
+          {
+            "id": "3",
+            "image": "/img/sponsor03.png",
+            "link": "#"
+          },
+          {
+            "id": "4",
+            "image": "/img/sponsor04.png",
+            "link": "#"
+          },
+          {
+            "id": "5",
+            "image": "/img/sponsor05.png",
+            "link": "#"
+          },
+          {
+            "id": "6",
+            "image": "/img/sponsor03.png",
+            "link": "#"
+          }
+        ]
+      }
+    }
+  ],
+  "footer": {
+    "image": "/img/footer_bg.jpg",
+    "prefooter": {
+      "title": "Subscribe Us For Newsletter",
+      "subtitle": "We’ll share practical tips & tools for couples on a weekly basis.",
+      "newsletter": {
+        "placeholder": "Enter your email",
+        "buttonTitle": "Subscribe"
+      }
+    },
+    "widgets": {
+      "about": {
+        "title": "About Us",
+        "contacts": [
+          {
+            "title": "Have a question? Call us 24/7",
+            "value": "+880 1234 56789"
+          },
+          {
+            "title": "Email Address",
+            "value": "example@example.com"
+          }
+        ],
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "#"
+          },
+          {
+            "icon": "twitter",
+            "link": "#"
+          },
+          {
+            "icon": "linkedin",
+            "link": "#"
+          },
+          {
+            "icon": "pinterest",
+            "link": "#"
+          }
+        ],
+        "stats": [
+          {
+            "title": "Site visitors",
+            "value": "2500"
+          },
+          {
+            "title": "Downloads",
+            "value": "3000"
+          }
+        ],
+        "greeting": "Thank you for visiting HaSMaR Institute!"
+      },
+
+      "links": [
+        {
+          "title": "Quick links",
+          "links": [
+            {
+              "title": "About Us",
+              "link": "#"
+            },
+            {
+              "title": "Contact Us",
+              "link": "#"
+            },
+            {
+              "title": "FAQ's",
+              "link": "#"
+            },
+            {
+              "title": "Privacy",
+              "link": "#"
+            },
+            {
+              "title": "Terms and Conditions",
+              "link": "#"
+            }
+          ]
+        },
+        {
+          "title": "Categories",
+          "links": [
+            {
+              "title": "Relationship Tips and Advice",
+              "link": "#"
+            },
+            {
+              "title": "Retreats for Couples",
+              "link": "#"
+            },
+            {
+              "title": "Meet Our Couples Therapists",
+              "link": "#"
+            },
+            {
+              "title": "Self-Reflection and Healing",
+              "link": "#"
+            },
+            {
+              "title": "Couples Counseling Works",
+              "link": "#"
+            }
+          ]
         }
       ]
-    }
-  ]
+    },
+    "copyright": "Copyright © 2024 HaSMaR Institute. All rights reserved."
+  }
 }
