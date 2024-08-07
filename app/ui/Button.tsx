@@ -7,9 +7,9 @@ import { twMerge } from "tailwind-merge";
 
 // Define button variants
 const button = cva(
-  "tracking-[0.04rem] relative inline-flex items-center justify-center leading-relaxed xl:text-[1.125rem] h-12 md:h-[3.25rem] box-border rounded-full " +
+  "tracking-[0.04rem] leading-none relative inline-flex items-center justify-center leading-relaxed xl:text-[1.125rem] h-12 md:h-[3.25rem] box-border rounded-full " +
     "focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-transparent font-medium duration-300 hover:translate-y-[-2px] " +
-    "focus:translate-y-[-2px] hover:shadow-lg focus:shadow-lg transition-all hover:brightness-[1.08] focus:brightness-[1.08] active:brightness-[1] focus:ring-blue-200",
+    "focus:translate-y-[-2px] hover:shadow-lg focus:shadow-lg transition-all hover:brightness-[1.08] focus:brightness-[1.08] active:brightness-[1] focus:ring-blue-200 max-xs:text-[14px] max-xs:pr-[3.45rem]",
   {
     variants: {
       variant: {
@@ -19,7 +19,7 @@ const button = cva(
         outline: [
           "border",
           "border-blue-brand",
-          "bg-blue-brand/20",
+          "bg-blue-brand/10",
           "text-gray-900",
         ],
       },
@@ -65,7 +65,7 @@ export const Button: React.FC<ButtonProps> = ({
       prefetch={prefetch}
       className={twMerge(
         button({ variant, size, className }),
-        icon ? "pl-[1.625rem] pr-16" : "pl-[1.625rem] md:px-8",
+        icon ? "pl-[1.625rem] pr-[3.7rem]" : "pl-[1.625rem] md:px-8",
       )}
       {...props}
     >

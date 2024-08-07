@@ -148,7 +148,7 @@ export function Header() {
             Log In
             <Icon
               id="arrow-long-right"
-              className={`absolute right-0 m-[0.438rem] h-[2.5rem] w-[2.5rem] rounded-full bg-white bg-opacity-35 fill-white p-[0.6rem]`}
+              className={`absolute right-0 m-[0.438rem] h-[2.5rem] w-[2.5rem] rounded-full bg-white bg-opacity-35 fill-white p-[0.6rem] max-xs:m-[.4rem] max-xs:h-[2.35rem] max-xs:w-[2.35rem]`}
             />
           </Button>
           <ThemeToggleButton />
@@ -161,7 +161,7 @@ export function Header() {
           )}
           aria-label="Main"
         >
-          <ul className="flex flex-col font-medium md:mt-0 md:flex-row md:space-x-8 rtl:space-x-reverse">
+          <ul className="flex flex-col text-xl font-medium md:mt-0 md:flex-row md:space-x-8 rtl:space-x-reverse">
             {menuData.map((item) => (
               <Fragment key={item.id}>
                 {item.dropdown ? (
@@ -183,7 +183,7 @@ export function Header() {
                       >
                         <HeaderLink
                           to={subItem.link}
-                          className="text-sm opacity-90 hover:opacity-100 md:rounded md:px-3 md:py-2 md:hover:bg-gray-400/10 md:hover:text-gray-900"
+                          className="opacity-90 hover:opacity-100 md:rounded md:px-3 md:py-1.5 md:hover:bg-gray-400/10 md:hover:text-gray-900"
                         >
                           {subItem.name}
                         </HeaderLink>

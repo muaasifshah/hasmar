@@ -6,7 +6,9 @@ import { IconName } from "public/icons/name";
 interface FooterProps {
   footerData: {
     image: string;
-    copyright: string;
+    copyright: {
+      text: string;
+    };
     prefooter: {
       title: string;
       subtitle: string;
@@ -91,11 +93,11 @@ const Footer = ({ footerData }: FooterProps) => {
         </div>
 
         {/* Footer copyright */}
-        {copyright && (
+        {copyright.text && (
           <div className="bg-white/5">
             <div className="container mx-auto px-4 py-5 lg:px-12">
               <div className="text-center text-white text-opacity-80">
-                {copyright}
+                {copyright.text}
               </div>
             </div>
           </div>

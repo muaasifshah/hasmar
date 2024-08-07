@@ -5,7 +5,7 @@
         "id": "1",
         "subtitle": "Welcome to",
         "title": "The HaSMaR Institute",
-        "description": "We Enable Individuals and Couples to Create Honorable and Sustainable Marriage Relationships.",
+        "description": "We enable individuals and couples to create honorable and sustainable marriage relationships.",
         "image": "/img/hero.jpg",
         "buttons": [
           {
@@ -13,7 +13,7 @@
             "link": "#"
           },
           {
-            "title": "Take a Assessment",
+            "title": "Take an Assessment",
             "link": "#"
           }
         ]
@@ -25,7 +25,7 @@
           "title": "Who We Are",
           "description": [
             "HaSMaR Institute stands for Harmony, Support, and Mutual Respect, the core principles that guide our approach to relationship counseling and therapy. Founded on the belief that every couple deserves a chance to thrive, our institute offers a range of specialized programs and services designed to support couples in overcoming obstacles and strengthening their bond.",
-            "Our holistic approach to relationship therapy focuses on fostering open communication, rebuilding trust."
+            "Our holistic approach to relationship therapy focuses on fostering open communication and rebuilding trust."
           ],
           "image": "/img/aboutImg01.jpg",
           "video": "https://www.youtube.com/watch?v=D0UnqGm_miA"
@@ -35,7 +35,7 @@
           "subtitle": "Why Choose Us",
           "title": "Why Adopt the HaSMaR Model",
           "description": [
-            "HaSMaR Model, developed by our team of experts, is a comprehensive framework designed to guide couples towards sustainable solutions and profound transformations. The HaSMaR Model focuses on identifying and leveraging the unique strengths within your relationship. By recognizing and building upon the positive aspects of your partnership, you'll develop a strong foundation for growth and resilience.",
+            "The HaSMaR Model, developed by our team of experts, is a comprehensive framework designed to guide couples towards sustainable solutions and profound transformations. The HaSMaR Model focuses on identifying and leveraging the unique strengths within your relationship. By recognizing and building upon the positive aspects of your partnership, you'll develop a strong foundation for growth and resilience.",
             "From communication breakdowns to unresolved conflicts, every relationship faces its own set of challenges. The HaSMaR Model provides practical strategies and techniques to effectively address these issues, fostering open dialogue and understanding between partners."
           ],
           "image": "/img/aboutImg02.jpg",
@@ -53,8 +53,8 @@
             "actualPrice": "$399",
             "sellingPrice": "$199",
             "description": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "This comprehensive guide provides insights and strategies to enhance your relationship.",
+              "Learn proven techniques for building a stronger connection with your partner."
             ],
             "image": "/img/product01.jpg",
             "video": "https://www.youtube.com/watch?v=D0UnqGm_miA",
@@ -67,8 +67,8 @@
             "actualPrice": "$250",
             "sellingPrice": "$149",
             "description": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "Discover methods to enhance intimacy and satisfaction in your relationship.",
+              "Includes practical exercises and advice for a fulfilling sex life."
             ],
             "image": "/img/product02.jpg",
             "video": "https://www.youtube.com/watch?v=D0UnqGm_miA",
@@ -81,8 +81,8 @@
             "actualPrice": "$229",
             "sellingPrice": "$129",
             "description": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "Effective strategies for resolving conflicts and improving communication.",
+              "Learn how to handle disagreements constructively and strengthen your relationship."
             ],
             "image": "/img/product03.jpg",
             "video": "https://www.youtube.com/watch?v=D0UnqGm_miA",
@@ -92,14 +92,14 @@
         ]
       },
       "testimonial": {
-        "subtitle": "Client's Review",
-        "title": "What Our Clients are Saying",
+        "subtitle": "Client Reviews",
+        "title": "What Our Clients Are Saying",
         "testimonials": [
           {
             "id": "1",
             "title": "Harry and Marry",
             "designation": "Happy Couples",
-            "description": "I was hesitant about seeking therapy for my relationship issues, but HaSMaR Institute made me feel comfortable and supported from the moment I walked in.the counselor's empathy and expertise helped me gain valuable.",
+            "description": "I was hesitant about seeking therapy for my relationship issues, but HaSMaR Institute made me feel comfortable and supported from the moment I walked in. The counselor's empathy and expertise helped me gain valuable insights.",
             "image": "/img/testimonial01.png",
             "link": "#"
           },
@@ -107,7 +107,7 @@
             "id": "2",
             "title": "David and Rachel",
             "designation": "Happy Couples",
-            "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond.We highly recommend their workshops.",
+            "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond. We highly recommend their workshops.",
             "image": "/img/testimonial02.png",
             "link": "#"
           },
@@ -115,7 +115,7 @@
             "id": "3",
             "title": "Michael and Emily",
             "designation": "Happy Couples",
-            "description": "HaSMaR Institute has been instrumental in helping us navigate the challenges of blending our families. The counselors provided us with practical strategies and emotional support as e worked through our differences.",
+            "description": "HaSMaR Institute has been instrumental in helping us navigate the challenges of blending our families. The counselors provided us with practical strategies and emotional support as we worked through our differences.",
             "image": "/img/testimonial03.png",
             "link": "#"
           },
@@ -123,7 +123,7 @@
             "id": "4",
             "title": "Mark and Julia",
             "designation": "Happy Couples",
-            "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond.We highly recommend their workshops.",
+            "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond. We highly recommend their workshops.",
             "image": "/img/testimonial03.png",
             "link": "#"
           }
@@ -136,7 +136,7 @@
           {
             "id": "1",
             "title": "Couples",
-            "description": "Where we offer tailored support and resources to help couples strengthen their bond and loves.",
+            "description": "We offer tailored support and resources to help couples strengthen their bond and love.",
             "image": "/img/couples.png",
             "link": "#"
           },
@@ -150,21 +150,21 @@
           {
             "id": "3",
             "title": "Churches",
-            "description": "Where we partner with faith communities to support couples on their journey toward stronger.",
+            "description": "We partner with faith communities to support couples on their journey towards stronger relationships.",
             "image": "/img/churches.png",
             "link": "#"
           },
           {
             "id": "4",
             "title": "Therapists",
-            "description": "We provide resources and support for therapists who work with couples seeking to strengthen.",
+            "description": "We provide resources and support for therapists who work with couples seeking to strengthen their relationships.",
             "image": "/img/therapists.png",
             "link": "#"
           },
           {
             "id": "5",
             "title": "Engagement",
-            "description": "Welcome to our Solo Engagement program at HaSMaR Institute, where individual growth meets.",
+            "description": "Welcome to our Solo Engagement program at HaSMaR Institute, where individual growth meets relationship enhancement.",
             "image": "/img/engagement.png",
             "link": "#"
           }
@@ -172,7 +172,7 @@
       },
       "sponsor": {
         "subtitle": "Our Sponsors",
-        "title": "Solo Evaluation - Versatile Uses",
+        "title": "Our Partners",
         "sponsors": [
           {
             "id": "1",
@@ -211,8 +211,8 @@
   "footer": {
     "image": "/img/footer_bg.jpg",
     "prefooter": {
-      "title": "Subscribe Us For Newsletter",
-      "subtitle": "We’ll share practical tips & tools for couples on a weekly basis.",
+      "title": "Subscribe to Our Newsletter",
+      "subtitle": "We’ll share practical tips and tools for couples on a weekly basis.",
       "newsletter": {
         "placeholder": "Enter your email",
         "buttonTitle": "Subscribe"
@@ -261,7 +261,6 @@
         ],
         "greeting": "Thank you for visiting HaSMaR Institute!"
       },
-
       "links": [
         {
           "title": "Quick links",
@@ -315,6 +314,583 @@
         }
       ]
     },
-    "copyright": "Copyright © 2024 HaSMaR Institute. All rights reserved."
-  }
+    "copyright": {
+      "text": "Copyright © 2024 HaSMaR Institute. All rights reserved."
+    }
+  },
+  "aboutpage": [
+    {
+      "pageheader": {
+        "title": "Elevate Your Marriage",
+        "subtitle": "Unleash Its True Potential and Joy",
+        "image": "/img/page_header_bg.jpg"
+      },
+      "about": [
+        {
+          "id": "1",
+          "subtitle": "About Us",
+          "title": "Who We Are",
+          "description": [
+            "HaSMaR Institute stands for Harmony, Support, and Mutual Respect, the core principles that guide our approach to relationship counseling and therapy. Founded on the belief that every couple deserves a chance to thrive, our institute offers a range of specialized programs and services designed to support couples in overcoming obstacles and strengthening their bond.",
+            "Our holistic approach to relationship therapy focuses on fostering open communication and rebuilding trust."
+          ],
+          "image": "/img/aboutImg01.jpg",
+          "video": "https://www.youtube.com/watch?v=D0UnqGm_miA"
+        },
+        {
+          "id": "2",
+          "subtitle": "Why Choose Us",
+          "title": "Why Adopt the HaSMaR Model",
+          "description": [
+            "The HaSMaR Model, developed by our team of experts, is a comprehensive framework designed to guide couples towards sustainable solutions and profound transformations. The HaSMaR Model focuses on identifying and leveraging the unique strengths within your relationship. By recognizing and building upon the positive aspects of your partnership, you'll develop a strong foundation for growth and resilience.",
+            "From communication breakdowns to unresolved conflicts, every relationship faces its own set of challenges. The HaSMaR Model provides practical strategies and techniques to effectively address these issues, fostering open dialogue and understanding between partners."
+          ],
+          "image": "/img/aboutImg02.jpg",
+          "video": "https://www.youtube.com/watch?v=9xwazD5SyVg"
+        }
+      ],
+      "experience": {
+        "subtitle": "Our Experience",
+        "title": "We Have Achieved <br/> Experiences & Skills.",
+        "description": [
+          "HaSMaR Model, developed by our team of experts, is a comprehensive framework designed to guide couples towards sustainable solutions profound transformations.",
+          "The HaSMaR Model focuses on identifying and leveraging the unique strengths within your relationship."
+        ],
+        "stat": {
+          "title": "Years Experiences",
+          "value": "25+"
+        },
+        "stats": [
+          {
+            "id": "1",
+            "title": "Couples Relationship",
+            "value": "90%"
+          },
+          {
+            "id": "2",
+            "title": "Relationship Enrichment",
+            "value": "70%"
+          },
+          {
+            "id": "3",
+            "title": "Crisis Intervention",
+            "value": "60%"
+          },
+          {
+            "id": "2",
+            "title": "Conflict Resolution",
+            "value": "80%"
+          }
+        ]
+      },
+      "funfacts": [
+        {
+          "id": "1",
+          "icon": "users",
+          "title": "Happy Customers",
+          "value": "50k+"
+        },
+        {
+          "id": "2",
+          "icon": "user",
+          "title": "Skilled Employees",
+          "value": "60+"
+        },
+        {
+          "id": "3",
+          "icon": "layers",
+          "title": "Project Completed",
+          "value": "500+"
+        },
+        {
+          "id": "4",
+          "icon": "trophy-2",
+          "title": "Awards Winning",
+          "value": "15+"
+        }
+      ],
+      "testimonial": {
+        "subtitle": "Client Reviews",
+        "title": "What Our Clients Are Saying",
+        "testimonials": [
+          {
+            "id": "1",
+            "title": "Harry and Marry",
+            "designation": "Happy Couples",
+            "description": "I was hesitant about seeking therapy for my relationship issues, but HaSMaR Institute made me feel comfortable and supported from the moment I walked in. The counselor's empathy and expertise helped me gain valuable insights.",
+            "image": "/img/testimonial01.png",
+            "link": "#"
+          },
+          {
+            "id": "2",
+            "title": "David and Rachel",
+            "designation": "Happy Couples",
+            "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond. We highly recommend their workshops.",
+            "image": "/img/testimonial02.png",
+            "link": "#"
+          },
+          {
+            "id": "3",
+            "title": "Michael and Emily",
+            "designation": "Happy Couples",
+            "description": "HaSMaR Institute has been instrumental in helping us navigate the challenges of blending our families. The counselors provided us with practical strategies and emotional support as we worked through our differences.",
+            "image": "/img/testimonial03.png",
+            "link": "#"
+          },
+          {
+            "id": "4",
+            "title": "Mark and Julia",
+            "designation": "Happy Couples",
+            "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond. We highly recommend their workshops.",
+            "image": "/img/testimonial03.png",
+            "link": "#"
+          }
+        ]
+      }
+    }
+  ],
+  "couplespage": [
+    {
+      "pageheader": {
+        "title": "Individuals and Couples",
+        "subtitle": "We offer tailored support and resources to help couples strengthen",
+        "image": "/img/page_header_bg.jpg"
+      },
+      "couplesvideo": [
+        {
+          "id": "1",
+          "title": "Single Young Adults",
+          "description": "Welcome to the Single Young Adults section of HaSMaR Institute! Are you a young adult navigating the complexities of relationships and personal growth?",
+          "image": "/img/product01.jpg",
+          "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
+          "buttonTitle": "Watch Our Demo",
+          "link": "#"
+        },
+        {
+          "id": "2",
+          "title": "Dating or Engaged Partners",
+          "description": "Congratulations on your journey together! Whether you're in the exciting phase of dating or planning your future as engaged partners.",
+          "image": "/img/product02.jpg",
+          "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
+          "buttonTitle": "Watch Our Demo",
+          "link": "#"
+        },
+        {
+          "id": "3",
+          "title": "Actively Married Couples",
+          "description": "Welcome to the Actively Married Couples section of HaSMaR Institute! Your commitment to each other is the cornerstone of your relationship.",
+          "image": "/img/product03.jpg",
+          "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
+          "buttonTitle": "Watch Our Demo",
+          "link": "#"
+        },
+        {
+          "id": "4",
+          "title": "Divorced Men and Women",
+          "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce.",
+          "image": "/img/product02.jpg",
+          "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
+          "buttonTitle": "Watch Our Demo",
+          "link": "#"
+        }
+      ],
+      "features": [
+        {
+          "id": "1",
+          "image": "/img/icon-hand.png",
+          "title": "Your Financial Habit",
+          "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
+        },
+        {
+          "id": "2",
+          "image": "/img/icon-fight.png",
+          "title": "Your Conflict Styles",
+          "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
+        },
+        {
+          "id": "3",
+          "image": "/img/icon-love.png",
+          "title": "Your Relationship Vision",
+          "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
+        },
+        {
+          "id": "4",
+          "image": "/img/icon-love-2.png",
+          "title": "Your Chemistry",
+          "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
+        },
+        {
+          "id": "5",
+          "image": "/img/icon-speaking.png",
+          "title": "Your Talk Skills",
+          "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
+        },
+        {
+          "id": "6",
+          "image": "/img/icon-link.png",
+          "title": "Your Spiritual Connection",
+          "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
+        }
+      ],
+      "process": {
+        "title": "Simple and Easy Methods",
+        "stats": [
+          {
+            "title": "Find a Facilitator",
+            "description": "Begin your journey to lifelong love by finding a skilled facilitator who will guide you through the process of healing."
+          },
+          {
+            "title": "Take the Assessment",
+            "description": "Take the first step towards understanding your relationship dynamics by taking our comprehensive assessment."
+          },
+          {
+            "title": "We Work Our Magic",
+            "description": "Once you've completed the assessment, our facilitators will work their magic to tailor a personalized plan."
+          },
+          {
+            "title": "Enjoy Lifelong Love",
+            "description": "Embark on a journey of growth, healing, and transformation with the support of our institute. By committing to the process."
+          }
+        ]
+      },
+      "testimonial": {
+        "subtitle": "Client Reviews",
+        "title": "What Our Clients Are Saying",
+        "testimonials": [
+          {
+            "id": "1",
+            "title": "Harry and Marry",
+            "designation": "Happy Couples",
+            "description": "I was hesitant about seeking therapy for my relationship issues, but HaSMaR Institute made me feel comfortable and supported from the moment I walked in. The counselor's empathy and expertise helped me gain valuable insights.",
+            "image": "/img/testimonial01.png",
+            "link": "#"
+          },
+          {
+            "id": "2",
+            "title": "David and Rachel",
+            "designation": "Happy Couples",
+            "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond. We highly recommend their workshops.",
+            "image": "/img/testimonial02.png",
+            "link": "#"
+          },
+          {
+            "id": "3",
+            "title": "Michael and Emily",
+            "designation": "Happy Couples",
+            "description": "HaSMaR Institute has been instrumental in helping us navigate the challenges of blending our families. The counselors provided us with practical strategies and emotional support as we worked through our differences.",
+            "image": "/img/testimonial03.png",
+            "link": "#"
+          },
+          {
+            "id": "4",
+            "title": "Mark and Julia",
+            "designation": "Happy Couples",
+            "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond. We highly recommend their workshops.",
+            "image": "/img/testimonial03.png",
+            "link": "#"
+          }
+        ]
+      }
+    }
+  ],
+  "faqpage": [
+    {
+      "pageheader": {
+        "title": "Questions On Your Mind?",
+        "subtitle": "Let us provide the answers.",
+        "image": "/img/page_header_bg.jpg"
+      },
+      "faq": [
+        {
+          "id": "1",
+          "title": "How do I know if marriage counseling is right for us?",
+          "description": "Marriage counseling can be beneficial if you're experiencing communication breakdowns, trust issues, or difficulties resolving conflicts. It provides a safe space to address concerns and work towards solutions together. Our experienced therapists can help you determine if counseling is the right step for your relationship."
+        },
+        {
+          "id": "2",
+          "title": "How do I know if my marriage could benefit from HaSMaR Institute's services?",
+          "description": "Congratulations on your journey together! Whether you're in the exciting phase of dating or planning your future as engaged partners."
+        },
+        {
+          "id": "3",
+          "title": "What if my partner and I have different communication styles?",
+          "description": "Welcome to the Actively Married Couples section of HaSMaR Institute! Your commitment to each other is the cornerstone of your relationship."
+        },
+        {
+          "id": "4",
+          "title": "Is marriage counseling at HaSMaR Institute only for couples in crisis?",
+          "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
+        },
+        {
+          "id": "5",
+          "title": "What if my partner refuses to attend marriage counseling?",
+          "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
+        },
+        {
+          "id": "6",
+          "title": "How do I find the right marriage counselor at HaSMaR Institute for us?",
+          "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
+        },
+        {
+          "id": "7",
+          "title": "Can marriage counseling help us if we're on the brink of divorce?",
+          "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
+        },
+        {
+          "id": "8",
+          "title": "How long does marriage counseling typically last at HaSMaR Institute?",
+          "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
+        },
+        {
+          "id": "9",
+          "title": "How much does marriage counseling at HaSMaR Institute cost?",
+          "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
+        },
+        {
+          "id": "10",
+          "title": "What if my partner and I have different goals for our relationship?",
+          "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
+        }
+      ]
+    }
+  ],
+  "facilitatorspage": [
+    {
+      "pageheader": {
+        "title": "Facilitators",
+        "subtitle": "Our team of dedicated facilitators is committed to guiding",
+        "image": "/img/page_header_bg.jpg"
+      },
+      "videobanner": {
+        "title": "Start Your <span class='text-blue-brand border-b-2 border-blue-brand'>Marriage</span> on the Right Foot",
+        "description": [
+          "Invest in your relationship and start your marriage on the right foot with our pre-marriage counseling program. With the preparation and support, you and your partner can build a strong, resilient partnership that stands the test of time."
+        ],
+        "buttons": [
+          {
+            "icon": "doller",
+            "title": "Get Certified Now",
+            "link": "#"
+          },
+          {
+            "icon": "eye",
+            "title": "Look Inside",
+            "link": "#"
+          }
+        ],
+        "stat": {
+          "image": "/img/testimonial01.png",
+          "quotes": "“Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. helped us reconnect”",
+          "author": "-Michael and Emily"
+        },
+        "image": "/img/aboutImg01.jpg",
+        "video": "https://www.youtube.com/watch?v=D0UnqGm_miA"
+      },
+      "perks": {
+        "subtitle": "Best Facilitator",
+        "title": "Become A Facilitator",
+        "stats": [
+          {
+            "id": "1",
+            "title": "Online Video Training"
+          },
+          {
+            "id": "2",
+            "title": "Assessment Materials"
+          },
+          {
+            "id": "3",
+            "title": "Facilitator Dashboard"
+          },
+          {
+            "id": "4",
+            "title": "50 Page Training Manual"
+          },
+          {
+            "id": "5",
+            "title": "Certificate for Framing"
+          },
+          {
+            "id": "6",
+            "title": "Presentation Materials"
+          },
+          {
+            "id": "7",
+            "title": "Referral Network Listing"
+          },
+          {
+            "id": "8",
+            "title": "Regular Software Update"
+          }
+        ],
+        "buttons": [
+          {
+            "icon": "doller",
+            "title": "Get Certified Now",
+            "link": "#"
+          },
+          {
+            "icon": "eye",
+            "title": "Look Inside",
+            "link": "#"
+          }
+        ]
+      },
+      "about": [
+        {
+          "id": "1",
+          "subtitle": "Trusty Pastors",
+          "title": "Ordained Pastors and Professionals",
+          "description": [
+            "Our team comprises ordained pastors and seasoned professionals dedicated to guiding couples towards stronger, more fulfilling relationships. With a blend of spiritual insight and professional expertise, our ordained pastors bring wisdom and compassion to their counseling sessions."
+          ],
+          "image": "/img/aboutImg01.jpg"
+        },
+        {
+          "id": "2",
+          "subtitle": "Trusty Mentors",
+          "title": "Passionate and Trustworthy Mentors",
+          "description": [
+            "Our mentors are passionate about nurturing healthy relationships and are committed to providing unwavering support to couples. They serve as trustworthy guides, offering empathetic listening, practical advice,and personalized strategies tailored to each couple's unique needs."
+          ],
+          "image": "/img/aboutImg02.jpg"
+        }
+      ],
+      "easystep": {
+        "subtitle": "Easy Setup",
+        "title": "Getting Setup is Easy",
+        "image": "/img/aboutImg01.jpg",
+        "stats": [
+          {
+            "title": "Thorough Training Program",
+            "description": "In-Depth Education: Master the Essentials for Success."
+          },
+          {
+            "title": "Couples Enrollment",
+            "description": "Welcoming Partners: Extend an Invitation to Join Us."
+          },
+          {
+            "title": "Session Facilitation",
+            "description": "Guiding Discussions: Lead Engaging and Insightful Sessions."
+          },
+          {
+            "title": "Fostering Healthy Relationships",
+            "description": "Nurturing Lasting Connections: Together, Let's Cultivate Strong Marriages."
+          }
+        ]
+      }
+    }
+  ],
+  "contactpage": [
+    {
+      "pageheader": {
+        "title": "Contact Us",
+        "subtitle": "We're here to help! Feel free to reach out to us",
+        "image": "/img/page_header_bg.jpg"
+      },
+      "contact": {
+        "subtitle": "Contact With Us",
+        "title": "Connect with HaSMaR Institute",
+        "stat": [
+          {
+            "icon": "phone",
+            "title": "Have a Question?",
+            "description": "(+101) 582 369 456"
+          },
+          {
+            "icon": "envelope",
+            "title": "Any Inquiries",
+            "description": "info@hasmarinstitute.com"
+          },
+          {
+            "icon": "location",
+            "title": "Visit Us",
+            "description": "13th St, New York, NY 10011, USA"
+          }
+        ],
+        "form": [
+          {
+            "type": "text",
+            "name": "text",
+            "required": true,
+            "value": "Your Name*"
+          },
+          {
+            "type": "email",
+            "name": "email",
+            "required": true,
+            "value": "Email Address*"
+          },
+          {
+            "type": "tel",
+            "name": "tel",
+            "required": true,
+            "value": "Your Phone*"
+          },
+          {
+            "type": "text",
+            "name": "subject",
+            "required": true,
+            "value": "Subject*"
+          },
+          {
+            "type": "textarea",
+            "name": "message",
+            "value": "Type Your Message*"
+          },
+          {
+            "type": "submit",
+            "name": "submit",
+            "value": "Send a Message"
+          }
+        ]
+      },
+      "sponsor": {
+        "subtitle": "Our Sponsors",
+        "title": "Our Partners",
+        "sponsors": [
+          {
+            "id": "1",
+            "image": "/img/sponsor01.png",
+            "link": "#"
+          },
+          {
+            "id": "2",
+            "image": "/img/sponsor02.png",
+            "link": "#"
+          },
+          {
+            "id": "3",
+            "image": "/img/sponsor03.png",
+            "link": "#"
+          },
+          {
+            "id": "4",
+            "image": "/img/sponsor04.png",
+            "link": "#"
+          },
+          {
+            "id": "5",
+            "image": "/img/sponsor05.png",
+            "link": "#"
+          },
+          {
+            "id": "6",
+            "image": "/img/sponsor03.png",
+            "link": "#"
+          }
+        ]
+      }
+    }
+  ],
+  "privacypolicypage": [
+    {
+      "pageheader": {
+        "title": "Privacy Policy",
+        "subtitle": "We understand that your privacy is important.",
+        "image": "/img/page_header_bg.jpg"
+      },
+      "content": "<p class=\"lead\">Until now, trying to style an article, document, or blog post with Tailwind has been a tedious task that required a keen eye for typography and a lot of complex custom CSS.</p>\n<p>By default, Tailwind removes all of the default browser styling from paragraphs, headings, lists and more. This ends up being really useful for building application UIs because you spend less time undoing user-agent styles, but when you <em>really are</em> just trying to style some content that came from a rich-text editor in a CMS or a markdown file, it can be surprising and unintuitive.</p>\n<p>We get lots of complaints about it actually, with people regularly asking us things like:</p>\n<blockquote>\n  <p>Why is Tailwind removing the default styles on my <code>h1</code> elements? How do I disable this? What do you mean I lose all the other base styles too?</p>\n</blockquote>\n<p>We hear you, but we're not convinced that simply disabling our base styles is what you really want. You don't want to have to remove annoying margins every time you use a <code>p</code> element in a piece of your dashboard UI. And I doubt you really want your blog posts to use the user-agent styles either — you want them to look <em>awesome</em>, not awful.</p>\n<p>The <code>@tailwindcss/typography</code> plugin is our attempt to give you what you <em>actually</em> want, without any of the downsides of doing something stupid like disabling our base styles.</p>\n<p>It adds a new <code>prose</code> class that you can slap on any block of vanilla HTML content and turn it into a beautiful, well-formatted document:</p>\n<pre><code class=\"language-html\">&lt;article class=\"prose\"&gt;\n  &lt;h1&gt;Garlic bread with cheese: What the science tells us&lt;/h1&gt;\n  &lt;p&gt;\n    For years parents have espoused the health benefits of eating garlic bread with cheese to their\n    children, with the food earning such an iconic status in our culture that kids will often dress\n    up as warm, cheesy loaf for Halloween.\n  &lt;/p&gt;\n  &lt;p&gt;\n    But a recent study shows that the celebrated appetizer may be linked to a series of rabies cases\n    springing up around the country.\n  &lt;/p&gt;\n  &lt;!-- ... --&gt;\n&lt;/article&gt;\n</code></pre>\n<p>For more information about how to use the plugin and the features it includes, <a href=\"https://github.com/tailwindcss/typography/blob/master/README.md\">read the documentation</a>.</p>\n<hr>\n<h2>What to expect from here on out</h2>\n<p>What follows from here is just a bunch of absolute nonsense I've written to dogfood the plugin itself. It includes every sensible typographic element I could think of, like <strong>bold text</strong>, unordered lists, ordered lists, code blocks, block quotes, <em>and even italics</em>.</p>\n<p>It's important to cover all of these use cases for a few reasons:</p>\n<ol>\n  <li>We want everything to look good out of the box.</li>\n  <li>Really just the first reason, that's the whole point of the plugin.</li>\n  <li>Here's a third pretend reason though a list with three items looks more realistic than a list with two items.</li>\n</ol>\n<p>Now we're going to try out another header style.</p>\n<h3>Typography should be easy</h3>\n<p>So that's a header for you — with any luck if we've done our job correctly that will look pretty reasonable.</p>\n<p>Something a wise person once told me about typography is:</p>\n<blockquote>\n  <p>Typography is pretty important if you don't want your stuff to look like trash. Make it good then it won't be bad.</p>\n</blockquote>\n<p>It's probably important that images look okay here by default as well:</p>\n<figure>\n  <img src=\"https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80\" alt=\"\">\n  <figcaption>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</figcaption>\n</figure>\n<p>Now I'm going to show you an example of an unordered list to make sure that looks good, too:</p>\n<ul>\n  <li>So here is the first item in this list.</li>\n  <li>In this example we're keeping the items short.</li>\n  <li>Later, we'll use longer, more complex list items.</li>\n</ul>\n<p>And that's the end of this section.</p>\n<h2>What if we stack headings?</h2>\n<h3>We should make sure that looks good, too.</h3>\n<p>Sometimes you have headings directly underneath each other. In those cases you often have to undo the top margin on the second heading because it usually looks better for the headings to be closer together than a paragraph followed by a heading should be.</p>\n<h3>When a heading comes after a paragraph …</h3>\n<p>When a heading comes after a paragraph, we need a bit more space, like I already mentioned above. Now let's see what a more complex list would look like.</p>\n<ul>\n  <li>\n    <p><strong>I often do this thing where list items have headings.</strong></p>\n    <p>For some reason I think this looks cool which is unfortunate because it's pretty annoying to get the styles right.</p>\n    <p>I often have two or three paragraphs in these list items, too, so the hard part is getting the spacing between the paragraphs, list item heading, and separate list items to all make sense. Pretty tough honestly, you could make a strong argument that you just shouldn't write this way.</p>\n  </li>\n  <li>\n    <p><strong>Since this is a list, I need at least two items.</strong></p>\n    <p>I explained what I'm doing already in the previous list item, but a list wouldn't be a list if it only had one item, and we really want this to look realistic. That's why I've added this second list item so I actually have something to look at when writing the styles.</p>\n  </li>\n  <li>\n    <p><strong>It's not a bad idea to add a third item either.</strong></p>\n    <p>I think it probably would've been fine to just use two items but three is definitely not worse, and since I seem to be having no trouble making up arbitrary things to type, I might as well include it.</p>\n  </li>\n</ul>\n<p>After this sort of list I usually have a closing statement or paragraph, because it kinda looks weird jumping right to a heading.</p>\n<h2>Code should look okay by default.</h2>\n<p>I think most people are going to use <a href=\"https://highlightjs.org/\">highlight.js</a> or <a href=\"https://prismjs.com/\">Prism</a> or something if they want to style their code blocks but it wouldn't hurt to make them look <em>okay</em> out of the box, even with no syntax highlighting.</p>\n<p>Here's what a default <code>tailwind.config.js</code> file looks like at the time of writing:</p>\n<pre><code class=\"language-js\">module.exports = {\n  purge: [],\n  theme: {\n    extend: {},\n  },\n  variants: {},\n  plugins: [],\n}\n</code></pre>\n<p>Hopefully that looks good enough to you.</p>\n<h3>What about nested lists?</h3>\n<p>Nested lists basically always look bad which is why editors like Medium don't even let you do it, but I guess since some of you goofballs are going to do it we have to carry the burden of at least making it work.</p>\n<ol>\n  <li>\n    <strong>Nested lists are rarely a good idea.</strong>\n    <ul>\n      <li>You might feel like you are being really \"organized\" or something but you are just creating a gross shape on the screen that is hard to read.</li>\n      <li>Nested navigation in UIs is a bad idea too, keep things as flat as possible.</li>\n      <li>Nesting tons of folders in your source code is also not helpful.</li>\n    </ul>\n  </li>\n  <li>\n    <strong>Since we need to have more items, here's another one.</strong>\n    <ul>\n      <li>I'm not sure if we'll bother styling more than two levels deep.</li>\n      <li>Two is already too much, three is guaranteed to be a bad idea.</li>\n      <li>If you nest four levels deep you belong in prison.</li>\n    </ul>\n  </li>\n  <li>\n    <strong>Two items isn't really a list, three is good though.</strong>\n    <ul>\n      <li>Again please don't nest lists if you want people to actually read your content.</li>\n      <li>Nobody wants to look at this.</li>\n      <li>I'm upset that we even have to bother styling this.</li>\n    </ul>\n  </li>\n</ol>\n<p>The most annoying thing about lists in Markdown is that <code>&lt;li&gt;</code> elements aren't given a child <code>&lt;p&gt;</code> tag unless there are multiple paragraphs in the list item. That means I have to worry about styling that annoying situation too.</p>\n<ul>\n  <li>\n    <p><strong>For example, here's another nested list.</strong></p>\n    <p>But this time with a second paragraph.</p>\n    <ul>\n      <li>These list items won't have <code>&lt;p&gt;</code> tags</li>\n      <li>Because they are only one line each</li>\n    </ul>\n  </li>\n  <li>\n    <p><strong>But in this second top-level list item, they will.</strong></p>\n    <p>This is especially annoying because of the spacing on this paragraph.</p>\n    <ul>\n      <li>\n        <p>As you can see here, because I've added a second line, this list item now has a <code>&lt;p&gt;</code> tag.</p>\n        <p>This is the second line I'm talking about by the way.</p>\n      </li>\n      <li><p>Finally here's another list item so it's more like a list.</p></li>\n    </ul>\n  </li>\n  <li><p>A closing list item, but with no nested list, because why not?</p></li>\n</ul>\n<p>And finally a sentence to close off this section.</p>\n<h2>There are other elements we need to style</h2>\n<p>I almost forgot to mention links, like <a href=\"https://tailwindcss.com\">this link to the Tailwind CSS website</a>. We almost made them blue but that's so yesterday, so we went with dark gray, feels edgier.</p>\n<p>We even included table styles, check it out:</p>\n<table>\n  <thead>\n    <tr>\n      <th>Wrestler</th>\n      <th>Origin</th>\n      <th>Finisher</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Bret \"The Hitman\" Hart</td>\n      <td>Calgary, AB</td>\n      <td>Sharpshooter</td>\n    </tr>\n    <tr>\n      <td>Stone Cold Steve Austin</td>\n      <td>Austin, TX</td>\n      <td>Stone Cold Stunner</td>\n    </tr>\n    <tr>\n      <td>Randy Savage</td>\n      <td>Sarasota, FL</td>\n      <td>Elbow Drop</td>\n    </tr>\n    <tr>\n      <td>Vader</td>\n      <td>Boulder, CO</td>\n      <td>Vader Bomb</td>\n    </tr>\n    <tr>\n      <td>Razor Ramon</td>\n      <td>Chuluota, FL</td>\n      <td>Razor's Edge</td>\n    </tr>\n  </tbody>\n</table>\n<p>We also need to make sure inline code looks good, like if I wanted to talk about <code>&lt;span&gt;</code> elements or tell you the good news about <code>@tailwindcss/typography</code>.</p>\n<h3>Sometimes I even use <code>code</code> in headings</h3>\n<p>Even though it's probably a bad idea, and historically I've had a hard time making it look good. This <em>\"wrap the code blocks in backticks\"</em> trick works pretty well though really.</p>\n<p>Another thing I've done in the past is put a <code>code</code> tag inside of a link, like if I wanted to tell you about the <a href=\"https://github.com/tailwindcss/docs\"><code>tailwindcss/docs</code></a> repository. I don't love that there is an underline below the backticks but it is absolutely not worth the madness it would require to avoid it.</p>\n<h4>We haven't used an <code>h4</code> yet</h4>\n<p>But now we have. Please don't use <code>h5</code> or <code>h6</code> in your content, Medium only supports two heading levels for a reason, you animals. I honestly considered using a <code>before</code> pseudo-element to scream at you if you use an <code>h5</code> or <code>h6</code>.</p>\n<p>We don't style them at all out of the box because <code>h4</code> elements are already so small that they are the same size as the body copy. What are we supposed to do with an <code>h5</code>, make it <em>smaller</em> than the body copy? No thanks.</p>\n<h3>We still need to think about stacked headings though.</h3>\n<h4>Let's make sure we don't screw that up with <code>h4</code> elements, either.</h4>\n<p>Phew, with any luck we have styled the headings above this text and they look pretty good.</p>\n<p>Let's add a closing paragraph here so things end with a decently sized block of text. I can't explain why I want things to end that way but I have to assume it's because I think things will look weird or unbalanced if there is a heading too close to the end of the document.</p>\n<p>What I've written here is probably long enough, but adding this final sentence can't hurt.</p>"
+    }
+  ]
 }

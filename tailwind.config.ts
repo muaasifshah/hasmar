@@ -4,9 +4,16 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 export default {
   content: ["./app/**/*.{js,jsx,ts,tsx}", "./data/**/*.md"],
   darkMode: "class",
-  plugins: [selectedVariantPlugin, expandedVariantPlugin],
+  plugins: [
+    selectedVariantPlugin,
+    expandedVariantPlugin,
+    require("@tailwindcss/typography"),
+  ],
   theme: {
     extend: {
+      transitionProperty: {
+        width: "width",
+      },
       keyframes: {
         "ripple-1": {
           "0%": {

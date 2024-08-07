@@ -42,7 +42,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             {product.title}
           </h3>
         </div>
-        <div className="grid grid-cols-1 gap-[30px] md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {product.products.map((item, i) => (
             <div
               className="relative overflow-hidden rounded-2xl bg-white p-3 shadow shadow-gray-200 dark:border dark:border-gray-500 dark:bg-gray-800 dark:shadow-gray-800"
@@ -75,7 +75,7 @@ export default function ProductCard({ product }: ProductCardProps) {
               <div className="py-6 text-center">
                 <a
                   href={item.link}
-                  className="h4 mb-2 text-[1.375rem] font-bold capitalize tracking-wide text-gray-900 duration-500 ease-in-out hover:text-blue-brand focus:text-blue-brand dark:text-white"
+                  className="mb-2 text-[1.375rem] font-bold capitalize tracking-wide text-gray-900 duration-500 ease-in-out hover:text-blue-brand focus:text-blue-brand dark:text-white"
                 >
                   {item.title}
                 </a>
@@ -97,7 +97,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                   {item.buttonTitle}{" "}
                   <Icon
                     id="arrow-long-right"
-                    className={`absolute right-0 m-[0.438rem] h-[2.5rem] w-[2.5rem] rounded-full bg-white bg-opacity-35 fill-white p-[0.6rem]`}
+                    className={`absolute right-0 m-[0.438rem] h-[2.5rem] w-[2.5rem] rounded-full bg-white bg-opacity-35 fill-white p-[0.6rem] max-xs:m-[.4rem] max-xs:h-[2.35rem] max-xs:w-[2.35rem]`}
                   />
                 </Button>
               </div>

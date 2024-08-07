@@ -30,18 +30,18 @@ export function Dropdown({
         {title}
         <Icon
           id="arrow-bottom"
-          className="ms-2 inline-block h-3.5 w-3.5 fill-current align-middle max-md:hidden"
+          className="ms-1.5 inline-block h-5 w-5 fill-current align-middle max-md:hidden"
           aria-hidden="true"
         />
       </HeaderLink>
       <button
         type="button"
         onClick={() => toggleDropdown(dropdownKey)}
-        className="relative z-[1] mb-[-1px] mt-[-1px] h-[2.72rem] w-[2.72rem] cursor-pointer border border-r-0 border-gray-100 text-center leading-[0.6] dark:border-gray-700 md:hidden"
+        className="relative z-[1] mb-[-1px] mt-[-1px] h-[3.18rem] w-[3.18rem] cursor-pointer border border-r-0 border-gray-100 text-center leading-[0.6] dark:border-gray-700 md:hidden"
       >
         <Icon
           id="arrow-bottom"
-          className="inline-block h-3.5 w-3.5 fill-current align-middle"
+          className="inline-block h-5 w-5 fill-current align-middle"
           aria-hidden="true"
         />
       </button>
@@ -54,7 +54,7 @@ export function Dropdown({
           },
         )}
       >
-        <ul className="text-md md:mt-4 md:rounded-lg md:border md:border-blue-100 md:bg-white md:p-1.5 md:shadow-lg md:dark:border-gray-700 md:dark:bg-gray-700">
+        <ul className="text-lg md:mt-4 md:rounded-lg md:border md:border-blue-100 md:bg-white md:p-1.5 md:shadow-lg md:dark:border-gray-700 md:dark:bg-gray-700">
           {React.Children.map(children, (child) => child)}
         </ul>
       </div>

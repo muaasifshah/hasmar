@@ -13,11 +13,14 @@ interface AboutProps {
 // Define the props for the HeroCard component
 interface AboutCardProps {
   about: AboutProps[];
+  path: string;
 }
 
-export default function AboutCard({ about }: AboutCardProps) {
+export default function AboutCard({ about, path = "" }: AboutCardProps) {
   return (
-    <section className="relative z-0 overflow-hidden bg-custom-gradient dark:bg-gray-900 dark:bg-none">
+    <section
+      className={`relative z-0 overflow-hidden ${path !== "/facilitators" ? "bg-custom-gradient dark:bg-none" : ""} dark:bg-gray-900`}
+    >
       <div className="container mx-auto space-y-14 px-4 py-14 lg:space-y-24 lg:px-12 lg:py-24">
         {about &&
           about.map((item, i) => (

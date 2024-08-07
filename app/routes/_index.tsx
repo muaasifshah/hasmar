@@ -18,9 +18,13 @@ export const loader = async ({}: LoaderFunctionArgs) => {
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
-    { name: "keywords", content: "Remix, React Learn" },
+    { title: "The HaSMaR Institute" },
+    { name: "description", content: "Welcome to The HaSMaR Institute" },
+    {
+      name: "keywords",
+      content:
+        "Relationship Adviser, Relationship Adviser, Dealing with Conflict",
+    },
   ];
 };
 

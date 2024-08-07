@@ -1,9 +1,9 @@
 import { json, type MetaFunction } from "@remix-run/node";
-import AboutCard from "../ui/AboutCard";
 import PageHeader from "../ui/PageHeader";
-import ExperienceCard from "../ui/ExperienceCard";
-import FunfactsCard from "../ui/FunfactsCard";
 import TestimonialCard from "~/ui/TestimonialCard";
+import CouplesvideoCard from "~/ui/CouplesvideoCard";
+import FeaturesCard from "~/ui/FeaturesCard";
+import ProcessCard from "~/ui/ProcessCard";
 
 import { LoaderFunctionArgs } from "@remix-run/node";
 import api from "~/http/api";
@@ -11,14 +11,18 @@ import { useLoaderData } from "@remix-run/react";
 
 export const loader = async ({}: LoaderFunctionArgs) => {
   const baseURL = process.env.VITE_BASE_URL;
-  const data = await api.get(baseURL + "/aboutpage");
+  const data = await api.get(baseURL + "/couplespage");
   return json(data.data);
 };
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "About - HaSMaR" },
-    { name: "description", content: "Welcome to The HaSMaR Institute" },
+    { title: "Individuals and Couples - HaSMaR" },
+    {
+      name: "description",
+      content:
+        "We offer tailored support and resources to help couples strengthen",
+    },
     {
       name: "keywords",
       content:
@@ -27,15 +31,15 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export default function About() {
-  const [{ pageheader, about, experience, funfacts, testimonial }] =
+export default function Couples() {
+  const [{ pageheader, testimonial, couplesvideo, features, process }] =
     useLoaderData<typeof loader>();
   return (
     <>
       <PageHeader pageheader={pageheader} />
-      <AboutCard about={about} />
-      <ExperienceCard experience={experience} />
-      <FunfactsCard funfacts={funfacts} />
+      <CouplesvideoCard couplesvideo={couplesvideo} />
+      <FeaturesCard features={features} />
+      <ProcessCard process={process} />
       <TestimonialCard testimonial={testimonial} />
     </>
   );
