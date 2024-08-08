@@ -13,7 +13,7 @@ interface FormField {
     | "reset"
     | "button";
   name: string;
-  value: string;
+  text: string;
   required?: boolean;
 }
 
@@ -29,18 +29,15 @@ interface ContactProps {
 export default function ContactCard({ contact }: ContactProps) {
   // State to manage form field values and errors
   const [formValues, setFormValues] = useState<{ [key: string]: string }>({});
-  const [errors, setErrors] = useState<{ [key: string]: string }>("");
+  const [errors, setErrors] = useState<{ [key: string]: string }>({});
 
   // Utility function to get a valid button type
   const getButtonType = (
     type: string,
   ): "submit" | "reset" | "button" | undefined => {
-    const validButtonTypes: ("submit" | "reset" | "button")[] = [
-      "submit",
-      "reset",
-      "button",
-    ];
-    return validButtonTypes.includes(type as "submit" | "reset" | "button")
+    return ["submit", "reset", "button"].includes(
+      type as "submit" | "reset" | "button",
+    )
       ? (type as "submit" | "reset" | "button")
       : undefined;
   };
@@ -132,7 +129,7 @@ export default function ContactCard({ contact }: ContactProps) {
                         type={item.type}
                         name={item.name}
                         id={item.name}
-                        placeholder={item.value}
+                        placeholder={item.text}
                         required={item.required}
                         value={formValues[item.name] || ""}
                         onChange={handleChange}
@@ -159,7 +156,7 @@ export default function ContactCard({ contact }: ContactProps) {
                         type={item.type}
                         name={item.name}
                         id={item.name}
-                        placeholder={item.value}
+                        placeholder={item.text}
                         required={item.required}
                         value={formValues[item.name] || ""}
                         onChange={handleChange}
@@ -180,7 +177,7 @@ export default function ContactCard({ contact }: ContactProps) {
                     <textarea
                       name={item.name}
                       id={item.name}
-                      placeholder={item.value}
+                      placeholder={item.text}
                       required={item.required}
                       value={formValues[item.name] || ""}
                       onChange={handleChange}
@@ -204,7 +201,7 @@ export default function ContactCard({ contact }: ContactProps) {
                       id={item.name}
                       className="relative box-border inline-flex h-12 items-center justify-center rounded-full bg-blue-brand px-6 py-3 pl-[1.625rem] pr-[3.7rem] text-base font-medium leading-none tracking-[0.04rem] text-white transition-all duration-300 hover:translate-y-[-2px] hover:shadow-lg hover:brightness-[1.08] focus:translate-y-[-2px] focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-200 focus:ring-offset-2 focus:ring-offset-transparent focus:brightness-[1.08] active:brightness-[1] max-xs:pr-[3.45rem] max-xs:text-[14px] md:h-[3.25rem] xl:text-[1.125rem]"
                     >
-                      {item.value}
+                      {item.text}
                       <Icon
                         id="arrow-long-right"
                         className="absolute right-0 m-[0.438rem] h-[2.5rem] w-[2.5rem] rounded-full bg-white bg-opacity-35 fill-white p-[0.6rem] max-xs:m-[.4rem] max-xs:h-[2.35rem] max-xs:w-[2.35rem]"
