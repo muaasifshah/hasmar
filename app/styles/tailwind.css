@@ -1,0 +1,32 @@
+/* Import fonts */
+@import "@fontsource/REM";
+@import "@fontsource/roboto";
+@import "@fontsource/Ramaraja";
+
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for Swiper pagination bullets */
+.sponsor .swiper-pagination-bullets,
+.facility .swiper-pagination-bullets,
+.testimonial .swiper-pagination-bullets {
+  @apply relative mt-12;
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet {
+  @apply h-[10px] w-[25px] rounded-xl border-2 border-blue-brand bg-transparent opacity-100;
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet-active {
+  @apply bg-blue-brand;
+}
+
+.sponsor .swiper-pagination-bullets .swiper-pagination-bullet {
+  @apply border-white;
+}
+
+.sponsor .swiper-pagination-bullets .swiper-pagination-bullet-active {
+  @apply bg-white;
+}

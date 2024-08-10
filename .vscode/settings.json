@@ -1,0 +1,7 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "amazonQ.importRecommendationForInlineCodeSuggestions": false,
+  "amazonQ.showInlineCodeSuggestionsWithCodeReferences": false,
+  "editor.formatOnSaveMode": "file"
+}
