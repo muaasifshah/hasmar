@@ -1,5 +1,5 @@
 import { json, type MetaFunction } from "@remix-run/node";
-import PageHeader from "../ui/PageHeader";
+import PageHeader from "~/ui/PageHeader";
 import VideobannerCard from "~/ui/VideobannerCard";
 import PerksCard from "~/ui/PerksCard";
 import AboutCard from "~/ui/AboutCard";
@@ -33,7 +33,7 @@ export const meta: MetaFunction = () => {
 export default function Facilitators() {
   const { pathname } = useLocation();
 
-  const [{ pageheader, videobanner, perks, about, easystep }] =
+  const { pageheader, videobanner, perks, about, easystep } =
     useLoaderData<typeof loader>();
   return (
     <>

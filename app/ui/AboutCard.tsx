@@ -13,7 +13,7 @@ interface AboutProps {
 // Define the props for the HeroCard component
 interface AboutCardProps {
   about: AboutProps[];
-  path: string;
+  path?: string;
 }
 
 export default function AboutCard({ about, path = "" }: AboutCardProps) {

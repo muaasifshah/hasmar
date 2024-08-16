@@ -1,5 +1,5 @@
 import { json, type MetaFunction } from "@remix-run/node";
-import PageHeader from "../ui/PageHeader";
+import PageHeader from "~/ui/PageHeader";
 import TestimonialCard from "~/ui/TestimonialCard";
 import CouplesvideoCard from "~/ui/CouplesvideoCard";
 import FeaturesCard from "~/ui/FeaturesCard";
@@ -32,7 +32,7 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Couples() {
-  const [{ pageheader, testimonial, couplesvideo, features, process }] =
+  const { pageheader, testimonial, couplesvideo, features, process } =
     useLoaderData<typeof loader>();
   return (
     <>

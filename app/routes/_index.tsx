@@ -29,7 +29,7 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
-  const [{ hero, about, product, testimonial, facility, sponsor }] =
+  const { hero, about, product, testimonial, facility, sponsor } =
     useLoaderData<typeof loader>();
   return (
     <>

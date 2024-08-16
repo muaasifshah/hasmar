@@ -1,213 +1,211 @@
 {
-  "homepage": [
-    {
-      "hero": {
+  "homepage": {
+    "hero": {
+      "id": "1",
+      "subtitle": "Welcome to",
+      "title": "The HaSMaR Institute",
+      "description": "We enable individuals and couples to create honorable and sustainable marriage relationships.",
+      "image": "/img/hero.jpg",
+      "buttons": [
+        {
+          "title": "Become a Facilitator",
+          "link": "#"
+        },
+        {
+          "title": "Take an Assessment",
+          "link": "#"
+        }
+      ]
+    },
+    "about": [
+      {
         "id": "1",
-        "subtitle": "Welcome to",
-        "title": "The HaSMaR Institute",
-        "description": "We enable individuals and couples to create honorable and sustainable marriage relationships.",
-        "image": "/img/hero.jpg",
-        "buttons": [
-          {
-            "title": "Become a Facilitator",
-            "link": "#"
-          },
-          {
-            "title": "Take an Assessment",
-            "link": "#"
-          }
-        ]
+        "subtitle": "About Us",
+        "title": "Who We Are",
+        "description": [
+          "HaSMaR Institute stands for Harmony, Support, and Mutual Respect, the core principles that guide our approach to relationship counseling and therapy. Founded on the belief that every couple deserves a chance to thrive, our institute offers a range of specialized programs and services designed to support couples in overcoming obstacles and strengthening their bond.",
+          "Our holistic approach to relationship therapy focuses on fostering open communication and rebuilding trust."
+        ],
+        "image": "/img/aboutImg01.jpg",
+        "video": "https://www.youtube.com/watch?v=D0UnqGm_miA"
       },
-      "about": [
+      {
+        "id": "2",
+        "subtitle": "Why Choose Us",
+        "title": "Why Adopt the HaSMaR Model",
+        "description": [
+          "The HaSMaR Model, developed by our team of experts, is a comprehensive framework designed to guide couples towards sustainable solutions and profound transformations. The HaSMaR Model focuses on identifying and leveraging the unique strengths within your relationship. By recognizing and building upon the positive aspects of your partnership, you'll develop a strong foundation for growth and resilience.",
+          "From communication breakdowns to unresolved conflicts, every relationship faces its own set of challenges. The HaSMaR Model provides practical strategies and techniques to effectively address these issues, fostering open dialogue and understanding between partners."
+        ],
+        "image": "/img/aboutImg02.jpg",
+        "video": "https://www.youtube.com/watch?v=9xwazD5SyVg"
+      }
+    ],
+    "product": {
+      "bgImage": "/img/product_bg.jpg",
+      "subtitle": "Best Products",
+      "title": "Our Top Selling Products",
+      "products": [
         {
           "id": "1",
-          "subtitle": "About Us",
-          "title": "Who We Are",
+          "title": "Relationship Adviser",
+          "actualPrice": "$399",
+          "sellingPrice": "$199",
           "description": [
-            "HaSMaR Institute stands for Harmony, Support, and Mutual Respect, the core principles that guide our approach to relationship counseling and therapy. Founded on the belief that every couple deserves a chance to thrive, our institute offers a range of specialized programs and services designed to support couples in overcoming obstacles and strengthening their bond.",
-            "Our holistic approach to relationship therapy focuses on fostering open communication and rebuilding trust."
+            "This comprehensive guide provides insights and strategies to enhance your relationship.",
+            "Learn proven techniques for building a stronger connection with your partner."
           ],
-          "image": "/img/aboutImg01.jpg",
-          "video": "https://www.youtube.com/watch?v=D0UnqGm_miA"
+          "image": "/img/product01.jpg",
+          "video": "https://www.youtube.com/watch?v=D0UnqGm_miA",
+          "buttonTitle": "Get Instant Access",
+          "link": "#"
         },
         {
           "id": "2",
-          "subtitle": "Why Choose Us",
-          "title": "Why Adopt the HaSMaR Model",
+          "title": "Enriching Your Sex Life",
+          "actualPrice": "$250",
+          "sellingPrice": "$149",
           "description": [
-            "The HaSMaR Model, developed by our team of experts, is a comprehensive framework designed to guide couples towards sustainable solutions and profound transformations. The HaSMaR Model focuses on identifying and leveraging the unique strengths within your relationship. By recognizing and building upon the positive aspects of your partnership, you'll develop a strong foundation for growth and resilience.",
-            "From communication breakdowns to unresolved conflicts, every relationship faces its own set of challenges. The HaSMaR Model provides practical strategies and techniques to effectively address these issues, fostering open dialogue and understanding between partners."
+            "Discover methods to enhance intimacy and satisfaction in your relationship.",
+            "Includes practical exercises and advice for a fulfilling sex life."
           ],
-          "image": "/img/aboutImg02.jpg",
-          "video": "https://www.youtube.com/watch?v=9xwazD5SyVg"
+          "image": "/img/product02.jpg",
+          "video": "https://www.youtube.com/watch?v=D0UnqGm_miA",
+          "buttonTitle": "Get Instant Access",
+          "link": "#"
+        },
+        {
+          "id": "3",
+          "title": "Dealing with Conflict",
+          "actualPrice": "$229",
+          "sellingPrice": "$129",
+          "description": [
+            "Effective strategies for resolving conflicts and improving communication.",
+            "Learn how to handle disagreements constructively and strengthen your relationship."
+          ],
+          "image": "/img/product03.jpg",
+          "video": "https://www.youtube.com/watch?v=D0UnqGm_miA",
+          "buttonTitle": "Get Instant Access",
+          "link": "#"
         }
-      ],
-      "product": {
-        "bgImage": "/img/product_bg.jpg",
-        "subtitle": "Best Products",
-        "title": "Our Top Selling Products",
-        "products": [
-          {
-            "id": "1",
-            "title": "Relationship Adviser",
-            "actualPrice": "$399",
-            "sellingPrice": "$199",
-            "description": [
-              "This comprehensive guide provides insights and strategies to enhance your relationship.",
-              "Learn proven techniques for building a stronger connection with your partner."
-            ],
-            "image": "/img/product01.jpg",
-            "video": "https://www.youtube.com/watch?v=D0UnqGm_miA",
-            "buttonTitle": "Get Instant Access",
-            "link": "#"
-          },
-          {
-            "id": "2",
-            "title": "Enriching Your Sex Life",
-            "actualPrice": "$250",
-            "sellingPrice": "$149",
-            "description": [
-              "Discover methods to enhance intimacy and satisfaction in your relationship.",
-              "Includes practical exercises and advice for a fulfilling sex life."
-            ],
-            "image": "/img/product02.jpg",
-            "video": "https://www.youtube.com/watch?v=D0UnqGm_miA",
-            "buttonTitle": "Get Instant Access",
-            "link": "#"
-          },
-          {
-            "id": "3",
-            "title": "Dealing with Conflict",
-            "actualPrice": "$229",
-            "sellingPrice": "$129",
-            "description": [
-              "Effective strategies for resolving conflicts and improving communication.",
-              "Learn how to handle disagreements constructively and strengthen your relationship."
-            ],
-            "image": "/img/product03.jpg",
-            "video": "https://www.youtube.com/watch?v=D0UnqGm_miA",
-            "buttonTitle": "Get Instant Access",
-            "link": "#"
-          }
-        ]
-      },
-      "testimonial": {
-        "subtitle": "Client Reviews",
-        "title": "What Our Clients Are Saying",
-        "testimonials": [
-          {
-            "id": "1",
-            "title": "Harry and Marry",
-            "designation": "Happy Couples",
-            "description": "I was hesitant about seeking therapy for my relationship issues, but HaSMaR Institute made me feel comfortable and supported from the moment I walked in. The counselor's empathy and expertise helped me gain valuable insights.",
-            "image": "/img/testimonial01.png",
-            "link": "#"
-          },
-          {
-            "id": "2",
-            "title": "David and Rachel",
-            "designation": "Happy Couples",
-            "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond. We highly recommend their workshops.",
-            "image": "/img/testimonial02.png",
-            "link": "#"
-          },
-          {
-            "id": "3",
-            "title": "Michael and Emily",
-            "designation": "Happy Couples",
-            "description": "HaSMaR Institute has been instrumental in helping us navigate the challenges of blending our families. The counselors provided us with practical strategies and emotional support as we worked through our differences.",
-            "image": "/img/testimonial03.png",
-            "link": "#"
-          },
-          {
-            "id": "4",
-            "title": "Mark and Julia",
-            "designation": "Happy Couples",
-            "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond. We highly recommend their workshops.",
-            "image": "/img/testimonial03.png",
-            "link": "#"
-          }
-        ]
-      },
-      "facility": {
-        "subtitle": "Our Facilities",
-        "title": "Solo Evaluation - Versatile Uses",
-        "facilities": [
-          {
-            "id": "1",
-            "title": "Couples",
-            "description": "We offer tailored support and resources to help couples strengthen their bond and love.",
-            "image": "/img/couples.png",
-            "link": "#"
-          },
-          {
-            "id": "2",
-            "title": "Families",
-            "description": "We understand that strong families are built on a foundation of love, trust, and mutual respect.",
-            "image": "/img/families.png",
-            "link": "#"
-          },
-          {
-            "id": "3",
-            "title": "Churches",
-            "description": "We partner with faith communities to support couples on their journey towards stronger relationships.",
-            "image": "/img/churches.png",
-            "link": "#"
-          },
-          {
-            "id": "4",
-            "title": "Therapists",
-            "description": "We provide resources and support for therapists who work with couples seeking to strengthen their relationships.",
-            "image": "/img/therapists.png",
-            "link": "#"
-          },
-          {
-            "id": "5",
-            "title": "Engagement",
-            "description": "Welcome to our Solo Engagement program at HaSMaR Institute, where individual growth meets relationship enhancement.",
-            "image": "/img/engagement.png",
-            "link": "#"
-          }
-        ]
-      },
-      "sponsor": {
-        "subtitle": "Our Sponsors",
-        "title": "Our Partners",
-        "sponsors": [
-          {
-            "id": "1",
-            "image": "/img/sponsor01.png",
-            "link": "#"
-          },
-          {
-            "id": "2",
-            "image": "/img/sponsor02.png",
-            "link": "#"
-          },
-          {
-            "id": "3",
-            "image": "/img/sponsor03.png",
-            "link": "#"
-          },
-          {
-            "id": "4",
-            "image": "/img/sponsor04.png",
-            "link": "#"
-          },
-          {
-            "id": "5",
-            "image": "/img/sponsor05.png",
-            "link": "#"
-          },
-          {
-            "id": "6",
-            "image": "/img/sponsor03.png",
-            "link": "#"
-          }
-        ]
-      }
+      ]
+    },
+    "testimonial": {
+      "subtitle": "Client Reviews",
+      "title": "What Our Clients Are Saying",
+      "testimonials": [
+        {
+          "id": "1",
+          "title": "Harry and Marry",
+          "designation": "Happy Couples",
+          "description": "I was hesitant about seeking therapy for my relationship issues, but HaSMaR Institute made me feel comfortable and supported from the moment I walked in. The counselor's empathy and expertise helped me gain valuable insights.",
+          "image": "/img/testimonial01.png",
+          "link": "#"
+        },
+        {
+          "id": "2",
+          "title": "David and Rachel",
+          "designation": "Happy Couples",
+          "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond. We highly recommend their workshops.",
+          "image": "/img/testimonial02.png",
+          "link": "#"
+        },
+        {
+          "id": "3",
+          "title": "Michael and Emily",
+          "designation": "Happy Couples",
+          "description": "HaSMaR Institute has been instrumental in helping us navigate the challenges of blending our families. The counselors provided us with practical strategies and emotional support as we worked through our differences.",
+          "image": "/img/testimonial03.png",
+          "link": "#"
+        },
+        {
+          "id": "4",
+          "title": "Mark and Julia",
+          "designation": "Happy Couples",
+          "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond. We highly recommend their workshops.",
+          "image": "/img/testimonial03.png",
+          "link": "#"
+        }
+      ]
+    },
+    "facility": {
+      "subtitle": "Our Facilities",
+      "title": "Solo Evaluation - Versatile Uses",
+      "facilities": [
+        {
+          "id": "1",
+          "title": "Couples",
+          "description": "We offer tailored support and resources to help couples strengthen their bond and love.",
+          "image": "/img/couples.png",
+          "link": "#"
+        },
+        {
+          "id": "2",
+          "title": "Families",
+          "description": "We understand that strong families are built on a foundation of love, trust, and mutual respect.",
+          "image": "/img/families.png",
+          "link": "#"
+        },
+        {
+          "id": "3",
+          "title": "Churches",
+          "description": "We partner with faith communities to support couples on their journey towards stronger relationships.",
+          "image": "/img/churches.png",
+          "link": "#"
+        },
+        {
+          "id": "4",
+          "title": "Therapists",
+          "description": "We provide resources and support for therapists who work with couples seeking to strengthen their relationships.",
+          "image": "/img/therapists.png",
+          "link": "#"
+        },
+        {
+          "id": "5",
+          "title": "Engagement",
+          "description": "Welcome to our Solo Engagement program at HaSMaR Institute, where individual growth meets relationship enhancement.",
+          "image": "/img/engagement.png",
+          "link": "#"
+        }
+      ]
+    },
+    "sponsor": {
+      "subtitle": "Our Sponsors",
+      "title": "Our Partners",
+      "sponsors": [
+        {
+          "id": "1",
+          "image": "/img/sponsor01.png",
+          "link": "#"
+        },
+        {
+          "id": "2",
+          "image": "/img/sponsor02.png",
+          "link": "#"
+        },
+        {
+          "id": "3",
+          "image": "/img/sponsor03.png",
+          "link": "#"
+        },
+        {
+          "id": "4",
+          "image": "/img/sponsor04.png",
+          "link": "#"
+        },
+        {
+          "id": "5",
+          "image": "/img/sponsor05.png",
+          "link": "#"
+        },
+        {
+          "id": "6",
+          "image": "/img/sponsor03.png",
+          "link": "#"
+        }
+      ]
     }
-  ],
+  },
   "footer": {
     "image": "/img/footer_bg.jpg",
     "prefooter": {
@@ -318,591 +316,577 @@
       "text": "Copyright © 2024 HaSMaR Institute. All rights reserved."
     }
   },
-  "aboutpage": [
-    {
-      "pageheader": {
-        "title": "Elevate Your Marriage",
-        "subtitle": "Unleash Its True Potential and Joy",
-        "image": "/img/page_header_bg.jpg"
-      },
-      "about": [
-        {
-          "id": "1",
-          "subtitle": "About Us",
-          "title": "Who We Are",
-          "description": [
-            "HaSMaR Institute stands for Harmony, Support, and Mutual Respect, the core principles that guide our approach to relationship counseling and therapy. Founded on the belief that every couple deserves a chance to thrive, our institute offers a range of specialized programs and services designed to support couples in overcoming obstacles and strengthening their bond.",
-            "Our holistic approach to relationship therapy focuses on fostering open communication and rebuilding trust."
-          ],
-          "image": "/img/aboutImg01.jpg",
-          "video": "https://www.youtube.com/watch?v=D0UnqGm_miA"
-        },
-        {
-          "id": "2",
-          "subtitle": "Why Choose Us",
-          "title": "Why Adopt the HaSMaR Model",
-          "description": [
-            "The HaSMaR Model, developed by our team of experts, is a comprehensive framework designed to guide couples towards sustainable solutions and profound transformations. The HaSMaR Model focuses on identifying and leveraging the unique strengths within your relationship. By recognizing and building upon the positive aspects of your partnership, you'll develop a strong foundation for growth and resilience.",
-            "From communication breakdowns to unresolved conflicts, every relationship faces its own set of challenges. The HaSMaR Model provides practical strategies and techniques to effectively address these issues, fostering open dialogue and understanding between partners."
-          ],
-          "image": "/img/aboutImg02.jpg",
-          "video": "https://www.youtube.com/watch?v=9xwazD5SyVg"
-        }
-      ],
-      "experience": {
-        "subtitle": "Our Experience",
-        "title": "We Have Achieved <br/> Experiences & Skills.",
+  "aboutpage": {
+    "pageheader": {
+      "title": "Elevate Your Marriage",
+      "subtitle": "Unleash Its True Potential and Joy",
+      "image": "/img/page_header_bg.jpg"
+    },
+    "about": [
+      {
+        "id": "1",
+        "subtitle": "About Us",
+        "title": "Who We Are",
         "description": [
-          "HaSMaR Model, developed by our team of experts, is a comprehensive framework designed to guide couples towards sustainable solutions profound transformations.",
-          "The HaSMaR Model focuses on identifying and leveraging the unique strengths within your relationship."
+          "HaSMaR Institute stands for Harmony, Support, and Mutual Respect, the core principles that guide our approach to relationship counseling and therapy. Founded on the belief that every couple deserves a chance to thrive, our institute offers a range of specialized programs and services designed to support couples in overcoming obstacles and strengthening their bond.",
+          "Our holistic approach to relationship therapy focuses on fostering open communication and rebuilding trust."
         ],
-        "stat": {
-          "title": "Years Experiences",
-          "value": "25+"
-        },
-        "stats": [
-          {
-            "id": "1",
-            "title": "Couples Relationship",
-            "value": "90%"
-          },
-          {
-            "id": "2",
-            "title": "Relationship Enrichment",
-            "value": "70%"
-          },
-          {
-            "id": "3",
-            "title": "Crisis Intervention",
-            "value": "60%"
-          },
-          {
-            "id": "2",
-            "title": "Conflict Resolution",
-            "value": "80%"
-          }
-        ]
-      },
-      "funfacts": [
-        {
-          "id": "1",
-          "icon": "users",
-          "title": "Happy Customers",
-          "value": "50k+"
-        },
-        {
-          "id": "2",
-          "icon": "user",
-          "title": "Skilled Employees",
-          "value": "60+"
-        },
-        {
-          "id": "3",
-          "icon": "layers",
-          "title": "Project Completed",
-          "value": "500+"
-        },
-        {
-          "id": "4",
-          "icon": "trophy-2",
-          "title": "Awards Winning",
-          "value": "15+"
-        }
-      ],
-      "testimonial": {
-        "subtitle": "Client Reviews",
-        "title": "What Our Clients Are Saying",
-        "testimonials": [
-          {
-            "id": "1",
-            "title": "Harry and Marry",
-            "designation": "Happy Couples",
-            "description": "I was hesitant about seeking therapy for my relationship issues, but HaSMaR Institute made me feel comfortable and supported from the moment I walked in. The counselor's empathy and expertise helped me gain valuable insights.",
-            "image": "/img/testimonial01.png",
-            "link": "#"
-          },
-          {
-            "id": "2",
-            "title": "David and Rachel",
-            "designation": "Happy Couples",
-            "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond. We highly recommend their workshops.",
-            "image": "/img/testimonial02.png",
-            "link": "#"
-          },
-          {
-            "id": "3",
-            "title": "Michael and Emily",
-            "designation": "Happy Couples",
-            "description": "HaSMaR Institute has been instrumental in helping us navigate the challenges of blending our families. The counselors provided us with practical strategies and emotional support as we worked through our differences.",
-            "image": "/img/testimonial03.png",
-            "link": "#"
-          },
-          {
-            "id": "4",
-            "title": "Mark and Julia",
-            "designation": "Happy Couples",
-            "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond. We highly recommend their workshops.",
-            "image": "/img/testimonial03.png",
-            "link": "#"
-          }
-        ]
-      }
-    }
-  ],
-  "couplespage": [
-    {
-      "pageheader": {
-        "title": "Individuals and Couples",
-        "subtitle": "We offer tailored support and resources to help couples strengthen",
-        "image": "/img/page_header_bg.jpg"
-      },
-      "couplesvideo": [
-        {
-          "id": "1",
-          "title": "Single Young Adults",
-          "description": "Welcome to the Single Young Adults section of HaSMaR Institute! Are you a young adult navigating the complexities of relationships and personal growth?",
-          "image": "/img/product01.jpg",
-          "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
-          "buttonTitle": "Watch Our Demo",
-          "link": "#"
-        },
-        {
-          "id": "2",
-          "title": "Dating or Engaged Partners",
-          "description": "Congratulations on your journey together! Whether you're in the exciting phase of dating or planning your future as engaged partners.",
-          "image": "/img/product02.jpg",
-          "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
-          "buttonTitle": "Watch Our Demo",
-          "link": "#"
-        },
-        {
-          "id": "3",
-          "title": "Actively Married Couples",
-          "description": "Welcome to the Actively Married Couples section of HaSMaR Institute! Your commitment to each other is the cornerstone of your relationship.",
-          "image": "/img/product03.jpg",
-          "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
-          "buttonTitle": "Watch Our Demo",
-          "link": "#"
-        },
-        {
-          "id": "4",
-          "title": "Divorced Men and Women",
-          "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce.",
-          "image": "/img/product02.jpg",
-          "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
-          "buttonTitle": "Watch Our Demo",
-          "link": "#"
-        }
-      ],
-      "features": [
-        {
-          "id": "1",
-          "image": "/img/icon-hand.png",
-          "title": "Your Financial Habit",
-          "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
-        },
-        {
-          "id": "2",
-          "image": "/img/icon-fight.png",
-          "title": "Your Conflict Styles",
-          "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
-        },
-        {
-          "id": "3",
-          "image": "/img/icon-love.png",
-          "title": "Your Relationship Vision",
-          "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
-        },
-        {
-          "id": "4",
-          "image": "/img/icon-love-2.png",
-          "title": "Your Chemistry",
-          "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
-        },
-        {
-          "id": "5",
-          "image": "/img/icon-speaking.png",
-          "title": "Your Talk Skills",
-          "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
-        },
-        {
-          "id": "6",
-          "image": "/img/icon-link.png",
-          "title": "Your Spiritual Connection",
-          "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
-        }
-      ],
-      "process": {
-        "title": "Simple and Easy Methods",
-        "stats": [
-          {
-            "title": "Find a Facilitator",
-            "description": "Begin your journey to lifelong love by finding a skilled facilitator who will guide you through the process of healing."
-          },
-          {
-            "title": "Take the Assessment",
-            "description": "Take the first step towards understanding your relationship dynamics by taking our comprehensive assessment."
-          },
-          {
-            "title": "We Work Our Magic",
-            "description": "Once you've completed the assessment, our facilitators will work their magic to tailor a personalized plan."
-          },
-          {
-            "title": "Enjoy Lifelong Love",
-            "description": "Embark on a journey of growth, healing, and transformation with the support of our institute. By committing to the process."
-          }
-        ]
-      },
-      "testimonial": {
-        "subtitle": "Client Reviews",
-        "title": "What Our Clients Are Saying",
-        "testimonials": [
-          {
-            "id": "1",
-            "title": "Harry and Marry",
-            "designation": "Happy Couples",
-            "description": "I was hesitant about seeking therapy for my relationship issues, but HaSMaR Institute made me feel comfortable and supported from the moment I walked in. The counselor's empathy and expertise helped me gain valuable insights.",
-            "image": "/img/testimonial01.png",
-            "link": "#"
-          },
-          {
-            "id": "2",
-            "title": "David and Rachel",
-            "designation": "Happy Couples",
-            "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond. We highly recommend their workshops.",
-            "image": "/img/testimonial02.png",
-            "link": "#"
-          },
-          {
-            "id": "3",
-            "title": "Michael and Emily",
-            "designation": "Happy Couples",
-            "description": "HaSMaR Institute has been instrumental in helping us navigate the challenges of blending our families. The counselors provided us with practical strategies and emotional support as we worked through our differences.",
-            "image": "/img/testimonial03.png",
-            "link": "#"
-          },
-          {
-            "id": "4",
-            "title": "Mark and Julia",
-            "designation": "Happy Couples",
-            "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond. We highly recommend their workshops.",
-            "image": "/img/testimonial03.png",
-            "link": "#"
-          }
-        ]
-      }
-    }
-  ],
-  "faqpage": [
-    {
-      "pageheader": {
-        "title": "Questions On Your Mind?",
-        "subtitle": "Let us provide the answers.",
-        "image": "/img/page_header_bg.jpg"
-      },
-      "faq": [
-        {
-          "id": "1",
-          "title": "How do I know if marriage counseling is right for us?",
-          "description": "Marriage counseling can be beneficial if you're experiencing communication breakdowns, trust issues, or difficulties resolving conflicts. It provides a safe space to address concerns and work towards solutions together. Our experienced therapists can help you determine if counseling is the right step for your relationship."
-        },
-        {
-          "id": "2",
-          "title": "How do I know if my marriage could benefit from HaSMaR Institute's services?",
-          "description": "Congratulations on your journey together! Whether you're in the exciting phase of dating or planning your future as engaged partners."
-        },
-        {
-          "id": "3",
-          "title": "What if my partner and I have different communication styles?",
-          "description": "Welcome to the Actively Married Couples section of HaSMaR Institute! Your commitment to each other is the cornerstone of your relationship."
-        },
-        {
-          "id": "4",
-          "title": "Is marriage counseling at HaSMaR Institute only for couples in crisis?",
-          "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
-        },
-        {
-          "id": "5",
-          "title": "What if my partner refuses to attend marriage counseling?",
-          "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
-        },
-        {
-          "id": "6",
-          "title": "How do I find the right marriage counselor at HaSMaR Institute for us?",
-          "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
-        },
-        {
-          "id": "7",
-          "title": "Can marriage counseling help us if we're on the brink of divorce?",
-          "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
-        },
-        {
-          "id": "8",
-          "title": "How long does marriage counseling typically last at HaSMaR Institute?",
-          "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
-        },
-        {
-          "id": "9",
-          "title": "How much does marriage counseling at HaSMaR Institute cost?",
-          "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
-        },
-        {
-          "id": "10",
-          "title": "What if my partner and I have different goals for our relationship?",
-          "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
-        }
-      ]
-    }
-  ],
-  "facilitatorspage": [
-    {
-      "pageheader": {
-        "title": "Facilitators",
-        "subtitle": "Our team of dedicated facilitators is committed to guiding",
-        "image": "/img/page_header_bg.jpg"
-      },
-      "videobanner": {
-        "title": "Start Your <span class='text-blue-brand border-b-2 border-blue-brand'>Marriage</span> on the Right Foot",
-        "description": [
-          "Invest in your relationship and start your marriage on the right foot with our pre-marriage counseling program. With the preparation and support, you and your partner can build a strong, resilient partnership that stands the test of time."
-        ],
-        "buttons": [
-          {
-            "icon": "doller",
-            "title": "Get Certified Now",
-            "link": "#"
-          },
-          {
-            "icon": "eye",
-            "title": "Look Inside",
-            "link": "#"
-          }
-        ],
-        "stat": {
-          "image": "/img/testimonial01.png",
-          "quotes": "“Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. helped us reconnect”",
-          "author": "-Michael and Emily"
-        },
         "image": "/img/aboutImg01.jpg",
         "video": "https://www.youtube.com/watch?v=D0UnqGm_miA"
       },
-      "perks": {
-        "subtitle": "Best Facilitator",
-        "title": "Become A Facilitator",
-        "stats": [
-          {
-            "id": "1",
-            "title": "Online Video Training"
-          },
-          {
-            "id": "2",
-            "title": "Assessment Materials"
-          },
-          {
-            "id": "3",
-            "title": "Facilitator Dashboard"
-          },
-          {
-            "id": "4",
-            "title": "50 Page Training Manual"
-          },
-          {
-            "id": "5",
-            "title": "Certificate for Framing"
-          },
-          {
-            "id": "6",
-            "title": "Presentation Materials"
-          },
-          {
-            "id": "7",
-            "title": "Referral Network Listing"
-          },
-          {
-            "id": "8",
-            "title": "Regular Software Update"
-          }
+      {
+        "id": "2",
+        "subtitle": "Why Choose Us",
+        "title": "Why Adopt the HaSMaR Model",
+        "description": [
+          "The HaSMaR Model, developed by our team of experts, is a comprehensive framework designed to guide couples towards sustainable solutions and profound transformations. The HaSMaR Model focuses on identifying and leveraging the unique strengths within your relationship. By recognizing and building upon the positive aspects of your partnership, you'll develop a strong foundation for growth and resilience.",
+          "From communication breakdowns to unresolved conflicts, every relationship faces its own set of challenges. The HaSMaR Model provides practical strategies and techniques to effectively address these issues, fostering open dialogue and understanding between partners."
         ],
-        "buttons": [
-          {
-            "icon": "doller",
-            "title": "Get Certified Now",
-            "link": "#"
-          },
-          {
-            "icon": "eye",
-            "title": "Look Inside",
-            "link": "#"
-          }
-        ]
+        "image": "/img/aboutImg02.jpg",
+        "video": "https://www.youtube.com/watch?v=9xwazD5SyVg"
+      }
+    ],
+    "experience": {
+      "subtitle": "Our Experience",
+      "title": "We Have Achieved <br/> Experiences & Skills.",
+      "description": [
+        "HaSMaR Model, developed by our team of experts, is a comprehensive framework designed to guide couples towards sustainable solutions profound transformations.",
+        "The HaSMaR Model focuses on identifying and leveraging the unique strengths within your relationship."
+      ],
+      "stat": {
+        "title": "Years Experiences",
+        "value": "25+"
       },
-      "about": [
+      "stats": [
         {
           "id": "1",
-          "subtitle": "Trusty Pastors",
-          "title": "Ordained Pastors and Professionals",
-          "description": [
-            "Our team comprises ordained pastors and seasoned professionals dedicated to guiding couples towards stronger, more fulfilling relationships. With a blend of spiritual insight and professional expertise, our ordained pastors bring wisdom and compassion to their counseling sessions."
-          ],
-          "image": "/img/aboutImg01.jpg"
+          "title": "Couples Relationship",
+          "value": "90%"
         },
         {
           "id": "2",
-          "subtitle": "Trusty Mentors",
-          "title": "Passionate and Trustworthy Mentors",
-          "description": [
-            "Our mentors are passionate about nurturing healthy relationships and are committed to providing unwavering support to couples. They serve as trustworthy guides, offering empathetic listening, practical advice,and personalized strategies tailored to each couple's unique needs."
-          ],
-          "image": "/img/aboutImg02.jpg"
+          "title": "Relationship Enrichment",
+          "value": "70%"
+        },
+        {
+          "id": "3",
+          "title": "Crisis Intervention",
+          "value": "60%"
+        },
+        {
+          "id": "2",
+          "title": "Conflict Resolution",
+          "value": "80%"
+        }
+      ]
+    },
+    "funfacts": [
+      {
+        "id": "1",
+        "icon": "users",
+        "title": "Happy Customers",
+        "value": "50k+"
+      },
+      {
+        "id": "2",
+        "icon": "user",
+        "title": "Skilled Employees",
+        "value": "60+"
+      },
+      {
+        "id": "3",
+        "icon": "layers",
+        "title": "Project Completed",
+        "value": "500+"
+      },
+      {
+        "id": "4",
+        "icon": "trophy-2",
+        "title": "Awards Winning",
+        "value": "15+"
+      }
+    ],
+    "testimonial": {
+      "subtitle": "Client Reviews",
+      "title": "What Our Clients Are Saying",
+      "testimonials": [
+        {
+          "id": "1",
+          "title": "Harry and Marry",
+          "designation": "Happy Couples",
+          "description": "I was hesitant about seeking therapy for my relationship issues, but HaSMaR Institute made me feel comfortable and supported from the moment I walked in. The counselor's empathy and expertise helped me gain valuable insights.",
+          "image": "/img/testimonial01.png",
+          "link": "#"
+        },
+        {
+          "id": "2",
+          "title": "David and Rachel",
+          "designation": "Happy Couples",
+          "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond. We highly recommend their workshops.",
+          "image": "/img/testimonial02.png",
+          "link": "#"
+        },
+        {
+          "id": "3",
+          "title": "Michael and Emily",
+          "designation": "Happy Couples",
+          "description": "HaSMaR Institute has been instrumental in helping us navigate the challenges of blending our families. The counselors provided us with practical strategies and emotional support as we worked through our differences.",
+          "image": "/img/testimonial03.png",
+          "link": "#"
+        },
+        {
+          "id": "4",
+          "title": "Mark and Julia",
+          "designation": "Happy Couples",
+          "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond. We highly recommend their workshops.",
+          "image": "/img/testimonial03.png",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "couplespage": {
+    "pageheader": {
+      "title": "Individuals and Couples",
+      "subtitle": "We offer tailored support and resources to help couples strengthen",
+      "image": "/img/page_header_bg.jpg"
+    },
+    "couplesvideo": [
+      {
+        "id": "1",
+        "title": "Single Young Adults",
+        "description": "Welcome to the Single Young Adults section of HaSMaR Institute! Are you a young adult navigating the complexities of relationships and personal growth?",
+        "image": "/img/product01.jpg",
+        "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
+        "buttonTitle": "Watch Our Demo",
+        "link": "#"
+      },
+      {
+        "id": "2",
+        "title": "Dating or Engaged Partners",
+        "description": "Congratulations on your journey together! Whether you're in the exciting phase of dating or planning your future as engaged partners.",
+        "image": "/img/product02.jpg",
+        "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
+        "buttonTitle": "Watch Our Demo",
+        "link": "#"
+      },
+      {
+        "id": "3",
+        "title": "Actively Married Couples",
+        "description": "Welcome to the Actively Married Couples section of HaSMaR Institute! Your commitment to each other is the cornerstone of your relationship.",
+        "image": "/img/product03.jpg",
+        "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
+        "buttonTitle": "Watch Our Demo",
+        "link": "#"
+      },
+      {
+        "id": "4",
+        "title": "Divorced Men and Women",
+        "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce.",
+        "image": "/img/product02.jpg",
+        "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
+        "buttonTitle": "Watch Our Demo",
+        "link": "#"
+      }
+    ],
+    "features": [
+      {
+        "id": "1",
+        "image": "/img/icon-hand.png",
+        "title": "Your Financial Habit",
+        "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
+      },
+      {
+        "id": "2",
+        "image": "/img/icon-fight.png",
+        "title": "Your Conflict Styles",
+        "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
+      },
+      {
+        "id": "3",
+        "image": "/img/icon-love.png",
+        "title": "Your Relationship Vision",
+        "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
+      },
+      {
+        "id": "4",
+        "image": "/img/icon-love-2.png",
+        "title": "Your Chemistry",
+        "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
+      },
+      {
+        "id": "5",
+        "image": "/img/icon-speaking.png",
+        "title": "Your Talk Skills",
+        "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
+      },
+      {
+        "id": "6",
+        "image": "/img/icon-link.png",
+        "title": "Your Spiritual Connection",
+        "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
+      }
+    ],
+    "process": {
+      "title": "Simple and Easy Methods",
+      "stats": [
+        {
+          "title": "Find a Facilitator",
+          "description": "Begin your journey to lifelong love by finding a skilled facilitator who will guide you through the process of healing."
+        },
+        {
+          "title": "Take the Assessment",
+          "description": "Take the first step towards understanding your relationship dynamics by taking our comprehensive assessment."
+        },
+        {
+          "title": "We Work Our Magic",
+          "description": "Once you've completed the assessment, our facilitators will work their magic to tailor a personalized plan."
+        },
+        {
+          "title": "Enjoy Lifelong Love",
+          "description": "Embark on a journey of growth, healing, and transformation with the support of our institute. By committing to the process."
+        }
+      ]
+    },
+    "testimonial": {
+      "subtitle": "Client Reviews",
+      "title": "What Our Clients Are Saying",
+      "testimonials": [
+        {
+          "id": "1",
+          "title": "Harry and Marry",
+          "designation": "Happy Couples",
+          "description": "I was hesitant about seeking therapy for my relationship issues, but HaSMaR Institute made me feel comfortable and supported from the moment I walked in. The counselor's empathy and expertise helped me gain valuable insights.",
+          "image": "/img/testimonial01.png",
+          "link": "#"
+        },
+        {
+          "id": "2",
+          "title": "David and Rachel",
+          "designation": "Happy Couples",
+          "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond. We highly recommend their workshops.",
+          "image": "/img/testimonial02.png",
+          "link": "#"
+        },
+        {
+          "id": "3",
+          "title": "Michael and Emily",
+          "designation": "Happy Couples",
+          "description": "HaSMaR Institute has been instrumental in helping us navigate the challenges of blending our families. The counselors provided us with practical strategies and emotional support as we worked through our differences.",
+          "image": "/img/testimonial03.png",
+          "link": "#"
+        },
+        {
+          "id": "4",
+          "title": "Mark and Julia",
+          "designation": "Happy Couples",
+          "description": "Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. It helped us reconnect, rediscover our love for each other, and strengthen our bond. We highly recommend their workshops.",
+          "image": "/img/testimonial03.png",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "faqpage": {
+    "pageheader": {
+      "title": "Questions On Your Mind?",
+      "subtitle": "Let us provide the answers.",
+      "image": "/img/page_header_bg.jpg"
+    },
+    "faq": [
+      {
+        "id": "1",
+        "title": "How do I know if marriage counseling is right for us?",
+        "description": "Marriage counseling can be beneficial if you're experiencing communication breakdowns, trust issues, or difficulties resolving conflicts. It provides a safe space to address concerns and work towards solutions together. Our experienced therapists can help you determine if counseling is the right step for your relationship."
+      },
+      {
+        "id": "2",
+        "title": "How do I know if my marriage could benefit from HaSMaR Institute's services?",
+        "description": "Congratulations on your journey together! Whether you're in the exciting phase of dating or planning your future as engaged partners."
+      },
+      {
+        "id": "3",
+        "title": "What if my partner and I have different communication styles?",
+        "description": "Welcome to the Actively Married Couples section of HaSMaR Institute! Your commitment to each other is the cornerstone of your relationship."
+      },
+      {
+        "id": "4",
+        "title": "Is marriage counseling at HaSMaR Institute only for couples in crisis?",
+        "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
+      },
+      {
+        "id": "5",
+        "title": "What if my partner refuses to attend marriage counseling?",
+        "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
+      },
+      {
+        "id": "6",
+        "title": "How do I find the right marriage counselor at HaSMaR Institute for us?",
+        "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
+      },
+      {
+        "id": "7",
+        "title": "Can marriage counseling help us if we're on the brink of divorce?",
+        "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
+      },
+      {
+        "id": "8",
+        "title": "How long does marriage counseling typically last at HaSMaR Institute?",
+        "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
+      },
+      {
+        "id": "9",
+        "title": "How much does marriage counseling at HaSMaR Institute cost?",
+        "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
+      },
+      {
+        "id": "10",
+        "title": "What if my partner and I have different goals for our relationship?",
+        "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce."
+      }
+    ]
+  },
+  "facilitatorspage": {
+    "pageheader": {
+      "title": "Facilitators",
+      "subtitle": "Our team of dedicated facilitators is committed to guiding",
+      "image": "/img/page_header_bg.jpg"
+    },
+    "videobanner": {
+      "title": "Start Your <span class='text-blue-brand border-b-2 border-blue-brand'>Marriage</span> on the Right Foot",
+      "description": [
+        "Invest in your relationship and start your marriage on the right foot with our pre-marriage counseling program. With the preparation and support, you and your partner can build a strong, resilient partnership that stands the test of time."
+      ],
+      "buttons": [
+        {
+          "icon": "doller",
+          "title": "Get Certified Now",
+          "link": "#"
+        },
+        {
+          "icon": "eye",
+          "title": "Look Inside",
+          "link": "#"
         }
       ],
-      "easystep": {
-        "subtitle": "Easy Setup",
-        "title": "Getting Setup is Easy",
-        "image": "/img/aboutImg01.jpg",
-        "stats": [
-          {
-            "title": "Thorough Training Program",
-            "description": "In-Depth Education: Master the Essentials for Success."
-          },
-          {
-            "title": "Couples Enrollment",
-            "description": "Welcoming Partners: Extend an Invitation to Join Us."
-          },
-          {
-            "title": "Session Facilitation",
-            "description": "Guiding Discussions: Lead Engaging and Insightful Sessions."
-          },
-          {
-            "title": "Fostering Healthy Relationships",
-            "description": "Nurturing Lasting Connections: Together, Let's Cultivate Strong Marriages."
-          }
-        ]
-      }
-    }
-  ],
-  "contactpage": [
-    {
-      "pageheader": {
-        "title": "Contact Us",
-        "subtitle": "We're here to help! Feel free to reach out to us",
-        "image": "/img/page_header_bg.jpg"
+      "stat": {
+        "image": "/img/testimonial01.png",
+        "quotes": "“Attending the couples workshop at HaSMaR Institute was one of the best decisions we ever made. helped us reconnect”",
+        "author": "-Michael and Emily"
       },
-      "contact": {
-        "subtitle": "Contact With Us",
-        "title": "Connect with HaSMaR Institute",
-        "stat": [
-          {
-            "icon": "phone",
-            "title": "Have a Question?",
-            "description": "(+101) 582 369 456"
-          },
-          {
-            "icon": "envelope",
-            "title": "Any Inquiries",
-            "description": "info@hasmarinstitute.com"
-          },
-          {
-            "icon": "location",
-            "title": "Visit Us",
-            "description": "13th St, New York, NY 10011, USA"
-          }
+      "image": "/img/aboutImg01.jpg",
+      "video": "https://www.youtube.com/watch?v=D0UnqGm_miA"
+    },
+    "perks": {
+      "subtitle": "Best Facilitator",
+      "title": "Become A Facilitator",
+      "stats": [
+        {
+          "id": "1",
+          "title": "Online Video Training"
+        },
+        {
+          "id": "2",
+          "title": "Assessment Materials"
+        },
+        {
+          "id": "3",
+          "title": "Facilitator Dashboard"
+        },
+        {
+          "id": "4",
+          "title": "50 Page Training Manual"
+        },
+        {
+          "id": "5",
+          "title": "Certificate for Framing"
+        },
+        {
+          "id": "6",
+          "title": "Presentation Materials"
+        },
+        {
+          "id": "7",
+          "title": "Referral Network Listing"
+        },
+        {
+          "id": "8",
+          "title": "Regular Software Update"
+        }
+      ],
+      "buttons": [
+        {
+          "icon": "doller",
+          "title": "Get Certified Now",
+          "link": "#"
+        },
+        {
+          "icon": "eye",
+          "title": "Look Inside",
+          "link": "#"
+        }
+      ]
+    },
+    "about": [
+      {
+        "id": "1",
+        "subtitle": "Trusty Pastors",
+        "title": "Ordained Pastors and Professionals",
+        "description": [
+          "Our team comprises ordained pastors and seasoned professionals dedicated to guiding couples towards stronger, more fulfilling relationships. With a blend of spiritual insight and professional expertise, our ordained pastors bring wisdom and compassion to their counseling sessions."
         ],
-        "form": [
-          {
-            "type": "text",
-            "name": "text",
-            "required": true,
-            "text": "Your Name*"
-          },
-          {
-            "type": "email",
-            "name": "email",
-            "required": true,
-            "text": "Email Address*"
-          },
-          {
-            "type": "tel",
-            "name": "tel",
-            "required": true,
-            "text": "Your Phone*"
-          },
-          {
-            "type": "text",
-            "name": "subject",
-            "required": true,
-            "text": "Subject*"
-          },
-          {
-            "type": "textarea",
-            "name": "message",
-            "text": "Type Your Message*"
-          },
-          {
-            "type": "submit",
-            "name": "submit",
-            "text": "Send a Message"
-          }
-        ]
+        "image": "/img/aboutImg01.jpg"
       },
-      "sponsor": {
-        "subtitle": "Our Sponsors",
-        "title": "Our Partners",
-        "sponsors": [
-          {
-            "id": "1",
-            "image": "/img/sponsor01.png",
-            "link": "#"
-          },
-          {
-            "id": "2",
-            "image": "/img/sponsor02.png",
-            "link": "#"
-          },
-          {
-            "id": "3",
-            "image": "/img/sponsor03.png",
-            "link": "#"
-          },
-          {
-            "id": "4",
-            "image": "/img/sponsor04.png",
-            "link": "#"
-          },
-          {
-            "id": "5",
-            "image": "/img/sponsor05.png",
-            "link": "#"
-          },
-          {
-            "id": "6",
-            "image": "/img/sponsor03.png",
-            "link": "#"
-          }
-        ]
+      {
+        "id": "2",
+        "subtitle": "Trusty Mentors",
+        "title": "Passionate and Trustworthy Mentors",
+        "description": [
+          "Our mentors are passionate about nurturing healthy relationships and are committed to providing unwavering support to couples. They serve as trustworthy guides, offering empathetic listening, practical advice,and personalized strategies tailored to each couple's unique needs."
+        ],
+        "image": "/img/aboutImg02.jpg"
       }
+    ],
+    "easystep": {
+      "subtitle": "Easy Setup",
+      "title": "Getting Setup is Easy",
+      "image": "/img/aboutImg01.jpg",
+      "stats": [
+        {
+          "title": "Thorough Training Program",
+          "description": "In-Depth Education: Master the Essentials for Success."
+        },
+        {
+          "title": "Couples Enrollment",
+          "description": "Welcoming Partners: Extend an Invitation to Join Us."
+        },
+        {
+          "title": "Session Facilitation",
+          "description": "Guiding Discussions: Lead Engaging and Insightful Sessions."
+        },
+        {
+          "title": "Fostering Healthy Relationships",
+          "description": "Nurturing Lasting Connections: Together, Let's Cultivate Strong Marriages."
+        }
+      ]
     }
-  ],
-  "privacypolicypage": [
-    {
-      "pageheader": {
-        "title": "Privacy Policy",
-        "subtitle": "We understand that your privacy is important.",
-        "image": "/img/page_header_bg.jpg"
-      },
-      "content": "<p class=\"lead\">At HaSMaR Institute, we understand that your privacy is important. This Privacy Policy outlines the types of personal information we receive and collect when you use our website and how we safeguard your information. By using our website, you consent to the collection, use, and disclosure of your personal information as described in this Privacy Policy.</p>\n<h3>Information Collection and Use</h3>\n<p>When you visit our website, we may collect certain information automatically, including your IP address, browser type, operating system, referring URLs, date and time of your visits, and other data. We may use cookies and other tracking technologies to personalize your experience, analyze trends, administer the site, track users' movements around the site, and gather demographic information.</p>\n<p>If you choose to contact us or subscribe to our newsletter, we may collect additional personal information such as your name, email address, phone number, and any other information you provide voluntarily.</p>\n<h3>Use of Information</h3>\n<p>We may use the information we collect for various purposes, including to provide and improve our services, communicate with you, send you newsletters and promotional materials, respond to your inquiries, and conduct research and analysis.</p>\n<h3>Information Sharing</h3>\n<p>We may share your personal information with third-party service providers who assist us in operating our website, conducting our business, or servicing you. These third parties are obligated to maintain the confidentiality of your information and are prohibited from using your personal information for any other purpose.</p>\n<p>We may also disclose your personal information when required by law, such as to comply with a subpoena, legal proceedings, or similar legal process.</p>\n<h3>Data Security</h3>\n<p>We take reasonable measures to protect your personal information from unauthorized access, use, alteration, or disclosure. However, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee the absolute security of your information.</p>\n<h3>Links to Other Sites</h3>\n<p>Our website may contain links to third-party websites that are not operated by us. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party sites or services.</p>\n<h3>Changes to This Privacy Policy</h3>\n<p>We reserve the right to update or change our Privacy Policy at any time. Any changes will be posted on this page, with an updated date at the bottom of the page. We encourage you to review this Privacy Policy periodically for any changes.</p>\n<p>At HaSMaR Institute, accessible from www.hasmar.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by HaSMaR Institute and how we use it. If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>\n<h3>Log Files</h3>\n<p>HaSMaR Institute follows a standard procedure of using log files.</p>"
+  },
+  "contactpage": {
+    "pageheader": {
+      "title": "Contact Us",
+      "subtitle": "We're here to help! Feel free to reach out to us",
+      "image": "/img/page_header_bg.jpg"
+    },
+    "contact": {
+      "subtitle": "Contact With Us",
+      "title": "Connect with HaSMaR Institute",
+      "stat": [
+        {
+          "icon": "phone",
+          "title": "Have a Question?",
+          "description": "(+101) 582 369 456"
+        },
+        {
+          "icon": "envelope",
+          "title": "Any Inquiries",
+          "description": "info@hasmarinstitute.com"
+        },
+        {
+          "icon": "location",
+          "title": "Visit Us",
+          "description": "13th St, New York, NY 10011, USA"
+        }
+      ],
+      "form": [
+        {
+          "type": "text",
+          "name": "text",
+          "required": true,
+          "text": "Your Name*"
+        },
+        {
+          "type": "email",
+          "name": "email",
+          "required": true,
+          "text": "Email Address*"
+        },
+        {
+          "type": "tel",
+          "name": "tel",
+          "required": true,
+          "text": "Your Phone*"
+        },
+        {
+          "type": "text",
+          "name": "subject",
+          "required": true,
+          "text": "Subject*"
+        },
+        {
+          "type": "textarea",
+          "name": "message",
+          "text": "Type Your Message*"
+        },
+        {
+          "type": "submit",
+          "name": "submit",
+          "text": "Send a Message"
+        }
+      ]
+    },
+    "sponsor": {
+      "subtitle": "Our Sponsors",
+      "title": "Our Partners",
+      "sponsors": [
+        {
+          "id": "1",
+          "image": "/img/sponsor01.png",
+          "link": "#"
+        },
+        {
+          "id": "2",
+          "image": "/img/sponsor02.png",
+          "link": "#"
+        },
+        {
+          "id": "3",
+          "image": "/img/sponsor03.png",
+          "link": "#"
+        },
+        {
+          "id": "4",
+          "image": "/img/sponsor04.png",
+          "link": "#"
+        },
+        {
+          "id": "5",
+          "image": "/img/sponsor05.png",
+          "link": "#"
+        },
+        {
+          "id": "6",
+          "image": "/img/sponsor03.png",
+          "link": "#"
+        }
+      ]
     }
-  ],
-  "termsconditionspage": [
-    {
-      "pageheader": {
-        "title": "Terms and Conditions",
-        "subtitle": "We assume you accept these terms and conditions.",
-        "image": "/img/page_header_bg.jpg"
-      },
-      "content": "<p class=\"lead\">Welcome to HaSMaR Institute! These terms and conditions outline the rules and regulations for the use of our website. By accessing this website, we assume you accept these terms and conditions. Do not continue to use HaSMaR Institute if you do not agree to take all of the terms and conditions stated on this page.</p>\n<h3>Cookies</h3>\n<p>We employ the use of cookies. By accessing HaSMaR Institute, you agreed to use cookies in agreement with the HaSMaR Institute's Privacy Policy.</p>\n<h3>License</h3>\n<p>Unless otherwise stated, HaSMaR Institute and/or its licensors own the intellectual property rights for all material on HaSMaR Institute. All intellectual property rights are reserved. You may access this from HaSMaR Institute for your own personal use subjected to restrictions set in these terms and conditions.</p>\n<h3>Restrictions</h3>\n<p>You are specifically restricted from all of the following:</p>\n<ul>\n    <li>Publishing any website material in any other media.</li>\n    <li>Selling, sub-licensing, and/or otherwise commercializing any website material.</li>\n    <li>Publicly performing and/or showing any website material. Using this website in any way that is or may be damaging to this website.</li>\n    <li>Using this website in any way that impacts user access to this website.</li>\n    <li>Using this website contrary to applicable laws and regulations, or in any way may cause harm to the website.</li>\n    <li>Engaging in any data mining, data harvesting, data extracting, or any other similar activity in relation.</li>\n    <li>Using this website to engage in any advertising or marketing.</li>\n</ul>\n<p>We reserve the right to request that you remove all links or any particular link to our Website. You agree to immediately remove all links to our Website upon request. We also reserve the right to amend these terms and conditions and its linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.</p>\n<h3>Disclaimer</h3>\n<p>To the maximum extent permitted by applicable law, we exclude all representations, warranties, and conditions relating to our website and the use of this website. Nothing in this disclaimer will:</p>\n<ul>\n    <li>Limit or exclude our or your liability for death or personal injury.</li>\n    <li>Limit or exclude our or your liability for fraud or fraudulent misrepresentation.</li>\n    <li>Limit any of our or your liabilities in any way that is not permitted under applicable law.</li>\n    <li>Exclude any of our or your liabilities that may not be excluded under applicable law.</li>\n</ul>\n<h3>Limitation of liability</h3>\n<p>In no event shall HaSMaR Institute, nor any of its officers, directors, and employees, be liable to you for anything arising out of or in any way connected with your use of this Website, whether such liability is under contract, tort, or otherwise, and HaSMaR Institute, including its officers, directors, and employees shall not be liable for any indirect, consequential, or special liability arising out of or in any way related to your use of this Website.</p>\n<h3>Indemnification</h3>\n<p>You hereby indemnify to the fullest extent HaSMaR Institute from and against any and all liabilities, costs, demands, causes of action, damages, and expenses (including reasonable attorney’s fees) arising out of or in any way related to your breach of any of the provisions of these Terms.</p>\n<h3>Variation of Terms</h3>\n<p>HaSMaR Institute is permitted to revise these Terms at any time as it sees fit, and by using this Website, you are expected to review these Terms on a regular basis.</p>"
-    }
-  ],
+  },
+  "privacypolicypage": {
+    "pageheader": {
+      "title": "Privacy Policy",
+      "subtitle": "We understand that your privacy is important.",
+      "image": "/img/page_header_bg.jpg"
+    },
+    "content": "<p class=\"lead\">At HaSMaR Institute, we understand that your privacy is important. This Privacy Policy outlines the types of personal information we receive and collect when you use our website and how we safeguard your information. By using our website, you consent to the collection, use, and disclosure of your personal information as described in this Privacy Policy.</p>\n<h3>Information Collection and Use</h3>\n<p>When you visit our website, we may collect certain information automatically, including your IP address, browser type, operating system, referring URLs, date and time of your visits, and other data. We may use cookies and other tracking technologies to personalize your experience, analyze trends, administer the site, track users' movements around the site, and gather demographic information.</p>\n<p>If you choose to contact us or subscribe to our newsletter, we may collect additional personal information such as your name, email address, phone number, and any other information you provide voluntarily.</p>\n<h3>Use of Information</h3>\n<p>We may use the information we collect for various purposes, including to provide and improve our services, communicate with you, send you newsletters and promotional materials, respond to your inquiries, and conduct research and analysis.</p>\n<h3>Information Sharing</h3>\n<p>We may share your personal information with third-party service providers who assist us in operating our website, conducting our business, or servicing you. These third parties are obligated to maintain the confidentiality of your information and are prohibited from using your personal information for any other purpose.</p>\n<p>We may also disclose your personal information when required by law, such as to comply with a subpoena, legal proceedings, or similar legal process.</p>\n<h3>Data Security</h3>\n<p>We take reasonable measures to protect your personal information from unauthorized access, use, alteration, or disclosure. However, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee the absolute security of your information.</p>\n<h3>Links to Other Sites</h3>\n<p>Our website may contain links to third-party websites that are not operated by us. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party sites or services.</p>\n<h3>Changes to This Privacy Policy</h3>\n<p>We reserve the right to update or change our Privacy Policy at any time. Any changes will be posted on this page, with an updated date at the bottom of the page. We encourage you to review this Privacy Policy periodically for any changes.</p>\n<p>At HaSMaR Institute, accessible from www.hasmar.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by HaSMaR Institute and how we use it. If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>\n<h3>Log Files</h3>\n<p>HaSMaR Institute follows a standard procedure of using log files.</p>"
+  },
+  "termsconditionspage": {
+    "pageheader": {
+      "title": "Terms and Conditions",
+      "subtitle": "We assume you accept these terms and conditions.",
+      "image": "/img/page_header_bg.jpg"
+    },
+    "content": "<p class=\"lead\">Welcome to HaSMaR Institute! These terms and conditions outline the rules and regulations for the use of our website. By accessing this website, we assume you accept these terms and conditions. Do not continue to use HaSMaR Institute if you do not agree to take all of the terms and conditions stated on this page.</p>\n<h3>Cookies</h3>\n<p>We employ the use of cookies. By accessing HaSMaR Institute, you agreed to use cookies in agreement with the HaSMaR Institute's Privacy Policy.</p>\n<h3>License</h3>\n<p>Unless otherwise stated, HaSMaR Institute and/or its licensors own the intellectual property rights for all material on HaSMaR Institute. All intellectual property rights are reserved. You may access this from HaSMaR Institute for your own personal use subjected to restrictions set in these terms and conditions.</p>\n<h3>Restrictions</h3>\n<p>You are specifically restricted from all of the following:</p>\n<ul>\n    <li>Publishing any website material in any other media.</li>\n    <li>Selling, sub-licensing, and/or otherwise commercializing any website material.</li>\n    <li>Publicly performing and/or showing any website material. Using this website in any way that is or may be damaging to this website.</li>\n    <li>Using this website in any way that impacts user access to this website.</li>\n    <li>Using this website contrary to applicable laws and regulations, or in any way may cause harm to the website.</li>\n    <li>Engaging in any data mining, data harvesting, data extracting, or any other similar activity in relation.</li>\n    <li>Using this website to engage in any advertising or marketing.</li>\n</ul>\n<p>We reserve the right to request that you remove all links or any particular link to our Website. You agree to immediately remove all links to our Website upon request. We also reserve the right to amend these terms and conditions and its linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.</p>\n<h3>Disclaimer</h3>\n<p>To the maximum extent permitted by applicable law, we exclude all representations, warranties, and conditions relating to our website and the use of this website. Nothing in this disclaimer will:</p>\n<ul>\n    <li>Limit or exclude our or your liability for death or personal injury.</li>\n    <li>Limit or exclude our or your liability for fraud or fraudulent misrepresentation.</li>\n    <li>Limit any of our or your liabilities in any way that is not permitted under applicable law.</li>\n    <li>Exclude any of our or your liabilities that may not be excluded under applicable law.</li>\n</ul>\n<h3>Limitation of liability</h3>\n<p>In no event shall HaSMaR Institute, nor any of its officers, directors, and employees, be liable to you for anything arising out of or in any way connected with your use of this Website, whether such liability is under contract, tort, or otherwise, and HaSMaR Institute, including its officers, directors, and employees shall not be liable for any indirect, consequential, or special liability arising out of or in any way related to your use of this Website.</p>\n<h3>Indemnification</h3>\n<p>You hereby indemnify to the fullest extent HaSMaR Institute from and against any and all liabilities, costs, demands, causes of action, damages, and expenses (including reasonable attorney’s fees) arising out of or in any way related to your breach of any of the provisions of these Terms.</p>\n<h3>Variation of Terms</h3>\n<p>HaSMaR Institute is permitted to revise these Terms at any time as it sees fit, and by using this Website, you are expected to review these Terms on a regular basis.</p>"
+  },
   "signin": {
     "title": "Log In",
     "subtitle": "How do I get started? Lorem ipsum dolor sit amet.",
@@ -981,5 +965,99 @@
       "linktext": "Sign In",
       "link": "/signin"
     }
+  },
+  "quiz": {
+    "pageheader": {
+      "title": "Free HaSMaR Relationship Quiz",
+      "subtitle": "Your relationship dynamics with our complimentary quiz",
+      "image": "/img/page_header_bg.jpg"
+    },
+    "sections": [
+      {
+        "quiz_introduction": {
+          "title": "How Well Do You Know Your Partner?",
+          "description": "This fun and insightful quiz is designed to deepen your understanding of your partner and strengthen your bond as a couple. Through a series of thought-provoking questions, you'll explore various aspects of your partner's personality, preferences, and experiences. From childhood memories to future aspirations, each question offers an opportunity to learn something new about your partner and spark meaningful conversations.",
+          "button_text": "Start Quiz",
+          "image": "/img/sign_img.png"
+        },
+        "quiz_questions": {
+          "title": "Your Knowledge About Your Partner",
+          "questions": [
+            {
+              "text": "Does your partner have a favorite type of cuisine?",
+              "options": ["Yes", "No", "N/A"]
+            },
+            {
+              "text": "Has your partner ever traveled outside of their home country?",
+              "options": ["Yes", "No", "N/A"]
+            },
+            {
+              "text": "Has your partner ever lived in another city or state?",
+              "options": ["Yes", "No", "N/A"]
+            },
+            {
+              "text": "Does your partner enjoy reading books in their free time?",
+              "options": ["Yes", "No", "N/A"]
+            },
+            {
+              "text": "Does your partner have a favorite type of cuisine?",
+              "options": ["Yes", "No", "N/A"]
+            },
+            {
+              "text": "Has your partner ever traveled outside of their home country?",
+              "options": ["Yes", "No", "N/A"]
+            },
+            {
+              "text": "Has your partner ever lived in another city or state?",
+              "options": ["Yes", "No", "N/A"]
+            },
+            {
+              "text": "Does your partner enjoy reading books in their free time?",
+              "options": ["Yes", "No", "N/A"]
+            }
+          ],
+          "button_prev": "Preview",
+          "button_next": "Next"
+        },
+        "quiz_experience": {
+          "title": "How Do You Like To Learn?",
+          "subtitle": "Click on the option that best applies",
+          "options": [
+            {
+              "title": "I like to be guided along my journey - I'm not sure where to start.",
+              "image": "/img/sign_img.png"
+            },
+            {
+              "title": "I like to choose my own path - I know what I'm looking for.",
+              "image": "/img/sign_img.png"
+            }
+          ]
+        },
+        "quiz_email": {
+          "title": "You're Almost Done!",
+          "subtitle": "Receive your quiz results via email",
+          "email_section": {
+            "title": "Email Your Results",
+            "description": "Our email notifications are secure and confidential, ensuring that your quiz results remain private and accessible only to you.",
+            "form": [
+              {
+                "type": "email",
+                "name": "email",
+                "text": "Enter your email"
+              },
+              {
+                "type": "submit",
+                "name": "submit",
+                "text": "Submit"
+              }
+            ]
+          }
+        },
+        "quiz_complete": {
+          "title": "Thank you!",
+          "description": "You will receive a quiz-related update via email shortly, and our team will reach out to you soon."
+        }
+      }
+    ]
   }
 }

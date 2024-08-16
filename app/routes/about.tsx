@@ -1,6 +1,6 @@
 import { json, type MetaFunction } from "@remix-run/node";
-import AboutCard from "../ui/AboutCard";
-import PageHeader from "../ui/PageHeader";
+import AboutCard from "~/ui/AboutCard";
+import PageHeader from "~/ui/PageHeader";
 import ExperienceCard from "../ui/ExperienceCard";
 import FunfactsCard from "../ui/FunfactsCard";
 import TestimonialCard from "~/ui/TestimonialCard";
@@ -28,12 +28,12 @@ export const meta: MetaFunction = () => {
 };
 
 export default function About() {
-  const [{ pageheader, about, experience, funfacts, testimonial }] =
+  const { pageheader, about, experience, funfacts, testimonial } =
     useLoaderData<typeof loader>();
   return (
     <>
       <PageHeader pageheader={pageheader} />
-      <AboutCard about={about} />
+      <AboutCard about={about} path="" />
       <ExperienceCard experience={experience} />
       <FunfactsCard funfacts={funfacts} />
       <TestimonialCard testimonial={testimonial} />

@@ -7,6 +7,8 @@
   | "check-circle"
   | "doller"
   | "envelope"
+  | "eye-hide"
+  | "eye-show"
   | "eye"
   | "facebook"
   | "layers"

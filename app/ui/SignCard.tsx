@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "./Link";
+import Icon from "./Icon/Icon";
 
 // Define the type for each form field
 interface FormField {
@@ -95,7 +96,7 @@ export default function SignCard({ sign }: SignProps) {
                         <button
                           type="button"
                           onClick={togglePasswordVisibility}
-                          className="absolute right-4 top-1/2 -translate-y-1/2"
+                          className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-900"
                           aria-label={
                             isPasswordVisible
                               ? "Hide password"
@@ -103,33 +104,15 @@ export default function SignCard({ sign }: SignProps) {
                           }
                         >
                           {isPasswordVisible ? (
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              className="h-6 w-6 text-gray-500"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth="2"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            >
-                              <path d="M1 12s3-7 11-7 11 7 11 7-3 7-11 7S1 12 1 12z" />
-                              <circle cx="12" cy="12" r="3" />
-                            </svg>
+                            <Icon
+                              id="eye-show"
+                              className="h-6 w-6 fill-current"
+                            ></Icon>
                           ) : (
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              className="h-6 w-6 text-gray-500"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth="2"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            >
-                              <path d="M1 12s3-7 11-7 11 7 11 7-3 7-11 7S1 12 1 12z" />
-                              <path d="M12 12a3 3 0 0 0 0 6" />
-                            </svg>
+                            <Icon
+                              id="eye-hide"
+                              className="h-6 w-6 fill-current"
+                            ></Icon>
                           )}
                         </button>
                       )}
@@ -214,8 +197,12 @@ export default function SignCard({ sign }: SignProps) {
                 <button
                   type="button"
                   onClick={handleGmailLogin}
-                  className="relative box-border inline-flex h-12 items-center justify-center rounded-full bg-black px-6 py-3 text-base font-medium leading-none tracking-[0.04rem] text-white transition-all duration-300 hover:translate-y-[-2px] hover:shadow-lg hover:brightness-[1.08] focus:translate-y-[-2px] focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-transparent focus:brightness-[1.08] active:brightness-[1] dark:bg-white dark:text-black max-xs:text-[14px] md:h-[3.25rem] xl:text-[1.125rem]"
+                  className="relative box-border inline-flex h-12 items-center justify-center rounded-full bg-black px-6 py-3 text-base font-medium leading-none tracking-[0.04rem] text-white transition-all duration-300 hover:translate-y-[-2px] hover:shadow-lg hover:brightness-[1.08] focus:translate-y-[-2px] focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-transparent focus:brightness-[1.08] active:brightness-[1] dark:bg-white dark:text-black max-xs:px-4 max-xs:text-[12px] md:h-[3.25rem] xl:text-[1.125rem]"
                 >
+                  <img
+                    src="/img/icon-google.png"
+                    className="mr-2 h-5 w-5 max-xs:h-3.5 max-xs:w-3.5"
+                  ></img>{" "}
                   Continue with Google
                 </button>
               </div>
