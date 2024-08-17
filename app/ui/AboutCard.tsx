@@ -19,7 +19,7 @@ interface AboutCardProps {
 export default function AboutCard({ about, path = "" }: AboutCardProps) {
   return (
     <section
-      className={`relative z-0 overflow-hidden ${path !== "/facilitators" ? "bg-custom-gradient dark:bg-none" : ""} dark:bg-gray-900`}
+      className={`relative z-0 overflow-hidden ${path !== "/facilitators" ? "bg-gradient-to-b from-transparent to-blue-brand/10 dark:to-gray-800" : ""} dark:bg-gray-900`}
     >
       <div className="container mx-auto space-y-14 px-4 py-14 lg:space-y-24 lg:px-12 lg:py-24">
         {about &&

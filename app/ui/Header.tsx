@@ -41,6 +41,12 @@ const menuData: MenuItem[] = [
     name: "Contact",
     link: "/contact",
   },
+
+  {
+    id: 6,
+    name: "Quiz",
+    link: "/quiz",
+  },
 ];
 
 // Define a type for the dropdown states

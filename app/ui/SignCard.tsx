@@ -96,7 +96,7 @@ export default function SignCard({ sign }: SignProps) {
                         <button
                           type="button"
                           onClick={togglePasswordVisibility}
-                          className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-900"
+                          className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-900 dark:text-white/80"
                           aria-label={
                             isPasswordVisible
                               ? "Hide password"

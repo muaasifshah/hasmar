@@ -35,10 +35,24 @@ export default {
             opacity: "0",
           },
         },
+        "thankyou-stroke": {
+          "100%": { strokeDashoffset: "0" },
+        },
+        "thankyou-scaleOnly": {
+          "0%, 100%": { transform: "none" },
+          "50%": { transform: "scale3d(1.1, 1.1, 1)" },
+        },
+        "thankyou-fillOnly": {
+          "100%": { boxShadow: "inset 0px 0px 0px 30px #7ac142" },
+        },
       },
       animation: {
         "ripple-1": "ripple-1 2s infinite ease-in-out",
         "ripple-2": "ripple-2 2s infinite ease-in-out",
+        "thankyou-stroke":
+          "thankyou-stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards",
+        "thankyou-scale": "thankyou-scaleOnly 0.3s ease-in-out 0.9s both",
+        "thankyou-fill": "thankyou-fillOnly 0.4s ease-in-out 0.4s forwards",
       },
       backgroundImage: {
         "custom-gradient": "linear-gradient(180deg, #FFFFFF 27%, #D3EFFF 100%)",

@@ -9,11 +9,11 @@
       "buttons": [
         {
           "title": "Become a Facilitator",
-          "link": "#"
+          "link": "/facilitators"
         },
         {
           "title": "Take an Assessment",
-          "link": "#"
+          "link": "/couples"
         }
       ]
     },
@@ -978,7 +978,7 @@
           "title": "How Well Do You Know Your Partner?",
           "description": "This fun and insightful quiz is designed to deepen your understanding of your partner and strengthen your bond as a couple. Through a series of thought-provoking questions, you'll explore various aspects of your partner's personality, preferences, and experiences. From childhood memories to future aspirations, each question offers an opportunity to learn something new about your partner and spark meaningful conversations.",
           "button_text": "Start Quiz",
-          "image": "/img/sign_img.png"
+          "image": "/img/quiz_intro.png"
         },
         "quiz_questions": {
           "title": "Your Knowledge About Your Partner",
@@ -1025,11 +1025,11 @@
           "options": [
             {
               "title": "I like to be guided along my journey - I'm not sure where to start.",
-              "image": "/img/sign_img.png"
+              "image": "/img/experience_option_1.png"
             },
             {
               "title": "I like to choose my own path - I know what I'm looking for.",
-              "image": "/img/sign_img.png"
+              "image": "/img/experience_option_2.png"
             }
           ]
         },
@@ -1037,7 +1037,7 @@
           "title": "You're Almost Done!",
           "subtitle": "Receive your quiz results via email",
           "email_section": {
-            "title": "Email Your Results",
+            "title": "Receive Quiz Results Via Email",
             "description": "Our email notifications are secure and confidential, ensuring that your quiz results remain private and accessible only to you.",
             "form": [
               {
@@ -1048,7 +1048,7 @@
               {
                 "type": "submit",
                 "name": "submit",
-                "text": "Submit"
+                "text": "Get The Results"
               }
             ]
           }
