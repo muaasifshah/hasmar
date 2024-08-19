@@ -197,7 +197,7 @@ export default function QuizCard({ sections }: QuizCardProps) {
               type="button"
               onClick={handlePrevButtonClick}
               aria-label="Previous"
-              className="relative box-border inline-flex h-12 items-center justify-center rounded-full bg-gray-900 px-6 py-3 pl-[3.7rem] pr-[1.625rem] text-base font-medium leading-none tracking-[0.04rem] text-white transition-all duration-300 hover:translate-y-[-2px] hover:shadow-lg hover:brightness-[1.08] focus:translate-y-[-2px] focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-200 focus:ring-offset-2 focus:ring-offset-transparent focus:brightness-[1.08] active:brightness-[1] max-xs:pl-[3.45rem] max-xs:text-[14px] md:h-[3.25rem] xl:text-[1.125rem]"
+              className="relative box-border inline-flex h-12 items-center justify-center rounded-full bg-gray-900 px-6 py-3 pl-[3.7rem] pr-[1.625rem] text-base font-medium leading-none tracking-[0.04rem] text-white transition-all duration-300 hover:translate-y-[-2px] hover:shadow-lg hover:brightness-[1.08] focus:translate-y-[-2px] focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-200 focus:ring-offset-2 focus:ring-offset-transparent focus:brightness-[1.08] active:brightness-[1] dark:bg-gray-700 max-xs:pl-[3.45rem] max-xs:text-[14px] md:h-[3.25rem] xl:text-[1.125rem]"
             >
               <Icon
                 id="arrow-long-right"

@@ -58,7 +58,7 @@
           "image": "/img/product01.jpg",
           "video": "https://www.youtube.com/watch?v=D0UnqGm_miA",
           "buttonTitle": "Get Instant Access",
-          "link": "#"
+          "link": "/product_single"
         },
         {
           "id": "2",
@@ -72,7 +72,7 @@
           "image": "/img/product02.jpg",
           "video": "https://www.youtube.com/watch?v=D0UnqGm_miA",
           "buttonTitle": "Get Instant Access",
-          "link": "#"
+          "link": "/product_single"
         },
         {
           "id": "3",
@@ -86,7 +86,7 @@
           "image": "/img/product03.jpg",
           "video": "https://www.youtube.com/watch?v=D0UnqGm_miA",
           "buttonTitle": "Get Instant Access",
-          "link": "#"
+          "link": "/product_single"
         }
       ]
     },
@@ -1057,6 +1057,29 @@
           "title": "Thank you!",
           "description": "You will receive a quiz-related update via email shortly, and our team will reach out to you soon."
         }
+      }
+    ]
+  },
+  "product": {
+    "pageheader": {
+      "title": "Product Single",
+      "subtitle": "Product Single Description",
+      "image": "/img/page_header_bg.jpg"
+    },
+    "products": [
+      {
+        "id": "1",
+        "title": "Relationship Adviser",
+        "actualPrice": "$399",
+        "sellingPrice": "$199",
+        "description": [
+          "This comprehensive guide provides insights and strategies to enhance your relationship.",
+          "Learn proven techniques for building a stronger connection with your partner."
+        ],
+        "image": "/img/product01.jpg",
+        "video": "https://www.youtube.com/watch?v=D0UnqGm_miA",
+        "buttonTitle": "Get Instant Access",
+        "link": "#"
       }
     ]
   }
