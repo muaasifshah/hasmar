@@ -1,7 +1,7 @@
 /* Import fonts */
-@import "@fontsource/REM";
+@import "@fontsource/rem";
 @import "@fontsource/roboto";
-@import "@fontsource/Ramaraja";
+@import "@fontsource/ramaraja";
 
 /* Tailwind directives */
 @tailwind base;
