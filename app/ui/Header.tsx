@@ -110,7 +110,7 @@ export function Header() {
   return (
     <header
       className={cx(
-        "relative z-50 bg-white py-3 text-gray-900 transition-all duration-300 dark:bg-gray-900 dark:text-white [&.sticky]:top-0 [&.sticky]:border-b [&.sticky]:border-gray-200/30 [&.sticky]:shadow-sm",
+        "relative z-10 bg-white py-3 text-gray-900 transition-all duration-300 dark:bg-gray-900 dark:text-white [&.sticky]:top-0 [&.sticky]:border-b [&.sticky]:border-gray-200/30 [&.sticky]:shadow-sm",
         {
           sticky: isSticky,
         },

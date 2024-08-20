@@ -19,6 +19,8 @@ import { json } from "@remix-run/node";
 import { LoaderFunctionArgs } from "@remix-run/node";
 import api from "~/http/api";
 
+import { GlobalLoading } from "./ui/global-loading";
+
 export const loader = async ({}: LoaderFunctionArgs) => {
   try {
     const baseURL = process.env.VITE_BASE_URL;
@@ -101,6 +103,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body className="bg-white antialiased dark:bg-gray-900">
+        <GlobalLoading />
         <Header />
         <main>{children}</main>
         <Footer footerData={footerData} />
