@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Form } from "@remix-run/react";
 import Icon from "./Icon/Icon";
 
 // Define the types as provided
@@ -320,7 +321,7 @@ export default function QuizCard({ sections }: QuizCardProps) {
               <p className="mb-5">
                 {sections[0].quiz_email.email_section.description}
               </p>
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <Form onSubmit={handleSubmit} className="space-y-6">
                 {sections[0].quiz_email.email_section.form.map(
                   (input, iIndex) => (
                     <div
@@ -355,7 +356,7 @@ export default function QuizCard({ sections }: QuizCardProps) {
                     </div>
                   ),
                 )}
-              </form>
+              </Form>
               {responseMessage && (
                 <div
                   className={`mx-auto mt-4 max-w-max px-4 py-3 text-center font-semibold tracking-wider ${

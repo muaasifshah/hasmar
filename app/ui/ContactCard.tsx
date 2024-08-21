@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Form } from "@remix-run/react";
 import { IconName } from "public/icons/name";
 import Icon from "./Icon/Icon";
 
@@ -110,7 +111,7 @@ export default function ContactCard({ contact }: ContactProps) {
             </div>
           </div>
           <div className="relative" data-aos="fade-up" data-aos-delay="100">
-            <form
+            <Form
               className="flex flex-col gap-7"
               method="post"
               action="#"
@@ -209,7 +210,7 @@ export default function ContactCard({ contact }: ContactProps) {
                     </button>
                   </div>
                 ))}
-            </form>
+            </Form>
           </div>
         </div>
       </div>

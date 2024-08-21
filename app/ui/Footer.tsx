@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Form } from "@remix-run/react";
 import Icon from "./Icon/Icon";
 import { IconName } from "public/icons/name";
 import { Link } from "./Link";
@@ -130,7 +131,7 @@ const NewsletterForm = ({
   prefooter: FooterProps["footerData"]["prefooter"];
 }) => (
   <div data-aos="fade-up" data-aos-delay="100">
-    <form className="relative ml-auto flex flex-wrap items-center rounded-xl max-sm:justify-center max-sm:gap-4 sm:flex-nowrap">
+    <Form className="relative ml-auto flex flex-wrap items-center rounded-xl max-sm:justify-center max-sm:gap-4 sm:flex-nowrap">
       <input
         type="email"
         placeholder={prefooter.newsletter.placeholder}
@@ -146,7 +147,7 @@ const NewsletterForm = ({
         />
         {prefooter.newsletter.buttonTitle}
       </button>
-    </form>
+    </Form>
   </div>
 );
 

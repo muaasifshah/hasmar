@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Form } from "@remix-run/react";
 import { Link } from "./Link";
 import Icon from "./Icon/Icon";
 
@@ -67,7 +68,7 @@ export default function SignCard({ sign }: SignProps) {
               <h2 className="text-4xl font-bold">{sign.title}</h2>
               <p className="mt-2 opacity-90">{sign.subtitle}</p>
             </div>
-            <form action="#" method="post">
+            <Form action="#" method="post">
               <div className="flex flex-col gap-6">
                 {sign.form
                   .filter(
@@ -217,7 +218,7 @@ export default function SignCard({ sign }: SignProps) {
                   </Link>
                 </p>
               </div>
-            </form>
+            </Form>
           </div>
           <div className="flex items-center justify-center bg-blue-brand px-6 py-8 text-center sm:px-20 sm:py-24">
             <div className="flex-1 rounded-2xl bg-white/20">
