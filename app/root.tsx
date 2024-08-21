@@ -8,6 +8,7 @@ import {
   ScrollRestoration,
   useLoaderData,
   useRouteError,
+  useLocation,
 } from "@remix-run/react";
 import "~/styles/tailwind.css";
 import { Header } from "./ui/Header";
@@ -62,6 +63,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
   //   return <div>Loading...</div>;
   // }
 
+  const location = useLocation(); // Get the current route location
+
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -86,14 +89,25 @@ export function Layout({ children }: { children: React.ReactNode }) {
     if (GLightbox) {
       const lightbox = GLightbox({
         selector: "[data-glightbox]",
+        loop: false, // Disable looping between slides
+        touchNavigation: false, // Disable touch navigation
+        slideAnimationType: "fade", // Optional: change the animation to fade
       });
+
+      // After GLightbox is initialized, hide prev and next buttons
+      // document
+      //   .querySelectorAll(".gbtn.gprev, .gbtn.gnext")
+      //   .forEach((element) => {
+      //     const button = element as HTMLElement; // Type assertion
+      //     button.style.display = "none";
+      //   });
 
       // Cleanup the lightbox instance when the component unmounts
       return () => {
         lightbox.destroy();
       };
     }
-  }, [GLightbox]);
+  }, [GLightbox, location]);
   return (
     <html lang="en">
       <head>
