@@ -19,6 +19,8 @@
     "@remix-run/node": "^2.10.2",
     "@remix-run/react": "^2.10.2",
     "@remix-run/serve": "^2.10.2",
+    "@rvf/remix": "^6.1.0",
+    "@rvf/zod": "^6.0.0",
     "@types/aos": "^3.0.7",
     "aos": "^3.0.0-beta.6",
     "axios": "^1.7.2",
