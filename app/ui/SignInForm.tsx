@@ -1,13 +1,17 @@
 import { useState } from "react";
-import { Form } from "@remix-run/react";
 import { Link } from "./Link";
 import Icon from "./Icon/Icon";
 import { Button } from "./Form/Button";
+import { SubmitBtn } from "./Form/SubmitBtn";
+import { useForm } from "@rvf/remix";
+import { Input } from "./Form/Input";
 
-export default function SignInForm() {
+type RvfFormApiProps = {
+  form: ReturnType<typeof useForm>;
+};
+export default function SignInForm({ form }: RvfFormApiProps) {
   // State to manage password visibility
   const [isPasswordVisible, setIsPasswordVisible] = useState(false);
-
   // Function to handle Gmail login
   const handleGmailLogin = async () => {
     try {
@@ -26,32 +30,24 @@ export default function SignInForm() {
   };
 
   return (
-    <Form action="#" method="post">
+    <>
       <div className="flex flex-col gap-6">
         {/* {Email Address} */}
         <div className="relative">
-          <label htmlFor="email" className="sr-only">
-            Email Address
-          </label>
-          <input
-            type="email"
-            id="email"
+          <Input
             name="email"
-            className="w-full rounded-xl border border-blue-brand/30 bg-blue-brand/5 px-5 py-3.5 text-sm text-gray-700 focus:border-blue-brand focus:outline-none focus:ring-1 focus:ring-blue-brand"
+            label="Email Address"
+            type="email"
             placeholder="Email Address"
           />
         </div>
         {/* {Password} */}
         <div className="relative">
-          <label htmlFor="password" className="sr-only">
-            Password
-          </label>
-          <input
-            type={"password" && isPasswordVisible ? "text" : "password"}
-            id="password"
+          <Input
             name="password"
-            className="w-full rounded-xl border border-blue-brand/30 bg-blue-brand/5 px-5 py-3.5 text-sm text-gray-700 focus:border-blue-brand focus:outline-none focus:ring-1 focus:ring-blue-brand"
-            placeholder="Password"
+            label="Password"
+            type={isPasswordVisible ? "text" : "password"}
+            placeholder="Enter password"
           />
           <button
             type="button"
@@ -79,9 +75,7 @@ export default function SignInForm() {
           </label>
         </div>
         {/* {Submit} */}
-        <Button type="submit" name="submit" id="submit">
-          Log In
-        </Button>
+        <SubmitBtn isSubmitting={form.formState.isSubmitting}>Log In</SubmitBtn>
         {/* {Forgot Password?} */}
         <div>
           <Link
@@ -117,6 +111,6 @@ export default function SignInForm() {
           </Link>
         </p>
       </div>
-    </Form>
+    </>
   );
 }

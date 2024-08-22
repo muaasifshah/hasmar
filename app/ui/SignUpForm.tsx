@@ -1,10 +1,17 @@
 import { useState } from "react";
-import { Form } from "@remix-run/react";
 import { Link } from "./Link";
 import Icon from "./Icon/Icon";
 import { Button } from "./Form/Button";
+import { Select } from "./Form/Select";
+import { Input } from "./Form/Input";
+import { useForm } from "@rvf/remix";
+import { SubmitBtn } from "./Form/SubmitBtn";
 
-export default function SignUpCard() {
+type RvfFormApiProps = {
+  form: ReturnType<typeof useForm>;
+};
+
+export default function SignUpCard({ form }: RvfFormApiProps) {
   // State to manage password visibility
   const [isPasswordVisible, setIsPasswordVisible] = useState(false);
 
@@ -26,73 +33,49 @@ export default function SignUpCard() {
   };
 
   return (
-    <Form action="#" method="post">
+    <>
       <div className="flex flex-col gap-6">
         {/* {Name} */}
         <div className="relative">
-          <label htmlFor="name" className="sr-only">
-            Name
-          </label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            className="w-full rounded-xl border border-blue-brand/30 bg-blue-brand/5 px-5 py-3.5 text-sm text-gray-700 focus:border-blue-brand focus:outline-none focus:ring-1 focus:ring-blue-brand"
-            placeholder="Name"
-          />
+          <Input name="name" label="Name" type="name" placeholder="Name" />
         </div>
         {/* {Email Address} */}
         <div className="relative">
-          <label htmlFor="email" className="sr-only">
-            Email Address
-          </label>
-          <input
-            type="email"
-            id="email"
+          <Input
             name="email"
-            className="w-full rounded-xl border border-blue-brand/30 bg-blue-brand/5 px-5 py-3.5 text-sm text-gray-700 focus:border-blue-brand focus:outline-none focus:ring-1 focus:ring-blue-brand"
+            label="Email Address"
+            type="email"
             placeholder="Email Address"
           />
         </div>
         {/* {Mobile Number} */}
         <div className="relative">
-          <label htmlFor="phone" className="sr-only">
-            Mobile Number
-          </label>
-          <input
-            type="tel"
-            id="phone"
+          <Input
             name="phone"
-            className="w-full rounded-xl border border-blue-brand/30 bg-blue-brand/5 px-5 py-3.5 text-sm text-gray-700 focus:border-blue-brand focus:outline-none focus:ring-1 focus:ring-blue-brand"
-            placeholder="Mobile Number"
+            label="Phone number"
+            type="tel"
+            placeholder="Phone number"
           />
         </div>
         {/* {Country} */}
         <div className="relative">
-          <label htmlFor="country" className="sr-only">
-            Country
-          </label>
-          <select
-            id="country"
+          <Select
             name="country"
-            className="w-full rounded-xl border border-blue-brand/30 bg-blue-brand/5 px-5 py-3.5 text-sm text-gray-700 focus:border-blue-brand focus:outline-none focus:ring-1 focus:ring-blue-brand"
-          >
-            <option value="us">United States</option>
-            <option value="ca">Canada</option>
-            <option value="gb">United Kingdom</option>
-            <option value="au">Australia</option>
-          </select>
+            label="Select a country"
+            options={[
+              { value: "", label: "--Select a country--" },
+              { value: "banana", label: "Banana" },
+              { value: "apple", label: "Apple" },
+              { value: "cherry", label: "Cherry" },
+            ]}
+          />
         </div>
         {/* {Password} */}
         <div className="relative">
-          <label htmlFor="password" className="sr-only">
-            Password
-          </label>
-          <input
-            type={"password" && isPasswordVisible ? "text" : "password"}
-            id="password"
+          <Input
             name="password"
-            className="w-full rounded-xl border border-blue-brand/30 bg-blue-brand/5 px-5 py-3.5 text-sm text-gray-700 focus:border-blue-brand focus:outline-none focus:ring-1 focus:ring-blue-brand"
+            label="Password"
+            type="password"
             placeholder="Password"
           />
           <button
@@ -109,9 +92,9 @@ export default function SignUpCard() {
           </button>
         </div>
         {/* {Submit} */}
-        <Button type="submit" name="submit" id="submit">
-          Sign Up Now
-        </Button>
+        <SubmitBtn isSubmitting={form.formState.isSubmitting}>
+          Sign Up
+        </SubmitBtn>
         {/* {OR} */}
         <div className="relative flex w-full items-center justify-center">
           <hr className="my-4 h-px w-64 border-0 bg-gray-100 dark:bg-gray-700"></hr>
@@ -138,6 +121,6 @@ export default function SignUpCard() {
           </Link>
         </p>
       </div>
-    </Form>
+    </>
   );
 }
