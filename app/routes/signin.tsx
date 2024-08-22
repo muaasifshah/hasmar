@@ -57,7 +57,7 @@ export const meta: MetaFunction = () => {
 export default function Signin() {
   const data = useLoaderData<typeof loader>();
   const actionData = useActionData<typeof action>();
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
 
   return (
     <>
@@ -69,7 +69,7 @@ export default function Signin() {
           useEffect(() => {
             if (formState.submitStatus === "success") {
               resetForm();
-              navigate("/quiz");
+              //navigate("/quiz");
             }
           }, [formState.submitStatus, resetForm]);
 
