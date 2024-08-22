@@ -1,7 +1,7 @@
 import React from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 import { Link } from "@remix-run/react"; // Import RemixLink directly from Remix
-import Icon from "./Icon/Icon";
+import Icon from "../Icon/Icon";
 import type { LinkProps } from "@remix-run/react"; // Import types from Remix
 import { twMerge } from "tailwind-merge";
 
@@ -39,8 +39,8 @@ const button = cva(
   },
 );
 
-// Define the props for the Button component
-export interface ButtonProps
+// Define the props for the LinkButton component
+export interface LinkButtonProps
   extends Omit<LinkProps, "prefetch">, // Omit prefetch to redefine it with the correct type
     VariantProps<typeof button> {
   to: string; // Define `to` as a required string
@@ -49,7 +49,7 @@ export interface ButtonProps
   intent?: string;
 }
 
-export const Button: React.FC<ButtonProps> = ({
+export const LinkButton: React.FC<LinkButtonProps> = ({
   to,
   icon,
   prefetch = "intent",
@@ -73,3 +73,30 @@ export const Button: React.FC<ButtonProps> = ({
     </Link>
   );
 };
+
+// Define the type for the icon prop
+interface ButtonProps
+  extends React.ComponentPropsWithRef<"button">,
+    VariantProps<typeof button> {
+  icon?: React.ReactNode; // Optional icon prop
+}
+
+export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
+  ({ className, children, icon, variant, size, ...props }, ref) => {
+    return (
+      <button
+        ref={ref}
+        x-comp="Button"
+        className={twMerge(
+          button({ variant, size, className }),
+          icon ? "pl-[1.625rem] pr-[3.7rem]" : "pl-[1.625rem] md:px-8",
+        )}
+        type={props.type}
+        {...props}
+      >
+        {children}
+      </button>
+    );
+  },
+);
+Button.displayName = "Button";

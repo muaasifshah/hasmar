@@ -1,5 +1,6 @@
 import { json, type MetaFunction } from "@remix-run/node";
-import SignCard from "~/ui/SignCard";
+import AuthCard from "~/ui/AuthCard";
+import SignInForm from "~/ui/SignInForm";
 
 import { LoaderFunctionArgs } from "@remix-run/node";
 import api from "~/http/api";
@@ -30,7 +31,7 @@ export default function Couples() {
   const data = useLoaderData<typeof loader>();
   return (
     <>
-      <SignCard sign={data} />
+      <AuthCard data={data} children={<SignInForm />} />
     </>
   );
 }

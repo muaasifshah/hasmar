@@ -1,4 +1,4 @@
-import { Button } from "./Button";
+import { LinkButton } from "./Form/Button";
 import Icon from "./Icon/Icon";
 
 // Define the type for each product item
@@ -87,7 +87,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                     {item.actualPrice}
                   </span>
                 </div>
-                <Button
+                <LinkButton
                   to={item.link}
                   variant="primary"
                   className="mt-4"
@@ -99,7 +99,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                     id="arrow-long-right"
                     className={`absolute right-0 m-[0.438rem] h-[2.5rem] w-[2.5rem] rounded-full bg-white bg-opacity-35 fill-white p-[0.6rem] max-xs:m-[.4rem] max-xs:h-[2.35rem] max-xs:w-[2.35rem]`}
                   />
-                </Button>
+                </LinkButton>
               </div>
             </div>
           ))}

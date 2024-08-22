@@ -1,5 +1,5 @@
 import { IconName } from "public/icons/name";
-import { Button } from "./Button";
+import { LinkButton } from "./Form/Button";
 import Icon from "./Icon/Icon";
 // Define the type for the `videobanner` object
 interface VideobannerCardProps {
@@ -34,7 +34,7 @@ export default function VideobannerCard({ videobanner }: VideobannerCardProps) {
               data-aos-delay="100"
             >
               {videobanner.buttons.map((button, i) => (
-                <Button
+                <LinkButton
                   key={i}
                   to={button.link}
                   variant="primary"
@@ -51,7 +51,7 @@ export default function VideobannerCard({ videobanner }: VideobannerCardProps) {
                     id={button.icon}
                     className={`absolute right-0 m-[0.438rem] h-[2.5rem] w-[2.5rem] rounded-full ${i === 0 ? "bg-white bg-opacity-35" : "bg-blue-brand"} fill-white p-[0.6rem]`}
                   />
-                </Button>
+                </LinkButton>
               ))}
             </div>
             <div

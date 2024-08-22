@@ -890,81 +890,12 @@
   "signin": {
     "title": "Log In",
     "subtitle": "How do I get started? Lorem ipsum dolor sit amet.",
-    "image": "/img/sign_img.png",
-    "form": [
-      {
-        "type": "email",
-        "name": "username",
-        "text": "Email Address"
-      },
-      {
-        "type": "password",
-        "name": "password",
-        "text": "Password"
-      },
-      {
-        "type": "checkbox",
-        "name": "remember",
-        "text": "Remember Me"
-      },
-      {
-        "type": "submit",
-        "name": "submit",
-        "text": "Log In"
-      }
-    ],
-    "forgot": {
-      "text": "Forgot Password?",
-      "link": "#"
-    },
-    "helptext": {
-      "text": "Don't have an account?",
-      "linktext": "Sign Up",
-      "link": "/signup"
-    }
+    "image": "/img/sign_img.png"
   },
   "signup": {
     "title": "Sign Up",
     "subtitle": "How do I get started? Lorem ipsum dolor sit amet.",
-    "image": "/img/sign_img.png",
-    "form": [
-      {
-        "type": "text",
-        "name": "name",
-        "text": "Name"
-      },
-      {
-        "type": "email",
-        "name": "username",
-        "text": "Email Address"
-      },
-      {
-        "type": "select",
-        "name": "country",
-        "text": "Country",
-        "options": [
-          { "value": "us", "text": "United States" },
-          { "value": "ca", "text": "Canada" },
-          { "value": "gb", "text": "United Kingdom" },
-          { "value": "au", "text": "Australia" }
-        ]
-      },
-      {
-        "type": "tel",
-        "name": "phone",
-        "text": "Mobile Number"
-      },
-      {
-        "type": "submit",
-        "name": "submit",
-        "text": "Sign Up Now"
-      }
-    ],
-    "helptext": {
-      "text": "Already have an account?",
-      "linktext": "Sign In",
-      "link": "/signin"
-    }
+    "image": "/img/sign_img.png"
   },
   "quiz": {
     "pageheader": {
@@ -1065,22 +996,6 @@
       "title": "Product Single",
       "subtitle": "Product Single Description",
       "image": "/img/page_header_bg.jpg"
-    },
-    "products": [
-      {
-        "id": "1",
-        "title": "Relationship Adviser",
-        "actualPrice": "$399",
-        "sellingPrice": "$199",
-        "description": [
-          "This comprehensive guide provides insights and strategies to enhance your relationship.",
-          "Learn proven techniques for building a stronger connection with your partner."
-        ],
-        "image": "/img/product01.jpg",
-        "video": "https://www.youtube.com/watch?v=D0UnqGm_miA",
-        "buttonTitle": "Get Instant Access",
-        "link": "#"
-      }
-    ]
+    }
   }
 }

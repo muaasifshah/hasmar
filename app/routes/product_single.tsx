@@ -28,11 +28,11 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Couples() {
-  const { pageheader, products } = useLoaderData<typeof loader>();
+  const { pageheader } = useLoaderData<typeof loader>();
   return (
     <>
       <PageHeader pageheader={pageheader} />
-      <ProductSingleCard products={products} />
+      <ProductSingleCard />
     </>
   );
 }

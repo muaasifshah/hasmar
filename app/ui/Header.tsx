@@ -1,7 +1,7 @@
 import { Fragment, useEffect, useState } from "react";
 import { NavLink } from "@remix-run/react";
 import cx from "clsx";
-import { Button } from "./Button";
+import { LinkButton } from "./Form/Button";
 import { Dropdown } from "./HeaderDropdown";
 import Icon from "./Icon/Icon";
 import HeaderLink from "./HeaderLink";
@@ -124,7 +124,7 @@ export function Header() {
           <img width={85} height={70} src="/img/hasmar-lg.png" alt="Hasmar" />
         </NavLink>
         <div className="flex items-center space-x-1 md:order-2 md:ml-8 md:space-x-2 rtl:space-x-reverse">
-          <Button
+          <LinkButton
             to="/signin"
             variant={"primary"}
             className="ml-2 w-full text-base md:order-1"
@@ -136,7 +136,7 @@ export function Header() {
               id="arrow-long-right"
               className={`absolute right-0 m-[0.438rem] h-[2.5rem] w-[2.5rem] rounded-full bg-white bg-opacity-35 fill-white p-[0.6rem] max-xs:m-[.4rem] max-xs:h-[2.35rem] max-xs:w-[2.35rem]`}
             />
-          </Button>
+          </LinkButton>
           <ThemeToggleButton />
           <NavToggleButton isNavOpen={isNavOpen} toggleNav={toggleNav} />
         </div>

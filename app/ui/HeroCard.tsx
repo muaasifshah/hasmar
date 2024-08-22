@@ -1,4 +1,4 @@
-import { Button } from "./Button";
+import { LinkButton } from "./Form/Button";
 import Icon from "./Icon/Icon";
 
 // Define the type for the `hero` object
@@ -44,7 +44,7 @@ export default function HeroCard({ hero }: HeroCardProps) {
           data-aos-delay="200"
         >
           {hero.buttons.map((button, i) => (
-            <Button
+            <LinkButton
               key={i}
               to={button.link}
               variant={i === 0 ? "white" : "primary"}
@@ -57,7 +57,7 @@ export default function HeroCard({ hero }: HeroCardProps) {
                 id="arrow-long-right"
                 className={`absolute right-0 m-[0.438rem] h-[2.5rem] w-[2.5rem] rounded-full ${i === 0 ? "bg-blue-brand" : "bg-white bg-opacity-35"} fill-white p-[0.6rem]`}
               />
-            </Button>
+            </LinkButton>
           ))}
         </div>
       </div>

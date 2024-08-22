@@ -1,25 +1,7 @@
-import { Button } from "./Button";
+import { LinkButton } from "./Form/Button";
 import Icon from "./Icon/Icon";
 
-// Define the type for the `products` object
-interface ProductProps {
-  id: string;
-  title: string;
-  actualPrice: string;
-  sellingPrice: string;
-  description: string[];
-  image: string;
-  video: string;
-  buttonTitle: string;
-  link: string;
-}
-
-// Define the props for the ProductCard component
-interface ProductCardProps {
-  products: ProductProps[];
-}
-
-export default function ProductCard({ products }: ProductCardProps) {
+export default function ProductCard() {
   return (
     <section className="relative">
       <div className="container mx-auto px-4 py-14 lg:px-12 lg:py-24">
@@ -224,7 +206,7 @@ export default function ProductCard({ products }: ProductCardProps) {
                 </li>
               </ul>
               <div className="space-y-2.5 text-center">
-                <Button
+                <LinkButton
                   to={"#"}
                   variant="primary"
                   prefetch="intent"
@@ -235,7 +217,7 @@ export default function ProductCard({ products }: ProductCardProps) {
                     id="arrow-long-right"
                     className={`absolute right-0 m-[0.438rem] h-[2.5rem] w-[2.5rem] rounded-full bg-white bg-opacity-35 fill-white p-[0.6rem] max-xs:m-[.4rem] max-xs:h-[2.35rem] max-xs:w-[2.35rem]`}
                   />
-                </Button>
+                </LinkButton>
               </div>
             </div>
           </div>

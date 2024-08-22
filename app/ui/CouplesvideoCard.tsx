@@ -1,4 +1,4 @@
-import { Button } from "./Button";
+import { LinkButton } from "./Form/Button";
 import Icon from "./Icon/Icon";
 
 // Define the type for each couplesvideo item
@@ -56,7 +56,7 @@ export default function CouplesvideoCard({ couplesvideo }: CouplesvideoProps) {
                   ></img>
                 </figure>
               )}
-              <Button
+              <LinkButton
                 to={item.link}
                 variant="primary"
                 className="mt-6 lg:mt-10"
@@ -68,7 +68,7 @@ export default function CouplesvideoCard({ couplesvideo }: CouplesvideoProps) {
                   id="play"
                   className={`absolute right-0 m-[0.438rem] h-[2.5rem] w-[2.5rem] rounded-full bg-white bg-opacity-35 fill-white pb-[0.6rem] pl-[0.75rem] pr-[0.6rem] pt-[0.6rem] max-xs:m-[.4rem] max-xs:h-[2.35rem] max-xs:w-[2.35rem]`}
                 />
-              </Button>
+              </LinkButton>
             </div>
           ))}
         </div>
