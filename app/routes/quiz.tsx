@@ -27,7 +27,7 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export default function Couples() {
+export default function Quiz() {
   const { pageheader, sections } = useLoaderData<typeof loader>();
   return (
     <>

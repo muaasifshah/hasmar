@@ -28,7 +28,7 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export default function Couples() {
+export default function Contact() {
   const { pageheader, contact, sponsor } = useLoaderData<typeof loader>();
   return (
     <>

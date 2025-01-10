@@ -27,7 +27,7 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export default function Couples() {
+export default function PrivacyPolicy() {
   const { pageheader, content } = useLoaderData<typeof loader>();
   return (
     <>

@@ -61,7 +61,7 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export default function Couples() {
+export default function SignUp() {
   const data = useLoaderData<typeof loader>();
   const actionData = useActionData<typeof action>();
   const navigate = useNavigate();

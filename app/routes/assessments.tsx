@@ -31,7 +31,7 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export default function Couples() {
+export default function Audience() {
   const { pageheader, testimonial, couplesvideo, features, process } =
     useLoaderData<typeof loader>();
   return (

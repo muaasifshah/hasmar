@@ -22,28 +22,36 @@ const menuData: MenuItem[] = [
   },
   {
     id: 2,
-    name: "About",
+    name: "About Us",
     link: "/about",
   },
   {
     id: 3,
-    name: "Couples",
-    link: "/couples",
+    name: "Audience",
+    link: "/audience",
   },
   {
     id: 4,
+    name: "Programs",
+    link: "/programs",
+  },
+  {
+    id: 5,
+    name: "Assessments",
+    link: "/assessments",
+  },
+  {
+    id: 6,
     name: "Facilitators",
     link: "/facilitators",
   },
-
   {
-    id: 5,
+    id: 7,
     name: "Contact",
     link: "/contact",
   },
-
   {
-    id: 6,
+    id: 8,
     name: "Quiz",
     link: "/quiz",
   },

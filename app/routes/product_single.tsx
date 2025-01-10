@@ -27,7 +27,7 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export default function Couples() {
+export default function ProductSingle() {
   const { pageheader } = useLoaderData<typeof loader>();
   return (
     <>
