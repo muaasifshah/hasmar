@@ -2,7 +2,7 @@ import { json, type MetaFunction } from "@remix-run/node";
 import PageHeader from "~/ui/PageHeader";
 import TestimonialCard from "~/ui/TestimonialCard";
 import CouplesvideoCard from "~/ui/CouplesvideoCard";
-import FeaturesCard from "~/ui/FeaturesCard";
+import AudienceFeaturesCard from "~/ui/AudienceFeaturesCard";
 import ProcessCard from "~/ui/ProcessCard";
 
 import { LoaderFunctionArgs } from "@remix-run/node";
@@ -38,7 +38,7 @@ export default function Audience() {
     <>
       <PageHeader pageheader={pageheader} />
       <CouplesvideoCard couplesvideo={couplesvideo} />
-      <FeaturesCard features={features} />
+      <AudienceFeaturesCard features={features} />
       <ProcessCard process={process} />
       <TestimonialCard testimonial={testimonial} />
     </>

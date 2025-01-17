@@ -8,10 +8,13 @@ import TestimonialCard from "~/ui/TestimonialCard";
 import { LoaderFunctionArgs } from "@remix-run/node";
 import api from "~/http/api";
 import { useLoaderData } from "@remix-run/react";
+import TeamSection from "~/ui/TeamSection";
+import OurCoreValues from "~/ui/OurCoreValues";
 
 export const loader = async ({}: LoaderFunctionArgs) => {
   const baseURL = process.env.VITE_BASE_URL;
   const data = await api.get(baseURL + "/aboutpage");
+  console.log(data.data);
   return json(data.data);
 };
 
@@ -28,14 +31,23 @@ export const meta: MetaFunction = () => {
 };
 
 export default function About() {
-  const { pageheader, about, experience, funfacts, testimonial } =
-    useLoaderData<typeof loader>();
+  const {
+    pageheader,
+    about,
+    experience,
+    corevalues,
+    team,
+    funfacts,
+    testimonial,
+  } = useLoaderData<typeof loader>();
   return (
     <>
       <PageHeader pageheader={pageheader} />
       <AboutCard about={about} path="" />
+      <OurCoreValues coreValues={corevalues} />
       <ExperienceCard experience={experience} />
       <FunfactsCard funfacts={funfacts} />
+      <TeamSection team={team} />
       <TestimonialCard testimonial={testimonial} />
     </>
   );

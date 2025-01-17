@@ -313,7 +313,7 @@
       ]
     },
     "copyright": {
-      "text": "Copyright © 2024 HaSMaR Institute. All rights reserved."
+      "text": "Copyright © 2025 HaSMaR Institute. All rights reserved."
     }
   },
   "aboutpage": {
@@ -380,6 +380,150 @@
         }
       ]
     },
+    "team": {
+      "subtitle": "Our Team",
+      "title": "Meet the Experts",
+      "members": [
+        {
+          "id": "1",
+          "name": "Dr. John Doe",
+          "role": "Counselor",
+          "image": "/img/team-img-1.jpg",
+          "socials": [
+            {
+              "icon": "facebook",
+              "link": "#"
+            },
+            {
+              "icon": "twitter",
+              "link": "#"
+            },
+            {
+              "icon": "linkedin",
+              "link": "#"
+            },
+            {
+              "icon": "pinterest",
+              "link": "#"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Dr. Jane Smith",
+          "role": "Counselor",
+          "image": "/img/team-img-1.jpg",
+          "socials": [
+            {
+              "icon": "facebook",
+              "url": "#"
+            },
+            {
+              "icon": "twitter",
+              "url": "#"
+            },
+            {
+              "icon": "linkedin",
+              "url": "#"
+            },
+            {
+              "icon": "pinterest",
+              "url": "#"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Dr. Mark Johnson",
+          "role": "Counselor",
+          "image": "/img/team-img-1.jpg",
+          "socials": [
+            {
+              "icon": "facebook",
+              "link": "#"
+            },
+            {
+              "icon": "twitter",
+              "link": "#"
+            },
+            {
+              "icon": "linkedin",
+              "link": "#"
+            },
+            {
+              "icon": "pinterest",
+              "link": "#"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Dr. Emily Davis",
+          "role": "Counselor",
+          "image": "/img/team-img-1.jpg",
+          "socials": [
+            {
+              "icon": "facebook",
+              "link": "#"
+            },
+            {
+              "icon": "twitter",
+              "link": "#"
+            },
+            {
+              "icon": "linkedin",
+              "link": "#"
+            },
+            {
+              "icon": "pinterest",
+              "link": "#"
+            }
+          ]
+        }
+      ]
+    },
+    "corevalues":{
+      "subtitle":"Our Core Values",
+      "title":"We Believe in",
+      "values": [
+      {
+        "id": "1",
+        "image": "/img/icon-hand.png",
+        "title": "Your Financial Habit",
+        "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
+      },
+      {
+        "id": "2",
+        "image": "/img/icon-fight.png",
+        "title": "Your Conflict Styles",
+        "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
+      },
+      {
+        "id": "3",
+        "image": "/img/icon-love.png",
+        "title": "Your Relationship Vision",
+        "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
+      },
+      {
+        "id": "4",
+        "image": "/img/icon-love-2.png",
+        "title": "Your Chemistry",
+        "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
+      },
+      {
+        "id": "5",
+        "image": "/img/icon-speaking.png",
+        "title": "Your Talk Skills",
+        "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
+      },
+      {
+        "id": "6",
+        "image": "/img/icon-link.png",
+        "title": "Your Spiritual Connection",
+        "description": "Welcome to HaSMaR, where our Solo Evaluation offers versatile applications to support couples in their journey toward a stronger, more fulfilling relationship."
+      }
+    ]
+    },
     "funfacts": [
       {
         "id": "1",
@@ -445,6 +589,114 @@
       ]
     }
   },
+  "programs":{
+    "pageheader": {
+      "title": "Individuals and Couples",
+      "subtitle": "We offer tailored support and resources to help couples strengthen",
+      "image": "/img/page_header_bg.jpg"
+    },
+    "couplesvideo": [
+      {
+        "id": "1",
+        "title": "HaSMaR Readiness Program",
+        "description": "Welcome to the Single Young Adults section of HaSMaR Institute! Are you a young adult navigating the complexities of relationships and personal growth?",
+        "image": "/img/product01.jpg",
+        "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
+        "buttonTitle": "Watch Our Demo",
+        "link": "#"
+      },
+      {
+        "id": "2",
+        "title": "HaSMaR Proper Match Program",
+        "description": "Congratulations on your journey together! Whether you're in the exciting phase of dating or planning your future as engaged partners.",
+        "image": "/img/product02.jpg",
+        "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
+        "buttonTitle": "Watch Our Demo",
+        "link": "#"
+      },
+      {
+        "id": "3",
+        "title": "HaSMaR Better Together Program",
+        "description": "Welcome to the Actively Married Couples section of HaSMaR Institute! Your commitment to each other is the cornerstone of your relationship.",
+        "image": "/img/product03.jpg",
+        "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
+        "buttonTitle": "Watch Our Demo",
+        "link": "#"
+      },
+      {
+        "id": "4",
+        "title": "HaSMaR Better Chance Program",
+        "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce.",
+        "image": "/img/product02.jpg",
+        "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
+        "buttonTitle": "Watch Our Demo",
+        "link": "#"
+      },
+      {
+        "id": "4",
+        "title": "The Emperor—Just for Men",
+        "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce.",
+        "image": "/img/product02.jpg",
+        "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
+        "buttonTitle": "Watch Our Demo",
+        "link": "#"
+      },
+      {
+        "id": "4",
+        "title": "The First Lady—Just for Women",
+        "description": "HaSMaR Institute offers compassionate support and resources to help divorced men and women heal, grow, and rediscover joy after divorce.",
+        "image": "/img/product02.jpg",
+        "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
+        "buttonTitle": "Watch Our Demo",
+        "link": "#"
+      }
+    ]
+  },
+  "assessments":{
+    "pageheader": {
+      "title": "Individuals and Couples",
+      "subtitle": "We offer tailored support and resources to help couples strengthen",
+      "image": "/img/page_header_bg.jpg"
+    },
+    "assessments":[
+      {
+        "id": "1",
+        "title": "HaSMaR Readiness Program",
+        "image": "/img/1.png",
+        "url": "#123"
+      },
+      {
+        "id": "2",
+        "title": "HaSMaR Proper Match Assessment",
+        "image": "/img/2.png",
+        "url": "#"
+      },
+      {
+        "id": "3",
+        "title": "HaSMaR Better Together Assessment",
+        "image": "/img/3.png",
+        "url": "#"
+      },
+      {
+        "id": "4",
+        "title": "HaSMaR Better Chance Assessment",
+        "image": "/img/4.png",
+        "url": "#"
+      },
+      {
+        "id": "5",
+        "title": "The Emperor Assessment",
+        "image": "/img/5.png",
+        "url": "#"
+      },
+      {
+        "id": "6",
+        "title": "The First Lady Assessment",
+        "image": "/img/6.png",
+        "url": "#"
+      }
+    ]
+  },
   "couplespage": {
     "pageheader": {
       "title": "Individuals and Couples",
@@ -454,7 +706,7 @@
     "couplesvideo": [
       {
         "id": "1",
-        "title": "Single Young Adults",
+        "title": "Never-Married Singles",
         "description": "Welcome to the Single Young Adults section of HaSMaR Institute! Are you a young adult navigating the complexities of relationships and personal growth?",
         "image": "/img/product01.jpg",
         "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
@@ -463,7 +715,7 @@
       },
       {
         "id": "2",
-        "title": "Dating or Engaged Partners",
+        "title": "Dating or Engaged",
         "description": "Congratulations on your journey together! Whether you're in the exciting phase of dating or planning your future as engaged partners.",
         "image": "/img/product02.jpg",
         "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
@@ -472,7 +724,7 @@
       },
       {
         "id": "3",
-        "title": "Actively Married Couples",
+        "title": "Married Couples",
         "description": "Welcome to the Actively Married Couples section of HaSMaR Institute! Your commitment to each other is the cornerstone of your relationship.",
         "image": "/img/product03.jpg",
         "video": "https://www.youtube.com/watch?v=9xwazD5SyVg",
@@ -653,7 +905,7 @@
       "image": "/img/page_header_bg.jpg"
     },
     "videobanner": {
-      "title": "Start Your <span class='text-blue-brand border-b-2 border-blue-brand'>Marriage</span> on the Right Foot",
+      "title": "Do You Have a Passion to Help Individuals and Couples Create Lifelong Joyful Marriages?",
       "description": [
         "Invest in your relationship and start your marriage on the right foot with our pre-marriage counseling program. With the preparation and support, you and your partner can build a strong, resilient partnership that stands the test of time."
       ],

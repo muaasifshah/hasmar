@@ -2,7 +2,7 @@ import { json, type MetaFunction } from "@remix-run/node";
 import PageHeader from "~/ui/PageHeader";
 import TestimonialCard from "~/ui/TestimonialCard";
 import CouplesvideoCard from "~/ui/CouplesvideoCard";
-import FeaturesCard from "~/ui/FeaturesCard";
+import FeaturesCard from "~/ui/AudienceFeaturesCard";
 import ProcessCard from "~/ui/ProcessCard";
 
 import { LoaderFunctionArgs } from "@remix-run/node";
@@ -11,7 +11,7 @@ import { useLoaderData } from "@remix-run/react";
 
 export const loader = async ({}: LoaderFunctionArgs) => {
   const baseURL = process.env.VITE_BASE_URL;
-  const data = await api.get(baseURL + "/couplespage");
+  const data = await api.get(baseURL + "/programs");
   return json(data.data);
 };
 
@@ -38,9 +38,6 @@ export default function Audience() {
     <>
       <PageHeader pageheader={pageheader} />
       <CouplesvideoCard couplesvideo={couplesvideo} />
-      <FeaturesCard features={features} />
-      <ProcessCard process={process} />
-      <TestimonialCard testimonial={testimonial} />
     </>
   );
 }

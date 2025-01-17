@@ -59,10 +59,6 @@ export function ErrorBoundary() {
 
 export function Layout({ children }: { children: React.ReactNode }) {
   const footerData = useLoaderData<typeof loader>();
-  // if (!footerData) {
-  //   return <div>Loading...</div>;
-  // }
-
   const location = useLocation(); // Get the current route location
 
   useEffect(() => {
