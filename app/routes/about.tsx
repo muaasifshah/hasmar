@@ -14,7 +14,6 @@ import OurCoreValues from "~/ui/OurCoreValues";
 export const loader = async ({}: LoaderFunctionArgs) => {
   const baseURL = process.env.VITE_BASE_URL;
   const data = await api.get(baseURL + "/aboutpage");
-  console.log(data.data);
   return json(data.data);
 };
 
